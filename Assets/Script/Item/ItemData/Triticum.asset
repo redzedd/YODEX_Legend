@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c961e5ac90b6d704faa18b3195c76139, type: 3}
+  m_Name: Triticum
+  m_EditorClassIdentifier: 
+  itemID: 5
+  itemName: "\u5C0F\u9EA5"
+  icon: {fileID: 21300000, guid: 72f17eb8eee7de945ba091b4be581483, type: 3}
+  category: 0
+  ingredientType: 0
+  rareLevel: 0
+  description: "\u7528\u77F3\u81FC\u78E8\u6210\u7D30\u7DFB\u7684\u7C89\u672B\u5F8C\uFF0C\u53EF\u4EE5\u7528\u4F86\u88FD\u4F5C\u71C9\u83DC\u6216\u662F\u9EB5\u5305\u3002"
+  effectDescription: "\u7121"
+  fullSizeImage: {fileID: 0}
+  healAmount: 0
+  hasSpecialEffect: 0
+  specialEffect: 0
+  effectTier: 0
+  effectDuration: 0
+  effectInterval: 0
+  effectAmount: 0

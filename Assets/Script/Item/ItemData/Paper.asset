@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c961e5ac90b6d704faa18b3195c76139, type: 3}
+  m_Name: Paper
+  m_EditorClassIdentifier: 
+  itemID: 0
+  itemName: "\u7D19\u689D"
+  icon: {fileID: 21300000, guid: 3fdae48488875d9429e18c2879903c14, type: 3}
+  category: 2
+  ingredientType: 0
+  rareLevel: 0
+  description: "\u67F5\u6B04\u4F3C\u4E4E\u6709\u9EDE\u8001\u820A\u4E86.."
+  effectDescription: ' '
+  fullSizeImage: {fileID: 0}
+  healAmount: 0
+  hasSpecialEffect: 0
+  specialEffect: 0
+  effectTier: 0
+  effectDuration: 0
+  effectInterval: 0
+  effectAmount: 0

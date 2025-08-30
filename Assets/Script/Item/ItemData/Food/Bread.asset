@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c961e5ac90b6d704faa18b3195c76139, type: 3}
+  m_Name: Bread
+  m_EditorClassIdentifier: 
+  itemID: 6
+  itemName: "\u9EB5\u5305"
+  icon: {fileID: 21300000, guid: e8bebac85a8b43247987a28b0f73cb5c, type: 3}
+  category: 1
+  ingredientType: 0
+  rareLevel: 0
+  description: "\u9999\u5674\u5674\u7684\u9EB5\u5305\uFF0C\u53EF\u4EE5\u4EAB\u53D7\u5230\u5145\u6EFF\u5F48\u529B\u7684\u53E3\u611F\u548C\u5C0F\u9EA5\u8C50\u5BCC\u7684\u9999\u5473"
+  effectDescription: "\u56DE\u5FA915\u9EDE\u8840\u91CF"
+  fullSizeImage: {fileID: 21300000, guid: e8bebac85a8b43247987a28b0f73cb5c, type: 3}
+  healAmount: 15
+  buffDefinition: {fileID: 11400000, guid: 6863f2c350dc8b145bdb3c54ef6cd82e, type: 2}
+  effectTier: 1
