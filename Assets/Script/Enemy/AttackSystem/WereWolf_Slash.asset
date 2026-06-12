@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2b877846894b641b9d56a914c8bd06, type: 3}
+  m_Name: WereWolf_Slash
+  m_EditorClassIdentifier: 
+  _attackName: "\u65B0\u653B\u64CA"
+  _animationClip: {fileID: 7400000, guid: 7400a347d8d3220498e938349eece64f, type: 2}
+  _entryFadeDuration: 0.15
+  _recoveryDuration: 0.5
+  _isParryable: 1
+  _parryFlashDuration: 0.35
+  _parryBufferDuration: 0.35
+  _isParryStaggers: 1
+  _parryStaggerAnimation:
+    _FadeDuration: 0.15
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: b27cbab047717804983559350f39e674, type: 2}
+    _NormalizedStartTime: NaN
+  _hitStart: 0.275
+  _hitEnd: 0.42
+  _damage: 10
+  _hitboxBone: Smash
+  _hitboxOffset: {x: 0, y: 0, z: 2}
+  _hitboxRotation: {x: 0, y: 0, z: 0}
+  _hitboxSize: {x: 3, y: 3, z: 3}
+  _hitboxLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  _extraHitboxes: []
+  _rangedAimMode: 0
+  _rangedProjectile: {fileID: 0}
+  _rangedDamageEffect: {fileID: 0}
+  _projectileSpawnBone: 
+  _projectileSpawnOffset: {x: 0, y: 0, z: 0}
+  _moveType: 2
+  _moveDistance: 0
+  _distanceAtHit: 0
+  _minPickDistance: 0
+  _maxPickDistance: 4
+  _pickWeight: 3
+  _pickCooldown: 0
+  _dazeBuildup: 10
+  _attackTier: 0
+  _knockbackDistance: 0
+  _hitVfxPrefab: {fileID: 8429527730738994522, guid: 0ba47d16abb7bb1438170bbe07f07f91, type: 3}
+  _hitVfxOffset: {x: 0, y: 1, z: 0}
+  _hitVfxScaleMultiplier: {x: 0.35, y: 0.35, z: 0.35}
+  _hitVfxLifetime: 2
+  _vfxEvents:
+  - _label: "\u65B0\u7279\u6548 1"
+    _time: 0.28
+    _vfxPrefab: {fileID: 1046192946819082376, guid: b0fdfd9a052f5f24a95863e80d5eb54b, type: 3}
+    _boneName: 
+    _positionOffset: {x: 0, y: 1, z: 2}
+    _rotationOffset: {x: 0, y: 180, z: 145}
+    _scaleMultiplier: {x: 1.5, y: 1, z: 1}
+    _scaleAllChildren: 1
+    _attachToBone: 0
+    _lifetime: 2
+  - _label: "\u65B0\u7279\u6548 2"
+    _time: 0.28
+    _vfxPrefab: {fileID: 1046192946819082376, guid: b0fdfd9a052f5f24a95863e80d5eb54b, type: 3}
+    _boneName: 
+    _positionOffset: {x: 0, y: 1.5, z: 2}
+    _rotationOffset: {x: 0, y: 180, z: 145}
+    _scaleMultiplier: {x: 1.2, y: 1, z: 1}
+    _scaleAllChildren: 1
+    _attachToBone: 1
+    _lifetime: 2
+  - _label: "\u65B0\u7279\u6548 3"
+    _time: 0.28
+    _vfxPrefab: {fileID: 1046192946819082376, guid: b0fdfd9a052f5f24a95863e80d5eb54b, type: 3}
+    _boneName: 
+    _positionOffset: {x: 0, y: 0.5, z: 2}
+    _rotationOffset: {x: 0, y: 180, z: 145}
+    _scaleMultiplier: {x: 1.2, y: 1, z: 1}
+    _scaleAllChildren: 1
+    _attachToBone: 1
+    _lifetime: 2
+  references:
+    version: 2
+    RefIds: []

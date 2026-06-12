@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a62dfcb526fe06479042f3605dc541b, type: 3}
+  m_Name: GreatSword_Light_4
+  m_EditorClassIdentifier: 
+  AllowInputTime: 0.568
+  ComboResetTime: 1.364
+  AllowCancelTime: 0.568
+  SheatheCancelTime: 1.364
+  PoiseDamage: 50
+  NextCombos:
+  - InputType: 1
+    NextAttack: {fileID: 11400000, guid: 71d55a96ebf41b943aa09be77caa0a91, type: 2}
+  TimelineEvents:
+  - Name: New Event
+    Phase: 0
+    TriggerTime: 0.32399994
+    VFXPrefab: {fileID: 8049695311549817459, guid: a1745233d1095d748955c7d92140a79b, type: 3}
+    SFX: {fileID: 0}
+    CueTag:
+      _tagName: 
+    SocketName: 
+    Axes: 63
+    _legacyAttachToBody: 1
+    _axesMigrated: 1
+    PositionOffset: {x: 0.00000010803342, y: 1.3938037, z: 0.34781098}
+    RotationOffset: {x: 89.77971, y: -0.0013323671, z: 89.99867}
+    Scale: {x: 2, y: 2, z: 2.5}
+    StopOnInterrupt: 1
+    InterruptBehavior: 0
+  Clip:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: c3da28765c078ab43bdddfd60d0ec1f7, type: 2}
+    _NormalizedStartTime: NaN
+  HitWindows:
+  - StartTime: 0.27199996
+    EndTime: 0.50399995
+    Shape: 0
+    Offset: {x: 0, y: -1, z: 0}
+    Size: {x: 0.3, y: 3, z: 0.3}
+    SocketName: weapon_r
+    AttachToBody: 1
+    StopOnInterrupt: 1
+    UseRaycastTrail: 0
+    TrailStartOffset: {x: 0, y: 0, z: 0}
+    TrailEndOffset: {x: 0, y: 0, z: 1}
+    TrailSegments: 3
+    TrailRayRadius: 0.05
+    BaseDamage: 20
+    DamageMultiplier: 1
+    PoiseDamage: 20
+    KnockbackForce: 1
+    AttackTier: 2
+    IsHeavyAttack: 0
+    HitEffect: {fileID: 11400000, guid: 4dd34ed797e180141835cd5ca4497707, type: 2}
+    HitCueTag:
+      _tagName: Cue.Hit.Slash
+    HitVFXPrefab: {fileID: 3635571269192305790, guid: ed073c5257c674142b86744150f3017c, type: 3}
+    HitSFX: {fileID: 0}
+    HitVFXLifetime: 2
+    AttachHitVFXToSurface: 0
+    HitVFXScale: {x: 2, y: 2, z: 2}
+    HitVFXScaleAllChildren: 1
+    HitStopDuration: 0
+    HitStopSpeed: 0
+    ScreenShakeForce: 0.75
+    MarkTargetOnHit: 1
+    AutoFaceMarkedTarget: 0
+    TriggerMovement: 0
+    MovementType: 1
+    SnapRange: 50
+    SnapStopDistance: 0.5
+    MoveDistance: 5
+    MoveDuration: 0.1
+    MoveCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  MovementConfig:
+    AutoFaceTarget: 1
+    AutoFaceRange: 15
+    AutoFaceDuration: 0.05
+    AutoFaceProximityRange: 10
+    AutoFaceAngle: 120
+  references:
+    version: 2
+    RefIds: []

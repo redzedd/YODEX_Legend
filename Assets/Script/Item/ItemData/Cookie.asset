@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c961e5ac90b6d704faa18b3195c76139, type: 3}
+  m_Name: Cookie
+  m_EditorClassIdentifier: 
+  itemID: 8
+  itemName: "\u9905\u4E7E"
+  icon: {fileID: 21300000, guid: 20541dbb3f6754f4eb43e64ff831668e, type: 3}
+  category: 1
+  ingredientType: 0
+  rareLevel: 0
+  description: "\u71B1\u9A30\u9A30\u65B0\u70E4\u51FA\u7210\u7684\u9905\u4E7E"
+  effectDescription: "\u56DE\u5FA925\u9EDE\u8840\u91CF"
+  fullSizeImage: {fileID: 0}
+  healAmount: 25
+  buffDefinition: {fileID: 0}
+  effectTier: 1

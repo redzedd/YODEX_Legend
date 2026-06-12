@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb37771c4200f8f4db637cdc66bbf236, type: 3}
+  m_Name: EAS_FlowerFiary
+  m_EditorClassIdentifier: 
+  _idle:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 9f76d6031202b0e4bb853e65ea754cf2, type: 2}
+    _NormalizedStartTime: NaN
+  _walk:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: a276b935fa8b42d47b45496ff6c86da2, type: 2}
+    _NormalizedStartTime: NaN
+  _run:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: a276b935fa8b42d47b45496ff6c86da2, type: 2}
+    _NormalizedStartTime: NaN
+  _alert:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 2f8e361002595b7458d2d2bef774adc6, type: 3}
+    _NormalizedStartTime: NaN
+  _lookAround:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 2efcf2f640a6e8849b0e45ef1c549200, type: 2}
+    _NormalizedStartTime: NaN
+  _patrolWait:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 2efcf2f640a6e8849b0e45ef1c549200, type: 2}
+    _NormalizedStartTime: NaN
+  _stagger:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 9f76d6031202b0e4bb853e65ea754cf2, type: 2}
+    _NormalizedStartTime: NaN
+  _death:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 14a68a4d259514c4b89423eb4cf2a763, type: 2}
+    _NormalizedStartTime: NaN
+  _hitLight:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 0c87a65fb45609549bfb3612d6670670, type: 2}
+    _NormalizedStartTime: NaN
+  _hitHeavy:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 0c87a65fb45609549bfb3612d6670670, type: 2}
+    _NormalizedStartTime: NaN
+  references:
+    version: 2
+    RefIds: []

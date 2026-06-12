@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c961e5ac90b6d704faa18b3195c76139, type: 3}
+  m_Name: MeatAndRice
+  m_EditorClassIdentifier: 
+  itemID: 4
+  itemName: "\u7378\u8089\u84CB\u98EF"
+  icon: {fileID: 21300000, guid: b671ef7fd1620284ca6ec7d7d4dfc9a9, type: 3}
+  category: 1
+  ingredientType: 0
+  rareLevel: 1
+  description: "\u5C07\u7099\u70E4\u904E\u7684\u7378\u8089\u8216\u5728\u98EF\u4E0A\u800C\u6210\u7684\u7D93\u5178\u84CB\u98EF\u3002"
+  effectDescription: "\u56DE\u5FA925\u9EDE\u8840\u91CF"
+  fullSizeImage: {fileID: 0}
+  healAmount: 60
+  buffDefinition: {fileID: 11400000, guid: 979fcbfa336e6d548b86be78f1e8da39, type: 2}
+  effectTier: 3

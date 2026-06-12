@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c961e5ac90b6d704faa18b3195c76139, type: 3}
+  m_Name: AppleMilk
+  m_EditorClassIdentifier: 
+  itemID: 10
+  itemName: "\u860B\u679C\u725B\u5976"
+  icon: {fileID: 21300000, guid: 6ce6f23cc8c01a54ea4951bdcac95939, type: 3}
+  category: 1
+  ingredientType: 0
+  rareLevel: 0
+  description: "\u6FC3\u90C1\u4E73\u9999\u878D\u5408\u6E05\u751C\u860B\u679C\uFF0C\u4EA4\u7E54\u51FA\u9999\u751C\u6ED1\u9806\u3001\u8001\u5C11\u54B8\u5B9C\u7684\u7D93\u5178\u6ECB\u5473\u3002"
+  effectDescription: "\u56DE\u5FA925\u9EDE\u8840\u91CF"
+  fullSizeImage: {fileID: 0}
+  healAmount: 25
+  buffDefinition: {fileID: 0}
+  effectTier: 1

@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3d0f81d3754924289d49871b3d3c01, type: 3}
+  m_Name: Bow_Light_4
+  m_EditorClassIdentifier: 
+  AllowInputTime: 2.24
+  ComboResetTime: 1.5
+  AllowCancelTime: 2.24
+  SheatheCancelTime: 1.5
+  PoiseDamage: 15
+  NextCombos:
+  - InputType: 1
+    NextAttack: {fileID: 11400000, guid: 52aeea38d6864cb40ad210075b5813e3, type: 2}
+  TimelineEvents:
+  - Name: New Event
+    Phase: 0
+    TriggerTime: 1.024
+    VFXPrefab: {fileID: 719657563245746768, guid: 87e31e5cfa5972242a75f570834d4b82, type: 3}
+    SFX: {fileID: 0}
+    CueTag:
+      _tagName: 
+    SocketName: SpawnPoint
+    Axes: 0
+    _legacyAttachToBody: 1
+    _axesMigrated: 1
+    PositionOffset: {x: -0.5, y: 0, z: 0}
+    RotationOffset: {x: 0, y: 270, z: 0}
+    Scale: {x: 0.75, y: 0.75, z: 0.75}
+    StopOnInterrupt: 1
+    InterruptBehavior: 1
+  AttackType: 0
+  Charge: 0
+  ChargeInput: 0
+  FireAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 278a1a1b63605e14985d240a663cff09, type: 2}
+    _NormalizedStartTime: NaN
+  ChargeStartAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _NormalizedStartTime: NaN
+  ChargeLoopAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _NormalizedStartTime: NaN
+  ChargeFireAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _NormalizedStartTime: NaN
+  FireTime: 1.0239999
+  MinChargeTime: 0.3
+  MaxChargeTime: 2
+  ProjectileConfig: {fileID: 11400000, guid: 7fb7034643f2a2244872bad89b6e7426, type: 2}
+  AoEPrefab: {fileID: 0}
+  AoEOriginMode: 2
+  AoEForwardDistance: 3
+  AoECursorInitialDistance: 5
+  AoECursorMoveSpeed: 8
+  AoECursorMaxRange: 12
+  AoECursorClampToGround: 1
+  AoECursorGroundMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  BaseDamage: 15
+  ChargeMultiplier: 2
+  HitEffect: {fileID: 11400000, guid: 9f5f0f864e91ea4458ddcc82bad7e43a, type: 2}
+  FireCueTag:
+    _tagName: 
+  ChargeCueTag:
+    _tagName: 
+  ChargeReadyCueTag:
+    _tagName: 
+  HitCueTag:
+    _tagName: 
+  HitVFXPrefab: {fileID: 7044691720042714530, guid: 8f040258dddfa6043899d2c938dd98af, type: 3}
+  HitSFX: {fileID: 0}
+  HitVFXLifetime: 2
+  AttachHitVFXToSurface: 0
+  HitVFXScale: {x: 0.5, y: 0.5, z: 0.5}
+  HitVFXScaleAllChildren: 1
+  EnableAimCamera: 0
+  AimCameraOffset: {x: 0.5, y: 0.3, z: -2}
+  AimIKAngularOffset: {x: 7.5, y: 27.5, z: 0}
+  KeepAimAfterFire: 1
+  ApplyPitchClamp: 1
+  MaxPitchDown: 0.8
+  LockMovementDuringFire: 0
+  AutoFaceTarget: 1
+  AutoFaceRange: 40
+  AutoFaceAngle: 120
+  AutoFaceProximityRange: 10
+  AutoFaceDuration: 0.05
+  ContinuousFaceTarget: 0
+  ContinuousFaceTurnSpeed: 180
+  AttackMovements: []
+  SpawnSocketName: SpawnPoint
+  SpawnOffset: {x: 0, y: 0, z: 0}
+  FireEvents: []
+  references:
+    version: 2
+    RefIds: []

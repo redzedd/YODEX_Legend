@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3d0f81d3754924289d49871b3d3c01, type: 3}
+  m_Name: Staff_Light_3
+  m_EditorClassIdentifier: 
+  AllowInputTime: 1.5
+  ComboResetTime: 1.6
+  AllowCancelTime: 1.5
+  SheatheCancelTime: 1.6
+  PoiseDamage: 50
+  NextCombos:
+  - InputType: 1
+    NextAttack: {fileID: 11400000, guid: 7923c480c07c4de4f819b1b931e9d3d0, type: 2}
+  TimelineEvents: []
+  AttackType: 1
+  Charge: 1
+  ChargeInput: 1
+  FireAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _NormalizedStartTime: NaN
+  ChargeStartAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 16fb314489bd89e42ad132c019593974, type: 2}
+    _NormalizedStartTime: NaN
+  ChargeLoopAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: d708a4fcde766a24f9b81ea9534c6638, type: 2}
+    _NormalizedStartTime: NaN
+  ChargeFireAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 20c66a27e37615d4ea8ef81e0e5c36af, type: 2}
+    _NormalizedStartTime: NaN
+  FireTime: 0.1
+  MinChargeTime: 1
+  MaxChargeTime: 2
+  ProjectileConfig: {fileID: 0}
+  AoEPrefab: {fileID: 7116060430669935186, guid: c6f8039e1096efa4da4d08fdf75783b2, type: 3}
+  AoEOriginMode: 2
+  AoEForwardDistance: 10
+  AoECursorInitialDistance: 5
+  AoECursorMoveSpeed: 8
+  AoECursorMaxRange: 12
+  AoECursorClampToGround: 1
+  AoECursorGroundMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  BaseDamage: 5
+  ChargeMultiplier: 1.5
+  HitEffect: {fileID: 11400000, guid: 9f5f0f864e91ea4458ddcc82bad7e43a, type: 2}
+  FireCueTag:
+    _tagName: 
+  ChargeCueTag:
+    _tagName: 
+  ChargeReadyCueTag:
+    _tagName: 
+  HitCueTag:
+    _tagName: Cue.IceRain_Hit
+  HitVFXPrefab: {fileID: 0}
+  HitSFX: {fileID: 0}
+  HitVFXLifetime: 2
+  AttachHitVFXToSurface: 0
+  HitVFXScale: {x: 0.25, y: 0.25, z: 0.25}
+  HitVFXScaleAllChildren: 1
+  EnableAimCamera: 0
+  AimCameraOffset: {x: 0.5, y: 0.3, z: -2}
+  AimIKAngularOffset: {x: 0, y: 0, z: 0}
+  KeepAimAfterFire: 1
+  ApplyPitchClamp: 1
+  MaxPitchDown: 0.8
+  LockMovementDuringFire: 0
+  AutoFaceTarget: 1
+  AutoFaceRange: 25
+  AutoFaceAngle: 120
+  AutoFaceProximityRange: 10
+  AutoFaceDuration: 0.05
+  ContinuousFaceTarget: 0
+  ContinuousFaceTurnSpeed: 180
+  AttackMovements: []
+  SpawnSocketName: 
+  SpawnOffset: {x: 0, y: 0, z: 0}
+  FireEvents: []
+  references:
+    version: 2
+    RefIds: []

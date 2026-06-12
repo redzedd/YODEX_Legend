@@ -1,0 +1,87 @@
+# -----------------------------
+# 1. 核心垃圾 (Core Junk) - 絕對不要讓 AI 讀這些
+# -----------------------------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# -----------------------------
+# 2. 自動生成的專案檔 (Auto-Generated)
+# -----------------------------
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opentype
+
+# -----------------------------
+# 3. IDE 專屬設定 (IDE Specific)
+# -----------------------------
+.vs/
+.vscode/
+.idea/
+.gradle/
+
+# -----------------------------
+# 4. 大型資源與二進位檔 (Large Assets/Binaries)
+# -----------------------------
+# 除非要 AI 分析圖片或模型，否則建議忽略
+# 以節省索引時間與 Context Window
+*.psd
+*.tiff
+*.tga
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.exr
+*.tif
+*.iff
+*.pict
+*.mp3
+*.ogg
+*.wav
+*.aiff
+*.aif
+*.mod
+*.it
+*.s3m
+*.xm
+*.fbx
+*.obj
+*.max
+*.blend
+*.dae
+*.3ds
+*.dxf
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# -----------------------------
+# 5. Unity 特定 (Unity Specific)
+# -----------------------------
+# .meta 檔案對 Git 很重要，但對 AI 理解代碼通常是雜訊
+*.meta
+*.mat
+*.anim
+*.controller
+*.overrideController
+*.prefab
+*.unity

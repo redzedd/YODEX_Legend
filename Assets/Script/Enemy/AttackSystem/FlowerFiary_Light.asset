@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2b877846894b641b9d56a914c8bd06, type: 3}
+  m_Name: FlowerFiary_Light
+  m_EditorClassIdentifier: 
+  _attackName: "\u65B0\u653B\u64CA"
+  _animationClip: {fileID: 7400000, guid: e9349994ec03b0f44addde6255055036, type: 2}
+  _entryFadeDuration: 0.15
+  _recoveryDuration: 0
+  _isParryable: 0
+  _parryFlashDuration: 0.35
+  _parryBufferDuration: 0.35
+  _isParryStaggers: 0
+  _parryStaggerAnimation:
+    _FadeDuration: 0.15
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _NormalizedStartTime: NaN
+  _hitStart: 0.305
+  _hitEnd: 0.32
+  _damage: 7.5
+  _hitboxBone: 
+  _hitboxOffset: {x: 0, y: 0, z: 0}
+  _hitboxRotation: {x: 0, y: 0, z: 0}
+  _hitboxSize: {x: 2, y: 2, z: 3.5}
+  _hitboxLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  _extraHitboxes: []
+  _rangedAimMode: 3
+  _rangedProjectile: {fileID: 11400000, guid: 61f97d504acd5ee45a01098b7f2e875d, type: 2}
+  _rangedDamageEffect: {fileID: 11400000, guid: 9f5f0f864e91ea4458ddcc82bad7e43a, type: 2}
+  _projectileSpawnBone: SpawnPoint
+  _projectileSpawnOffset: {x: 0, y: 0, z: 0}
+  _moveType: 2
+  _moveDistance: 0
+  _distanceAtHit: 0
+  _minPickDistance: 0
+  _maxPickDistance: 40
+  _pickWeight: 1
+  _pickCooldown: 0
+  _dazeBuildup: 30
+  _attackTier: 2
+  _knockbackDistance: 3
+  _hitVfxPrefab: {fileID: 8429527730738994522, guid: 0ba47d16abb7bb1438170bbe07f07f91, type: 3}
+  _hitVfxOffset: {x: 0, y: 1, z: 0}
+  _hitVfxScaleMultiplier: {x: 0.35, y: 0.35, z: 0.35}
+  _hitVfxLifetime: 2
+  _vfxEvents:
+  - _label: "\u65B0\u7279\u6548 1"
+    _time: 0.285
+    _vfxPrefab: {fileID: 7096831063139484797, guid: c572ebad93ab8f94c8994922e580c1be, type: 3}
+    _boneName: SpawnPoint
+    _positionOffset: {x: 0, y: 0, z: 0}
+    _rotationOffset: {x: 0, y: 0, z: 0}
+    _scaleMultiplier: {x: 0.75, y: 0.75, z: 0.75}
+    _scaleAllChildren: 1
+    _attachToBone: 1
+    _lifetime: 2
+  references:
+    version: 2
+    RefIds: []

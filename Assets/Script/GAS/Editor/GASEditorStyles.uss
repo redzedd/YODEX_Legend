@@ -1,0 +1,171 @@
+/* GAS Editor Styles */
+
+/* Track Container */
+.track-container {
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Property Field Styling */
+PropertyField {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+/* Label Styling */
+Label {
+    padding-left: 3px;
+}
+
+/* Button Styling */
+Button {
+    margin: 2px;
+    padding: 4px 8px;
+}
+
+Button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ScrollView */
+ScrollView {
+    flex-grow: 1;
+}
+
+/* Foldout */
+Foldout {
+    margin-top: 5px;
+}
+
+Foldout > Toggle {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 3px;
+    border-radius: 3px;
+}
+
+/* Inspector Sections */
+.section-header {
+    font-size: 12px;
+    -unity-font-style: bold;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 3px 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+/* Tag Field */
+.tag-field {
+    flex-direction: row;
+    align-items: center;
+}
+
+.tag-field > TextField {
+    flex-grow: 1;
+}
+
+.tag-field > Button {
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+}
+
+/* Toolbar */
+.toolbar {
+    flex-direction: row;
+    height: 30px;
+    background-color: rgb(64, 64, 64);
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.toolbar > Button {
+    height: 24px;
+}
+
+/* Status Colors */
+.status-active {
+    background-color: rgba(0, 255, 0, 0.2);
+}
+
+.status-cooldown {
+    background-color: rgba(255, 255, 0, 0.2);
+}
+
+.status-inactive {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+/* Debug Window Styles */
+.debug-section {
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.debug-item {
+    padding: 3px 5px;
+    margin: 1px 0;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 2px;
+}
+
+.debug-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Tag Browser Styles */
+.tag-tree-item {
+    padding: 2px 5px;
+}
+
+.tag-tree-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.tag-tree-item.selected {
+    background-color: rgba(62, 125, 231, 0.5);
+}
+
+/* Effect Editor Styles */
+.modifier-item {
+    margin: 3px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.modifier-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Creation Wizard Styles */
+.wizard-page {
+    padding: 10px;
+}
+
+.wizard-option {
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.wizard-option:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(62, 125, 231, 0.5);
+}
+
+.wizard-option.selected {
+    background-color: rgba(62, 125, 231, 0.3);
+    border-color: rgba(62, 125, 231, 1);
+}

@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: afc18e114a87aac4e8274f83f7ac4a19
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: root
+    100002: SK_VolcanoDragon
+    100004: //RootNode
+    100006: VolcanoDragon_
+    100008: VolcanoDragon_ Footsteps
+    100010: VolcanoDragon_ Head
+    100012: VolcanoDragon_ L Calf
+    100014: VolcanoDragon_ L Clavicle
+    100016: VolcanoDragon_ L Finger0
+    100018: VolcanoDragon_ L Finger01
+    100020: VolcanoDragon_ L Finger1
+    100022: VolcanoDragon_ L Finger11
+    100024: VolcanoDragon_ L Finger2
+    100026: VolcanoDragon_ L Finger21
+    100028: VolcanoDragon_ L Finger3
+    100030: VolcanoDragon_ L Finger31
+    100032: VolcanoDragon_ L Foot
+    100034: VolcanoDragon_ L Forearm
+    100036: VolcanoDragon_ L Hand
+    100038: VolcanoDragon_ L HorseLink
+    100040: VolcanoDragon_ L Thigh
+    100042: VolcanoDragon_ L Toe0
+    100044: VolcanoDragon_ L Toe01
+    100046: VolcanoDragon_ L Toe1
+    100048: VolcanoDragon_ L Toe11
+    100050: VolcanoDragon_ L Toe2
+    100052: VolcanoDragon_ L Toe21
+    100054: VolcanoDragon_ L Toe3
+    100056: VolcanoDragon_ L Toe31
+    100058: VolcanoDragon_ L UpperArm
+    100060: VolcanoDragon_ Neck
+    100062: VolcanoDragon_ Neck1
+    100064: VolcanoDragon_ Pelvis
+    100066: VolcanoDragon_ Ponytail1
+    100068: VolcanoDragon_ R Calf
+    100070: VolcanoDragon_ R Clavicle
+    100072: VolcanoDragon_ R Finger0
+    100074: VolcanoDragon_ R Finger01
+    100076: VolcanoDragon_ R Finger1
+    100078: VolcanoDragon_ R Finger11
+    100080: VolcanoDragon_ R Finger2
+    100082: VolcanoDragon_ R Finger21
+    100084: VolcanoDragon_ R Finger3
+    100086: VolcanoDragon_ R Finger31
+    100088: VolcanoDragon_ R Foot
+    100090: VolcanoDragon_ R Forearm
+    100092: VolcanoDragon_ R Hand
+    100094: VolcanoDragon_ R HorseLink
+    100096: VolcanoDragon_ R Thigh
+    100098: VolcanoDragon_ R Toe0
+    100100: VolcanoDragon_ R Toe01
+    100102: VolcanoDragon_ R Toe1
+    100104: VolcanoDragon_ R Toe11
+    100106: VolcanoDragon_ R Toe2
+    100108: VolcanoDragon_ R Toe21
+    100110: VolcanoDragon_ R Toe3
+    100112: VolcanoDragon_ R Toe31
+    100114: VolcanoDragon_ R UpperArm
+    100116: VolcanoDragon_ Spine
+    100118: VolcanoDragon_ Spine1
+    100120: VolcanoDragon_ Tail
+    100122: VolcanoDragon_ Tail1
+    100124: VolcanoDragon_ Tail2
+    100126: VolcanoDragon_ Tail3
+    100128: VolcanoDragon_ Tail4
+    100130: VolcanoDragon_ Tail5
+    100132: VolcanoDragon_ Tail6
+    100134: VolcanoDragon_Tongue_1
+    100136: VolcanoDragon_Tongue_2
+    100138: VolcanoDragon_Tongue_3
+    100140: VolcanoDragon_Tongue_4
+    100142: VolcanoDragon_Tongue_5
+    100144: VolcanoDragon_WingL_Arm
+    100146: VolcanoDragon_WingL_FingerA_1
+    100148: VolcanoDragon_WingL_FingerA_2
+    100150: VolcanoDragon_WingL_FingerA_3
+    100152: VolcanoDragon_WingL_FingerB_1
+    100154: VolcanoDragon_WingL_FingerB_2
+    100156: VolcanoDragon_WingL_FingerB_3
+    100158: VolcanoDragon_WingL_FingerC_1
+    100160: VolcanoDragon_WingL_FingerC_2
+    100162: VolcanoDragon_WingL_FingerC_3
+    100164: VolcanoDragon_WingL_ForeArm
+    100166: VolcanoDragon_WingL_Hand
+    100168: VolcanoDragon_WingR_Arm
+    100170: VolcanoDragon_WingR_FingerA_1
+    100172: VolcanoDragon_WingR_FingerA_2
+    100174: VolcanoDragon_WingR_FingerA_3
+    100176: VolcanoDragon_WingR_FingerB_1
+    100178: VolcanoDragon_WingR_FingerB_2
+    100180: VolcanoDragon_WingR_FingerB_3
+    100182: VolcanoDragon_WingR_FingerC_1
+    100184: VolcanoDragon_WingR_FingerC_2
+    100186: VolcanoDragon_WingR_FingerC_3
+    100188: VolcanoDragon_WingR_ForeArm
+    100190: VolcanoDragon_WingR_Hand
+    400000: root
+    400002: SK_VolcanoDragon
+    400004: //RootNode
+    400006: VolcanoDragon_
+    400008: VolcanoDragon_ Footsteps
+    400010: VolcanoDragon_ Head
+    400012: VolcanoDragon_ L Calf
+    400014: VolcanoDragon_ L Clavicle
+    400016: VolcanoDragon_ L Finger0
+    400018: VolcanoDragon_ L Finger01
+    400020: VolcanoDragon_ L Finger1
+    400022: VolcanoDragon_ L Finger11
+    400024: VolcanoDragon_ L Finger2
+    400026: VolcanoDragon_ L Finger21
+    400028: VolcanoDragon_ L Finger3
+    400030: VolcanoDragon_ L Finger31
+    400032: VolcanoDragon_ L Foot
+    400034: VolcanoDragon_ L Forearm
+    400036: VolcanoDragon_ L Hand
+    400038: VolcanoDragon_ L HorseLink
+    400040: VolcanoDragon_ L Thigh
+    400042: VolcanoDragon_ L Toe0
+    400044: VolcanoDragon_ L Toe01
+    400046: VolcanoDragon_ L Toe1
+    400048: VolcanoDragon_ L Toe11
+    400050: VolcanoDragon_ L Toe2
+    400052: VolcanoDragon_ L Toe21
+    400054: VolcanoDragon_ L Toe3
+    400056: VolcanoDragon_ L Toe31
+    400058: VolcanoDragon_ L UpperArm
+    400060: VolcanoDragon_ Neck
+    400062: VolcanoDragon_ Neck1
+    400064: VolcanoDragon_ Pelvis
+    400066: VolcanoDragon_ Ponytail1
+    400068: VolcanoDragon_ R Calf
+    400070: VolcanoDragon_ R Clavicle
+    400072: VolcanoDragon_ R Finger0
+    400074: VolcanoDragon_ R Finger01
+    400076: VolcanoDragon_ R Finger1
+    400078: VolcanoDragon_ R Finger11
+    400080: VolcanoDragon_ R Finger2
+    400082: VolcanoDragon_ R Finger21
+    400084: VolcanoDragon_ R Finger3
+    400086: VolcanoDragon_ R Finger31
+    400088: VolcanoDragon_ R Foot
+    400090: VolcanoDragon_ R Forearm
+    400092: VolcanoDragon_ R Hand
+    400094: VolcanoDragon_ R HorseLink
+    400096: VolcanoDragon_ R Thigh
+    400098: VolcanoDragon_ R Toe0
+    400100: VolcanoDragon_ R Toe01
+    400102: VolcanoDragon_ R Toe1
+    400104: VolcanoDragon_ R Toe11
+    400106: VolcanoDragon_ R Toe2
+    400108: VolcanoDragon_ R Toe21
+    400110: VolcanoDragon_ R Toe3
+    400112: VolcanoDragon_ R Toe31
+    400114: VolcanoDragon_ R UpperArm
+    400116: VolcanoDragon_ Spine
+    400118: VolcanoDragon_ Spine1
+    400120: VolcanoDragon_ Tail
+    400122: VolcanoDragon_ Tail1
+    400124: VolcanoDragon_ Tail2
+    400126: VolcanoDragon_ Tail3
+    400128: VolcanoDragon_ Tail4
+    400130: VolcanoDragon_ Tail5
+    400132: VolcanoDragon_ Tail6
+    400134: VolcanoDragon_Tongue_1
+    400136: VolcanoDragon_Tongue_2
+    400138: VolcanoDragon_Tongue_3
+    400140: VolcanoDragon_Tongue_4
+    400142: VolcanoDragon_Tongue_5
+    400144: VolcanoDragon_WingL_Arm
+    400146: VolcanoDragon_WingL_FingerA_1
+    400148: VolcanoDragon_WingL_FingerA_2
+    400150: VolcanoDragon_WingL_FingerA_3
+    400152: VolcanoDragon_WingL_FingerB_1
+    400154: VolcanoDragon_WingL_FingerB_2
+    400156: VolcanoDragon_WingL_FingerB_3
+    400158: VolcanoDragon_WingL_FingerC_1
+    400160: VolcanoDragon_WingL_FingerC_2
+    400162: VolcanoDragon_WingL_FingerC_3
+    400164: VolcanoDragon_WingL_ForeArm
+    400166: VolcanoDragon_WingL_Hand
+    400168: VolcanoDragon_WingR_Arm
+    400170: VolcanoDragon_WingR_FingerA_1
+    400172: VolcanoDragon_WingR_FingerA_2
+    400174: VolcanoDragon_WingR_FingerA_3
+    400176: VolcanoDragon_WingR_FingerB_1
+    400178: VolcanoDragon_WingR_FingerB_2
+    400180: VolcanoDragon_WingR_FingerB_3
+    400182: VolcanoDragon_WingR_FingerC_1
+    400184: VolcanoDragon_WingR_FingerC_2
+    400186: VolcanoDragon_WingR_FingerC_3
+    400188: VolcanoDragon_WingR_ForeArm
+    400190: VolcanoDragon_WingR_Hand
+    4300000: SK_VolcanoDragon
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: SK_VolcanoDragon
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_VolcanoDragon
+    second: {fileID: 2100000, guid: aa28acebe3c138b48a506dff420ee15a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117306
+  packageName: ELEMENTAL DRAGONS PACK
+  packageVersion: 1.22
+  assetPath: Assets/HEROIC FANTASY CREATURES FULL PACK VOL3/Elemental Dragons Pack/Volcano
+    Dragon/FBX Files/SK_VolcanoDragon.FBX
+  uploadId: 669989

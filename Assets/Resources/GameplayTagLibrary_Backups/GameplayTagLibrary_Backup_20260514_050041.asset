@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b8ee56c2ad646c4abf2fc63c92b8069, type: 3}
+  m_Name: GameplayTagLibrary_Backup_20260514_050041
+  m_EditorClassIdentifier: 
+  _tagDefinitions:
+  - TagName: Ability.Attack.Light
+    Description: 
+  - TagName: Ability.Attack.Heavy
+    Description: 
+  - TagName: Ability.Movement.Dodge
+    Description: 
+  - TagName: State.Attacking
+    Description: 
+  - TagName: State.Dodging
+    Description: 
+  - TagName: State.Invincible
+    Description: 
+  - TagName: Effect.Damage.Physical
+    Description: 
+  - TagName: Effect.Damage.Physical
+    Description: 
+  - TagName: Cue.Attack.Swing
+    Description: 

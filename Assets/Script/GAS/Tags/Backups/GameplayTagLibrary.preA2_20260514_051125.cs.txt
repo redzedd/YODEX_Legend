@@ -1,0 +1,365 @@
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace GAS
+{
+    /// <summary>
+    /// 標籤庫 - ScriptableObject，用於定義和管理所有遊戲標籤
+    /// 在編輯器中配置，運行時作為標籤的來源
+    /// </summary>
+    [CreateAssetMenu(fileName = "GameplayTagLibrary", menuName = "GAS/Tag Library")]
+    public class GameplayTagLibrary : ScriptableObject
+    {
+        [Serializable]
+        public class TagDefinition
+        {
+            [Tooltip("標籤名稱 (例如: Ability.Attack.Melee)")]
+            public string TagName;
+            
+            [Tooltip("標籤描述")]
+            [TextArea(1, 3)]
+            public string Description;
+        }
+
+        [Header("Tag Definitions")]
+        [SerializeField]
+        private List<TagDefinition> _tagDefinitions = new();
+
+        // 運行時快取
+        private Dictionary<string, GameplayTag> _tagCache;
+        private bool _isInitialized;
+
+        /// <summary>
+        /// 所有已定義的標籤
+        /// </summary>
+        public IReadOnlyList<TagDefinition> TagDefinitions => _tagDefinitions;
+
+        private void OnEnable()
+        {
+            Initialize();
+        }
+
+        /// <summary>
+        /// 初始化標籤快取
+        /// </summary>
+        public void Initialize()
+        {
+            if (_isInitialized) return;
+            
+            _tagCache = new Dictionary<string, GameplayTag>();
+            
+            foreach (var def in _tagDefinitions)
+            {
+                if (!string.IsNullOrEmpty(def.TagName))
+                {
+                    _tagCache[def.TagName] = new GameplayTag(def.TagName);
+                }
+            }
+            
+            _isInitialized = true;
+        }
+
+        /// <summary>
+        /// 根據名稱獲取標籤
+        /// </summary>
+        public GameplayTag GetTag(string tagName)
+        {
+            if (!_isInitialized) Initialize();
+            
+            if (_tagCache.TryGetValue(tagName, out var tag))
+            {
+                return tag;
+            }
+            
+            // 如果標籤不在定義中，創建一個新的 (但會打印警告)
+            Debug.LogWarning($"[GameplayTagLibrary] Tag '{tagName}' not found in library. Creating dynamic tag.");
+            return new GameplayTag(tagName);
+        }
+
+        /// <summary>
+        /// 檢查標籤是否已定義
+        /// </summary>
+        public bool IsTagDefined(string tagName)
+        {
+            if (!_isInitialized) Initialize();
+            return _tagCache.ContainsKey(tagName);
+        }
+
+        /// <summary>
+        /// 獲取所有已定義的標籤名稱
+        /// </summary>
+        public IEnumerable<string> GetAllTagNames()
+        {
+            if (!_isInitialized) Initialize();
+            return _tagCache.Keys;
+        }
+
+        /// <summary>
+        /// 獲取指定前綴的所有標籤
+        /// </summary>
+        public List<GameplayTag> GetTagsWithPrefix(string prefix)
+        {
+            if (!_isInitialized) Initialize();
+            
+            var result = new List<GameplayTag>();
+            foreach (var kvp in _tagCache)
+            {
+                if (kvp.Key.StartsWith(prefix, StringComparison.Ordinal))
+                {
+                    result.Add(kvp.Value);
+                }
+            }
+            return result;
+        }
+
+        #region Editor Utilities
+
+#if UNITY_EDITOR
+        /// <summary>
+        /// 添加新標籤定義 (僅編輯器)
+        /// </summary>
+        public void AddTagDefinition(string tagName, string description = "")
+        {
+            if (string.IsNullOrEmpty(tagName)) return;
+            
+            // 檢查是否已存在
+            foreach (var def in _tagDefinitions)
+            {
+                if (def.TagName == tagName) return;
+            }
+            
+            _tagDefinitions.Add(new TagDefinition
+            {
+                TagName = tagName,
+                Description = description
+            });
+            
+            // 重新初始化快取
+            _isInitialized = false;
+            Initialize();
+            
+            UnityEditor.EditorUtility.SetDirty(this);
+        }
+
+        /// <summary>
+        /// 移除標籤定義 (僅編輯器)
+        /// </summary>
+        public bool RemoveTagDefinition(string tagName)
+        {
+            for (int i = _tagDefinitions.Count - 1; i >= 0; i--)
+            {
+                if (_tagDefinitions[i].TagName == tagName)
+                {
+                    _tagDefinitions.RemoveAt(i);
+                    _isInitialized = false;
+                    Initialize();
+                    UnityEditor.EditorUtility.SetDirty(this);
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// 排序標籤定義 (僅編輯器)
+        /// </summary>
+        public void SortTagDefinitions()
+        {
+            _tagDefinitions.Sort((a, b) => string.Compare(a.TagName, b.TagName, StringComparison.Ordinal));
+            UnityEditor.EditorUtility.SetDirty(this);
+        }
+#endif
+
+        #endregion
+
+        #region Singleton Access
+
+        private static GameplayTagLibrary _instance;
+
+        /// <summary>
+        /// 全局標籤庫實例 (需要在 Resources 資料夾中放置)
+        /// </summary>
+        public static GameplayTagLibrary Instance
+        {
+            get
+            {
+                if (_instance == null)
+                {
+                    _instance = Resources.Load<GameplayTagLibrary>("GameplayTagLibrary");
+                    
+                    if (_instance == null)
+                    {
+                        Debug.LogWarning("[GameplayTagLibrary] No GameplayTagLibrary found in Resources folder. " +
+                                       "Create one via Assets > Create > GAS > Tag Library and place it in a Resources folder.");
+                    }
+                }
+                return _instance;
+            }
+        }
+
+        /// <summary>
+        /// 靜態方法：根據名稱獲取標籤
+        /// </summary>
+        public static GameplayTag RequestTag(string tagName)
+        {
+            if (Instance != null)
+            {
+                return Instance.GetTag(tagName);
+            }
+            
+            // 如果沒有標籤庫，直接創建標籤
+            return new GameplayTag(tagName);
+        }
+
+        #endregion
+    }
+
+    /// <summary>
+    /// 預定義的常用標籤
+    /// 建議在專案中擴展此類，添加專案特定的標籤常量
+    /// </summary>
+    public static class GameplayTags
+    {
+        // === 能力相關標籤 ===
+        public static class Ability
+        {
+            public static readonly GameplayTag Root = new("Ability");
+            
+            public static class Attack
+            {
+                public static readonly GameplayTag Root = new("Ability.Attack");
+                public static readonly GameplayTag Melee = new("Ability.Attack.Melee");
+                public static readonly GameplayTag Ranged = new("Ability.Attack.Ranged");
+                public static readonly GameplayTag Light = new("Ability.Attack.Light");
+                public static readonly GameplayTag Heavy = new("Ability.Attack.Heavy");
+                public static readonly GameplayTag RangedLight = new("Ability.Attack.Ranged.Light");
+                public static readonly GameplayTag RangedHeavy = new("Ability.Attack.Ranged.Heavy");
+            }
+
+            public static class Movement
+            {
+                public static readonly GameplayTag Root = new("Ability.Movement");
+                public static readonly GameplayTag Dodge = new("Ability.Movement.Dodge");
+                public static readonly GameplayTag Dash = new("Ability.Movement.Dash");
+                public static readonly GameplayTag Jump = new("Ability.Movement.Jump");
+                public static readonly GameplayTag Glide = new("Ability.Movement.Glide");
+            }
+
+            public static class Skill
+            {
+                public static readonly GameplayTag Root = new("Ability.Skill");
+            }
+        }
+
+        // === 狀態相關標籤 ===
+        public static class State
+        {
+            public static readonly GameplayTag Root = new("State");
+            
+            public static readonly GameplayTag Attacking = new("State.Attacking");
+            public static readonly GameplayTag Dodging = new("State.Dodging");
+            public static readonly GameplayTag Stunned = new("State.Stunned");
+            public static readonly GameplayTag Dead = new("State.Dead");
+            public static readonly GameplayTag Invincible = new("State.Invincible");
+            /// <summary>霸體 — 擁有此 Tag 的角色會扣血、會累計 Poise、Poise 擊破時仍會進 Stagger / Knockback;
+            /// 唯一差別是 Poise 未擊破的小攻擊不播 Flinch,讓當前動作不被打斷。由能力/動畫幀動態添加與移除。
+            /// 與 Invincible 的差異:Invincible = 完全免疫(含傷害);SuperArmor = 吃傷害 + 吃 Poise,僅免 Flinch。</summary>
+            public static readonly GameplayTag SuperArmor = new("State.SuperArmor");
+            public static readonly GameplayTag CannotMove = new("State.CannotMove");
+            public static readonly GameplayTag CannotAttack = new("State.CannotAttack");
+            public static readonly GameplayTag Jumping = new("State.Jumping");
+            public static readonly GameplayTag Gliding = new("State.Gliding");
+            public static readonly GameplayTag AttackNonCancellable = new("State.AttackNonCancellable");
+            public static readonly GameplayTag DodgeNonCancellable = new("State.DodgeNonCancellable");
+
+            // 武器切換相關狀態
+            public static readonly GameplayTag Switching = new("State.Switching");
+            public static readonly GameplayTag AfterImage = new("State.AfterImage");
+            
+            // 遠程攻擊相關狀態
+            public static readonly GameplayTag Aiming = new("State.Aiming");
+            public static readonly GameplayTag Charging = new("State.Charging");
+            /// <summary>玩家光標 AoE 控制中 — 移動鍵改為操作 cursor 位置,Locomotion 看到此 tag 跳過 Update</summary>
+            public static readonly GameplayTag AoECursorControl = new("State.AoECursorControl");
+
+            // 支援系統相關狀態
+            public static readonly GameplayTag Parrying = new("State.Parrying");
+            public static readonly GameplayTag BulletTime = new("State.BulletTime");
+            public static readonly GameplayTag AssistWindow = new("State.AssistWindow");
+
+            // 完美閃避相關狀態
+            public static readonly GameplayTag PerfectDodgeWindow = new("State.PerfectDodgeWindow");
+            public static readonly GameplayTag PerfectDodgeBulletTime = new("State.PerfectDodgeBulletTime");
+            public static readonly GameplayTag PerfectDodgeCounterWindow = new("State.PerfectDodgeCounterWindow");
+
+            // 受擊硬直
+            public static readonly GameplayTag HitStunned = new("State.HitStunned");
+        }
+
+        // === 效果相關標籤 ===
+        public static class Effect
+        {
+            public static readonly GameplayTag Root = new("Effect");
+            
+            public static class Damage
+            {
+                public static readonly GameplayTag Root = new("Effect.Damage");
+                public static readonly GameplayTag Physical = new("Effect.Damage.Physical");
+                public static readonly GameplayTag Magical = new("Effect.Damage.Magical");
+                public static readonly GameplayTag Fire = new("Effect.Damage.Fire");
+                public static readonly GameplayTag Ice = new("Effect.Damage.Ice");
+            }
+
+            public static class Buff
+            {
+                public static readonly GameplayTag Root = new("Effect.Buff");
+                public static readonly GameplayTag AttackUp = new("Effect.Buff.AttackUp");
+                public static readonly GameplayTag DefenseUp = new("Effect.Buff.DefenseUp");
+                public static readonly GameplayTag SpeedUp = new("Effect.Buff.SpeedUp");
+            }
+
+            public static class Debuff
+            {
+                public static readonly GameplayTag Root = new("Effect.Debuff");
+                public static readonly GameplayTag AttackDown = new("Effect.Debuff.AttackDown");
+                public static readonly GameplayTag DefenseDown = new("Effect.Debuff.DefenseDown");
+                public static readonly GameplayTag Slow = new("Effect.Debuff.Slow");
+            }
+        }
+
+        // === Cue 相關標籤 ===
+        public static class Cue
+        {
+            public static readonly GameplayTag Root = new("Cue");
+            public static readonly GameplayTag HitImpact = new("Cue.HitImpact");
+            public static readonly GameplayTag Attack = new("Cue.Attack");
+            public static readonly GameplayTag Dodge = new("Cue.Dodge");
+            public static readonly GameplayTag PerfectDodge = new("Cue.PerfectDodge");
+            public static readonly GameplayTag PerfectDodgeBulletTimeEnd = new("Cue.PerfectDodge.BulletTimeEnd");
+        }
+
+        // === 武器相關標籤 ===
+        public static class Weapon
+        {
+            public static readonly GameplayTag Root = new("Ability.Weapon");
+            public static readonly GameplayTag Switch = new("Ability.Weapon.Switch");
+        }
+
+        // === 支援相關標籤 ===
+        public static class Assist
+        {
+            public static readonly GameplayTag Root = new("Ability.Assist");
+            public static readonly GameplayTag Parry = new("Ability.Assist.Parry");
+            public static readonly GameplayTag Dodge = new("Ability.Assist.Dodge");
+        }
+
+        // === 事件相關標籤 ===
+        public static class Event
+        {
+            public static readonly GameplayTag Root = new("Event");
+            public static readonly GameplayTag Montage = new("Event.Montage");
+            public static readonly GameplayTag HitWindow = new("Event.HitWindow");
+        }
+    }
+}

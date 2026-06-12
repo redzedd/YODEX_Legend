@@ -1,0 +1,1072 @@
+fileFormatVersion: 2
+guid: 45837babf9a06e24b9657b8fcda123e5
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117306
+  packageName: ELEMENTAL DRAGONS PACK
+  packageVersion: 1.22
+  assetPath: Assets/HEROIC FANTASY CREATURES FULL PACK VOL3/Elemental Dragons Pack/Plains
+    Dragon/FBX Files/PlainsDragon@BiteAttack_RM.FBX
+  uploadId: 669989
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: PlainsDragon_
+  - first:
+      1: 100004
+    second: PlainsDragon_ Footsteps
+  - first:
+      1: 100006
+    second: PlainsDragon_ Head
+  - first:
+      1: 100008
+    second: PlainsDragon_ L Calf
+  - first:
+      1: 100010
+    second: PlainsDragon_ L Clavicle
+  - first:
+      1: 100012
+    second: PlainsDragon_ L Finger0
+  - first:
+      1: 100014
+    second: PlainsDragon_ L Finger01
+  - first:
+      1: 100016
+    second: PlainsDragon_ L Finger1
+  - first:
+      1: 100018
+    second: PlainsDragon_ L Finger11
+  - first:
+      1: 100020
+    second: PlainsDragon_ L Finger2
+  - first:
+      1: 100022
+    second: PlainsDragon_ L Finger21
+  - first:
+      1: 100024
+    second: PlainsDragon_ L Finger3
+  - first:
+      1: 100026
+    second: PlainsDragon_ L Finger31
+  - first:
+      1: 100028
+    second: PlainsDragon_ L Foot
+  - first:
+      1: 100030
+    second: PlainsDragon_ L Forearm
+  - first:
+      1: 100032
+    second: PlainsDragon_ L Hand
+  - first:
+      1: 100034
+    second: PlainsDragon_ L HorseLink
+  - first:
+      1: 100036
+    second: PlainsDragon_ L Thigh
+  - first:
+      1: 100038
+    second: PlainsDragon_ L Toe0
+  - first:
+      1: 100040
+    second: PlainsDragon_ L Toe01
+  - first:
+      1: 100042
+    second: PlainsDragon_ L Toe1
+  - first:
+      1: 100044
+    second: PlainsDragon_ L Toe11
+  - first:
+      1: 100046
+    second: PlainsDragon_ L Toe2
+  - first:
+      1: 100048
+    second: PlainsDragon_ L Toe21
+  - first:
+      1: 100050
+    second: PlainsDragon_ L Toe3
+  - first:
+      1: 100052
+    second: PlainsDragon_ L Toe31
+  - first:
+      1: 100054
+    second: PlainsDragon_ L UpperArm
+  - first:
+      1: 100056
+    second: PlainsDragon_ Neck
+  - first:
+      1: 100058
+    second: PlainsDragon_ Neck1
+  - first:
+      1: 100060
+    second: PlainsDragon_ Pelvis
+  - first:
+      1: 100062
+    second: PlainsDragon_ Ponytail1
+  - first:
+      1: 100064
+    second: PlainsDragon_ R Calf
+  - first:
+      1: 100066
+    second: PlainsDragon_ R Clavicle
+  - first:
+      1: 100068
+    second: PlainsDragon_ R Finger0
+  - first:
+      1: 100070
+    second: PlainsDragon_ R Finger01
+  - first:
+      1: 100072
+    second: PlainsDragon_ R Finger1
+  - first:
+      1: 100074
+    second: PlainsDragon_ R Finger11
+  - first:
+      1: 100076
+    second: PlainsDragon_ R Finger2
+  - first:
+      1: 100078
+    second: PlainsDragon_ R Finger21
+  - first:
+      1: 100080
+    second: PlainsDragon_ R Finger3
+  - first:
+      1: 100082
+    second: PlainsDragon_ R Finger31
+  - first:
+      1: 100084
+    second: PlainsDragon_ R Foot
+  - first:
+      1: 100086
+    second: PlainsDragon_ R Forearm
+  - first:
+      1: 100088
+    second: PlainsDragon_ R Hand
+  - first:
+      1: 100090
+    second: PlainsDragon_ R HorseLink
+  - first:
+      1: 100092
+    second: PlainsDragon_ R Thigh
+  - first:
+      1: 100094
+    second: PlainsDragon_ R Toe0
+  - first:
+      1: 100096
+    second: PlainsDragon_ R Toe01
+  - first:
+      1: 100098
+    second: PlainsDragon_ R Toe1
+  - first:
+      1: 100100
+    second: PlainsDragon_ R Toe11
+  - first:
+      1: 100102
+    second: PlainsDragon_ R Toe2
+  - first:
+      1: 100104
+    second: PlainsDragon_ R Toe21
+  - first:
+      1: 100106
+    second: PlainsDragon_ R Toe3
+  - first:
+      1: 100108
+    second: PlainsDragon_ R Toe31
+  - first:
+      1: 100110
+    second: PlainsDragon_ R UpperArm
+  - first:
+      1: 100112
+    second: PlainsDragon_ Spine
+  - first:
+      1: 100114
+    second: PlainsDragon_ Spine1
+  - first:
+      1: 100116
+    second: PlainsDragon_ Tail
+  - first:
+      1: 100118
+    second: PlainsDragon_ Tail1
+  - first:
+      1: 100120
+    second: PlainsDragon_ Tail10
+  - first:
+      1: 100122
+    second: PlainsDragon_ Tail2
+  - first:
+      1: 100124
+    second: PlainsDragon_ Tail3
+  - first:
+      1: 100126
+    second: PlainsDragon_ Tail4
+  - first:
+      1: 100128
+    second: PlainsDragon_ Tail5
+  - first:
+      1: 100130
+    second: PlainsDragon_ Tail6
+  - first:
+      1: 100132
+    second: PlainsDragon_ Tail7
+  - first:
+      1: 100134
+    second: PlainsDragon_ Tail8
+  - first:
+      1: 100136
+    second: PlainsDragon_ Tail9
+  - first:
+      1: 100138
+    second: PlainsDragon_Tongue_1
+  - first:
+      1: 100140
+    second: PlainsDragon_Tongue_2
+  - first:
+      1: 100142
+    second: PlainsDragon_Tongue_3
+  - first:
+      1: 100144
+    second: PlainsDragon_Tongue_4
+  - first:
+      1: 100146
+    second: PlainsDragon_WingL_Arm
+  - first:
+      1: 100148
+    second: PlainsDragon_WingL_FingerA_1
+  - first:
+      1: 100150
+    second: PlainsDragon_WingL_FingerA_3
+  - first:
+      1: 100152
+    second: PlainsDragon_WingL_FingerB_1
+  - first:
+      1: 100154
+    second: PlainsDragon_WingL_FingerB_2
+  - first:
+      1: 100156
+    second: PlainsDragon_WingL_FingerB_3
+  - first:
+      1: 100158
+    second: PlainsDragon_WingL_FingerC_1
+  - first:
+      1: 100160
+    second: PlainsDragon_WingL_FingerC_2
+  - first:
+      1: 100162
+    second: PlainsDragon_WingL_FingerC_3
+  - first:
+      1: 100164
+    second: PlainsDragon_WingL_ForeArm
+  - first:
+      1: 100166
+    second: PlainsDragon_WingL_Hand
+  - first:
+      1: 100168
+    second: PlainsDragon_WingR_Arm
+  - first:
+      1: 100170
+    second: PlainsDragon_WingR_FingerA_1
+  - first:
+      1: 100172
+    second: PlainsDragon_WingR_FingerA_2
+  - first:
+      1: 100174
+    second: PlainsDragon_WingR_FingerA_3
+  - first:
+      1: 100176
+    second: PlainsDragon_WingR_FingerB_1
+  - first:
+      1: 100178
+    second: PlainsDragon_WingR_FingerB_2
+  - first:
+      1: 100180
+    second: PlainsDragon_WingR_FingerB_3
+  - first:
+      1: 100182
+    second: PlainsDragon_WingR_FingerC_1
+  - first:
+      1: 100184
+    second: PlainsDragon_WingR_FingerC_2
+  - first:
+      1: 100186
+    second: PlainsDragon_WingR_FingerC_3
+  - first:
+      1: 100188
+    second: PlainsDragon_WingR_ForeArm
+  - first:
+      1: 100190
+    second: PlainsDragon_WingR_Hand
+  - first:
+      1: 100192
+    second: PlainstDragon_WingL_FingerA_2
+  - first:
+      1: 100194
+    second: root
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: PlainsDragon_
+  - first:
+      4: 400004
+    second: PlainsDragon_ Footsteps
+  - first:
+      4: 400006
+    second: PlainsDragon_ Head
+  - first:
+      4: 400008
+    second: PlainsDragon_ L Calf
+  - first:
+      4: 400010
+    second: PlainsDragon_ L Clavicle
+  - first:
+      4: 400012
+    second: PlainsDragon_ L Finger0
+  - first:
+      4: 400014
+    second: PlainsDragon_ L Finger01
+  - first:
+      4: 400016
+    second: PlainsDragon_ L Finger1
+  - first:
+      4: 400018
+    second: PlainsDragon_ L Finger11
+  - first:
+      4: 400020
+    second: PlainsDragon_ L Finger2
+  - first:
+      4: 400022
+    second: PlainsDragon_ L Finger21
+  - first:
+      4: 400024
+    second: PlainsDragon_ L Finger3
+  - first:
+      4: 400026
+    second: PlainsDragon_ L Finger31
+  - first:
+      4: 400028
+    second: PlainsDragon_ L Foot
+  - first:
+      4: 400030
+    second: PlainsDragon_ L Forearm
+  - first:
+      4: 400032
+    second: PlainsDragon_ L Hand
+  - first:
+      4: 400034
+    second: PlainsDragon_ L HorseLink
+  - first:
+      4: 400036
+    second: PlainsDragon_ L Thigh
+  - first:
+      4: 400038
+    second: PlainsDragon_ L Toe0
+  - first:
+      4: 400040
+    second: PlainsDragon_ L Toe01
+  - first:
+      4: 400042
+    second: PlainsDragon_ L Toe1
+  - first:
+      4: 400044
+    second: PlainsDragon_ L Toe11
+  - first:
+      4: 400046
+    second: PlainsDragon_ L Toe2
+  - first:
+      4: 400048
+    second: PlainsDragon_ L Toe21
+  - first:
+      4: 400050
+    second: PlainsDragon_ L Toe3
+  - first:
+      4: 400052
+    second: PlainsDragon_ L Toe31
+  - first:
+      4: 400054
+    second: PlainsDragon_ L UpperArm
+  - first:
+      4: 400056
+    second: PlainsDragon_ Neck
+  - first:
+      4: 400058
+    second: PlainsDragon_ Neck1
+  - first:
+      4: 400060
+    second: PlainsDragon_ Pelvis
+  - first:
+      4: 400062
+    second: PlainsDragon_ Ponytail1
+  - first:
+      4: 400064
+    second: PlainsDragon_ R Calf
+  - first:
+      4: 400066
+    second: PlainsDragon_ R Clavicle
+  - first:
+      4: 400068
+    second: PlainsDragon_ R Finger0
+  - first:
+      4: 400070
+    second: PlainsDragon_ R Finger01
+  - first:
+      4: 400072
+    second: PlainsDragon_ R Finger1
+  - first:
+      4: 400074
+    second: PlainsDragon_ R Finger11
+  - first:
+      4: 400076
+    second: PlainsDragon_ R Finger2
+  - first:
+      4: 400078
+    second: PlainsDragon_ R Finger21
+  - first:
+      4: 400080
+    second: PlainsDragon_ R Finger3
+  - first:
+      4: 400082
+    second: PlainsDragon_ R Finger31
+  - first:
+      4: 400084
+    second: PlainsDragon_ R Foot
+  - first:
+      4: 400086
+    second: PlainsDragon_ R Forearm
+  - first:
+      4: 400088
+    second: PlainsDragon_ R Hand
+  - first:
+      4: 400090
+    second: PlainsDragon_ R HorseLink
+  - first:
+      4: 400092
+    second: PlainsDragon_ R Thigh
+  - first:
+      4: 400094
+    second: PlainsDragon_ R Toe0
+  - first:
+      4: 400096
+    second: PlainsDragon_ R Toe01
+  - first:
+      4: 400098
+    second: PlainsDragon_ R Toe1
+  - first:
+      4: 400100
+    second: PlainsDragon_ R Toe11
+  - first:
+      4: 400102
+    second: PlainsDragon_ R Toe2
+  - first:
+      4: 400104
+    second: PlainsDragon_ R Toe21
+  - first:
+      4: 400106
+    second: PlainsDragon_ R Toe3
+  - first:
+      4: 400108
+    second: PlainsDragon_ R Toe31
+  - first:
+      4: 400110
+    second: PlainsDragon_ R UpperArm
+  - first:
+      4: 400112
+    second: PlainsDragon_ Spine
+  - first:
+      4: 400114
+    second: PlainsDragon_ Spine1
+  - first:
+      4: 400116
+    second: PlainsDragon_ Tail
+  - first:
+      4: 400118
+    second: PlainsDragon_ Tail1
+  - first:
+      4: 400120
+    second: PlainsDragon_ Tail10
+  - first:
+      4: 400122
+    second: PlainsDragon_ Tail2
+  - first:
+      4: 400124
+    second: PlainsDragon_ Tail3
+  - first:
+      4: 400126
+    second: PlainsDragon_ Tail4
+  - first:
+      4: 400128
+    second: PlainsDragon_ Tail5
+  - first:
+      4: 400130
+    second: PlainsDragon_ Tail6
+  - first:
+      4: 400132
+    second: PlainsDragon_ Tail7
+  - first:
+      4: 400134
+    second: PlainsDragon_ Tail8
+  - first:
+      4: 400136
+    second: PlainsDragon_ Tail9
+  - first:
+      4: 400138
+    second: PlainsDragon_Tongue_1
+  - first:
+      4: 400140
+    second: PlainsDragon_Tongue_2
+  - first:
+      4: 400142
+    second: PlainsDragon_Tongue_3
+  - first:
+      4: 400144
+    second: PlainsDragon_Tongue_4
+  - first:
+      4: 400146
+    second: PlainsDragon_WingL_Arm
+  - first:
+      4: 400148
+    second: PlainsDragon_WingL_FingerA_1
+  - first:
+      4: 400150
+    second: PlainsDragon_WingL_FingerA_3
+  - first:
+      4: 400152
+    second: PlainsDragon_WingL_FingerB_1
+  - first:
+      4: 400154
+    second: PlainsDragon_WingL_FingerB_2
+  - first:
+      4: 400156
+    second: PlainsDragon_WingL_FingerB_3
+  - first:
+      4: 400158
+    second: PlainsDragon_WingL_FingerC_1
+  - first:
+      4: 400160
+    second: PlainsDragon_WingL_FingerC_2
+  - first:
+      4: 400162
+    second: PlainsDragon_WingL_FingerC_3
+  - first:
+      4: 400164
+    second: PlainsDragon_WingL_ForeArm
+  - first:
+      4: 400166
+    second: PlainsDragon_WingL_Hand
+  - first:
+      4: 400168
+    second: PlainsDragon_WingR_Arm
+  - first:
+      4: 400170
+    second: PlainsDragon_WingR_FingerA_1
+  - first:
+      4: 400172
+    second: PlainsDragon_WingR_FingerA_2
+  - first:
+      4: 400174
+    second: PlainsDragon_WingR_FingerA_3
+  - first:
+      4: 400176
+    second: PlainsDragon_WingR_FingerB_1
+  - first:
+      4: 400178
+    second: PlainsDragon_WingR_FingerB_2
+  - first:
+      4: 400180
+    second: PlainsDragon_WingR_FingerB_3
+  - first:
+      4: 400182
+    second: PlainsDragon_WingR_FingerC_1
+  - first:
+      4: 400184
+    second: PlainsDragon_WingR_FingerC_2
+  - first:
+      4: 400186
+    second: PlainsDragon_WingR_FingerC_3
+  - first:
+      4: 400188
+    second: PlainsDragon_WingR_ForeArm
+  - first:
+      4: 400190
+    second: PlainsDragon_WingR_Hand
+  - first:
+      4: 400192
+    second: PlainstDragon_WingL_FingerA_2
+  - first:
+      4: 400194
+    second: root
+  - first:
+      74: 7400000
+    second: BiteAttack_RM
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: BiteAttack_RM
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/PlainsDragon_
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Footsteps
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ L Thigh
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ L Thigh/PlainsDragon_
+          L Calf
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ L Thigh/PlainsDragon_
+          L Calf/PlainsDragon_ L HorseLink
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ L Thigh/PlainsDragon_
+          L Calf/PlainsDragon_ L HorseLink/PlainsDragon_ L Foot
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ L Thigh/PlainsDragon_
+          L Calf/PlainsDragon_ L HorseLink/PlainsDragon_ L Foot/PlainsDragon_ L Toe0
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ L Thigh/PlainsDragon_
+          L Calf/PlainsDragon_ L HorseLink/PlainsDragon_ L Foot/PlainsDragon_ L Toe0/PlainsDragon_
+          L Toe01
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ L Thigh/PlainsDragon_
+          L Calf/PlainsDragon_ L HorseLink/PlainsDragon_ L Foot/PlainsDragon_ L Toe1
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ L Thigh/PlainsDragon_
+          L Calf/PlainsDragon_ L HorseLink/PlainsDragon_ L Foot/PlainsDragon_ L Toe1/PlainsDragon_
+          L Toe11
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ L Thigh/PlainsDragon_
+          L Calf/PlainsDragon_ L HorseLink/PlainsDragon_ L Foot/PlainsDragon_ L Toe2
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ L Thigh/PlainsDragon_
+          L Calf/PlainsDragon_ L HorseLink/PlainsDragon_ L Foot/PlainsDragon_ L Toe2/PlainsDragon_
+          L Toe21
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ L Thigh/PlainsDragon_
+          L Calf/PlainsDragon_ L HorseLink/PlainsDragon_ L Foot/PlainsDragon_ L Toe3
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ L Thigh/PlainsDragon_
+          L Calf/PlainsDragon_ L HorseLink/PlainsDragon_ L Foot/PlainsDragon_ L Toe3/PlainsDragon_
+          L Toe31
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ R Thigh
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ R Thigh/PlainsDragon_
+          R Calf
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ R Thigh/PlainsDragon_
+          R Calf/PlainsDragon_ R HorseLink
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ R Thigh/PlainsDragon_
+          R Calf/PlainsDragon_ R HorseLink/PlainsDragon_ R Foot
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ R Thigh/PlainsDragon_
+          R Calf/PlainsDragon_ R HorseLink/PlainsDragon_ R Foot/PlainsDragon_ R Toe0
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ R Thigh/PlainsDragon_
+          R Calf/PlainsDragon_ R HorseLink/PlainsDragon_ R Foot/PlainsDragon_ R Toe0/PlainsDragon_
+          R Toe01
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ R Thigh/PlainsDragon_
+          R Calf/PlainsDragon_ R HorseLink/PlainsDragon_ R Foot/PlainsDragon_ R Toe1
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ R Thigh/PlainsDragon_
+          R Calf/PlainsDragon_ R HorseLink/PlainsDragon_ R Foot/PlainsDragon_ R Toe1/PlainsDragon_
+          R Toe11
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ R Thigh/PlainsDragon_
+          R Calf/PlainsDragon_ R HorseLink/PlainsDragon_ R Foot/PlainsDragon_ R Toe2
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ R Thigh/PlainsDragon_
+          R Calf/PlainsDragon_ R HorseLink/PlainsDragon_ R Foot/PlainsDragon_ R Toe2/PlainsDragon_
+          R Toe21
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ R Thigh/PlainsDragon_
+          R Calf/PlainsDragon_ R HorseLink/PlainsDragon_ R Foot/PlainsDragon_ R Toe3
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ R Thigh/PlainsDragon_
+          R Calf/PlainsDragon_ R HorseLink/PlainsDragon_ R Foot/PlainsDragon_ R Toe3/PlainsDragon_
+          R Toe31
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ L Clavicle
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ L Clavicle/PlainsDragon_ L UpperArm
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ L Clavicle/PlainsDragon_ L UpperArm/PlainsDragon_
+          L Forearm
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ L Clavicle/PlainsDragon_ L UpperArm/PlainsDragon_
+          L Forearm/PlainsDragon_ L Hand
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ L Clavicle/PlainsDragon_ L UpperArm/PlainsDragon_
+          L Forearm/PlainsDragon_ L Hand/PlainsDragon_ L Finger0
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ L Clavicle/PlainsDragon_ L UpperArm/PlainsDragon_
+          L Forearm/PlainsDragon_ L Hand/PlainsDragon_ L Finger0/PlainsDragon_ L
+          Finger01
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ L Clavicle/PlainsDragon_ L UpperArm/PlainsDragon_
+          L Forearm/PlainsDragon_ L Hand/PlainsDragon_ L Finger1
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ L Clavicle/PlainsDragon_ L UpperArm/PlainsDragon_
+          L Forearm/PlainsDragon_ L Hand/PlainsDragon_ L Finger1/PlainsDragon_ L
+          Finger11
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ L Clavicle/PlainsDragon_ L UpperArm/PlainsDragon_
+          L Forearm/PlainsDragon_ L Hand/PlainsDragon_ L Finger2
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ L Clavicle/PlainsDragon_ L UpperArm/PlainsDragon_
+          L Forearm/PlainsDragon_ L Hand/PlainsDragon_ L Finger2/PlainsDragon_ L
+          Finger21
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ L Clavicle/PlainsDragon_ L UpperArm/PlainsDragon_
+          L Forearm/PlainsDragon_ L Hand/PlainsDragon_ L Finger3
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ L Clavicle/PlainsDragon_ L UpperArm/PlainsDragon_
+          L Forearm/PlainsDragon_ L Hand/PlainsDragon_ L Finger3/PlainsDragon_ L
+          Finger31
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ Neck
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ Neck/PlainsDragon_ Neck1
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ Neck/PlainsDragon_ Neck1/PlainsDragon_ Head
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ Neck/PlainsDragon_ Neck1/PlainsDragon_ Head/PlainsDragon_
+          Ponytail1
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ Neck/PlainsDragon_ Neck1/PlainsDragon_ Head/PlainsDragon_
+          Ponytail1/PlainsDragon_Tongue_1
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ Neck/PlainsDragon_ Neck1/PlainsDragon_ Head/PlainsDragon_
+          Ponytail1/PlainsDragon_Tongue_1/PlainsDragon_Tongue_2
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ Neck/PlainsDragon_ Neck1/PlainsDragon_ Head/PlainsDragon_
+          Ponytail1/PlainsDragon_Tongue_1/PlainsDragon_Tongue_2/PlainsDragon_Tongue_3
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ Neck/PlainsDragon_ Neck1/PlainsDragon_ Head/PlainsDragon_
+          Ponytail1/PlainsDragon_Tongue_1/PlainsDragon_Tongue_2/PlainsDragon_Tongue_3/PlainsDragon_Tongue_4
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ R Clavicle
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ R Clavicle/PlainsDragon_ R UpperArm
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ R Clavicle/PlainsDragon_ R UpperArm/PlainsDragon_
+          R Forearm
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ R Clavicle/PlainsDragon_ R UpperArm/PlainsDragon_
+          R Forearm/PlainsDragon_ R Hand
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ R Clavicle/PlainsDragon_ R UpperArm/PlainsDragon_
+          R Forearm/PlainsDragon_ R Hand/PlainsDragon_ R Finger0
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ R Clavicle/PlainsDragon_ R UpperArm/PlainsDragon_
+          R Forearm/PlainsDragon_ R Hand/PlainsDragon_ R Finger0/PlainsDragon_ R
+          Finger01
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ R Clavicle/PlainsDragon_ R UpperArm/PlainsDragon_
+          R Forearm/PlainsDragon_ R Hand/PlainsDragon_ R Finger1
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ R Clavicle/PlainsDragon_ R UpperArm/PlainsDragon_
+          R Forearm/PlainsDragon_ R Hand/PlainsDragon_ R Finger1/PlainsDragon_ R
+          Finger11
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ R Clavicle/PlainsDragon_ R UpperArm/PlainsDragon_
+          R Forearm/PlainsDragon_ R Hand/PlainsDragon_ R Finger2
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ R Clavicle/PlainsDragon_ R UpperArm/PlainsDragon_
+          R Forearm/PlainsDragon_ R Hand/PlainsDragon_ R Finger2/PlainsDragon_ R
+          Finger21
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ R Clavicle/PlainsDragon_ R UpperArm/PlainsDragon_
+          R Forearm/PlainsDragon_ R Hand/PlainsDragon_ R Finger3
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_ R Clavicle/PlainsDragon_ R UpperArm/PlainsDragon_
+          R Forearm/PlainsDragon_ R Hand/PlainsDragon_ R Finger3/PlainsDragon_ R
+          Finger31
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingL_Arm
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingL_Arm/PlainsDragon_WingL_ForeArm
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingL_Arm/PlainsDragon_WingL_ForeArm/PlainsDragon_WingL_Hand
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingL_Arm/PlainsDragon_WingL_ForeArm/PlainsDragon_WingL_Hand/PlainsDragon_WingL_FingerA_1
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingL_Arm/PlainsDragon_WingL_ForeArm/PlainsDragon_WingL_Hand/PlainsDragon_WingL_FingerA_1/PlainstDragon_WingL_FingerA_2
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingL_Arm/PlainsDragon_WingL_ForeArm/PlainsDragon_WingL_Hand/PlainsDragon_WingL_FingerA_1/PlainstDragon_WingL_FingerA_2/PlainsDragon_WingL_FingerA_3
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingL_Arm/PlainsDragon_WingL_ForeArm/PlainsDragon_WingL_Hand/PlainsDragon_WingL_FingerB_1
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingL_Arm/PlainsDragon_WingL_ForeArm/PlainsDragon_WingL_Hand/PlainsDragon_WingL_FingerB_1/PlainsDragon_WingL_FingerB_2
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingL_Arm/PlainsDragon_WingL_ForeArm/PlainsDragon_WingL_Hand/PlainsDragon_WingL_FingerB_1/PlainsDragon_WingL_FingerB_2/PlainsDragon_WingL_FingerB_3
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingL_Arm/PlainsDragon_WingL_ForeArm/PlainsDragon_WingL_Hand/PlainsDragon_WingL_FingerC_1
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingL_Arm/PlainsDragon_WingL_ForeArm/PlainsDragon_WingL_Hand/PlainsDragon_WingL_FingerC_1/PlainsDragon_WingL_FingerC_2
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingL_Arm/PlainsDragon_WingL_ForeArm/PlainsDragon_WingL_Hand/PlainsDragon_WingL_FingerC_1/PlainsDragon_WingL_FingerC_2/PlainsDragon_WingL_FingerC_3
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingR_Arm
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingR_Arm/PlainsDragon_WingR_ForeArm
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingR_Arm/PlainsDragon_WingR_ForeArm/PlainsDragon_WingR_Hand
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingR_Arm/PlainsDragon_WingR_ForeArm/PlainsDragon_WingR_Hand/PlainsDragon_WingR_FingerA_1
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingR_Arm/PlainsDragon_WingR_ForeArm/PlainsDragon_WingR_Hand/PlainsDragon_WingR_FingerA_1/PlainsDragon_WingR_FingerA_2
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingR_Arm/PlainsDragon_WingR_ForeArm/PlainsDragon_WingR_Hand/PlainsDragon_WingR_FingerA_1/PlainsDragon_WingR_FingerA_2/PlainsDragon_WingR_FingerA_3
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingR_Arm/PlainsDragon_WingR_ForeArm/PlainsDragon_WingR_Hand/PlainsDragon_WingR_FingerB_1
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingR_Arm/PlainsDragon_WingR_ForeArm/PlainsDragon_WingR_Hand/PlainsDragon_WingR_FingerB_1/PlainsDragon_WingR_FingerB_2
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingR_Arm/PlainsDragon_WingR_ForeArm/PlainsDragon_WingR_Hand/PlainsDragon_WingR_FingerB_1/PlainsDragon_WingR_FingerB_2/PlainsDragon_WingR_FingerB_3
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingR_Arm/PlainsDragon_WingR_ForeArm/PlainsDragon_WingR_Hand/PlainsDragon_WingR_FingerC_1
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingR_Arm/PlainsDragon_WingR_ForeArm/PlainsDragon_WingR_Hand/PlainsDragon_WingR_FingerC_1/PlainsDragon_WingR_FingerC_2
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Spine/PlainsDragon_
+          Spine1/PlainsDragon_WingR_Arm/PlainsDragon_WingR_ForeArm/PlainsDragon_WingR_Hand/PlainsDragon_WingR_FingerC_1/PlainsDragon_WingR_FingerC_2/PlainsDragon_WingR_FingerC_3
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Tail
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Tail/PlainsDragon_
+          Tail1
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Tail/PlainsDragon_
+          Tail1/PlainsDragon_ Tail2
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Tail/PlainsDragon_
+          Tail1/PlainsDragon_ Tail2/PlainsDragon_ Tail3
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Tail/PlainsDragon_
+          Tail1/PlainsDragon_ Tail2/PlainsDragon_ Tail3/PlainsDragon_ Tail4
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Tail/PlainsDragon_
+          Tail1/PlainsDragon_ Tail2/PlainsDragon_ Tail3/PlainsDragon_ Tail4/PlainsDragon_
+          Tail5
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Tail/PlainsDragon_
+          Tail1/PlainsDragon_ Tail2/PlainsDragon_ Tail3/PlainsDragon_ Tail4/PlainsDragon_
+          Tail5/PlainsDragon_ Tail6
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Tail/PlainsDragon_
+          Tail1/PlainsDragon_ Tail2/PlainsDragon_ Tail3/PlainsDragon_ Tail4/PlainsDragon_
+          Tail5/PlainsDragon_ Tail6/PlainsDragon_ Tail7
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Tail/PlainsDragon_
+          Tail1/PlainsDragon_ Tail2/PlainsDragon_ Tail3/PlainsDragon_ Tail4/PlainsDragon_
+          Tail5/PlainsDragon_ Tail6/PlainsDragon_ Tail7/PlainsDragon_ Tail8
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Tail/PlainsDragon_
+          Tail1/PlainsDragon_ Tail2/PlainsDragon_ Tail3/PlainsDragon_ Tail4/PlainsDragon_
+          Tail5/PlainsDragon_ Tail6/PlainsDragon_ Tail7/PlainsDragon_ Tail8/PlainsDragon_
+          Tail9
+        weight: 1
+      - path: root/PlainsDragon_/PlainsDragon_ Pelvis/PlainsDragon_ Tail/PlainsDragon_
+          Tail1/PlainsDragon_ Tail2/PlainsDragon_ Tail3/PlainsDragon_ Tail4/PlainsDragon_
+          Tail5/PlainsDragon_ Tail6/PlainsDragon_ Tail7/PlainsDragon_ Tail8/PlainsDragon_
+          Tail9/PlainsDragon_ Tail10
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 374d36eea3bf09a4aa5d8d9160f0ef4b, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

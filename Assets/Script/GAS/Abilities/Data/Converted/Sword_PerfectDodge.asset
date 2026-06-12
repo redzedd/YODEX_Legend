@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74bf14e62994212499691345af5ebb7b, type: 3}
+  m_Name: Sword_PerfectDodge
+  m_EditorClassIdentifier: 
+  _bulletTimeDuration: 2.5
+  _bulletTimeScale: 0.1
+  _bulletTimeEnterDuration: 0.05
+  _bulletTimeExitDuration: 0.3
+  _counterDamageBonusEffect: {fileID: 0}
+  _autoTargetRange: 8
+  _perfectDodgeCue:
+    _tagName: 
+  _bulletTimeEndCue:
+    _tagName: 
+  _ghostDuration: 0.43
+  _ghostRadius: 1
+  _minInterval: 0.5

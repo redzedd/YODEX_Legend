@@ -1,0 +1,608 @@
+fileFormatVersion: 2
+guid: d6b6d086869f11e43b0b693fef3cd33d
+timeCreated: 1523637169
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: PolarDragon_
+    100004: PolarDragon_ Head
+    100006: PolarDragon_ L Calf
+    100008: PolarDragon_ L Clavicle
+    100010: PolarDragon_ L Finger0
+    100012: PolarDragon_ L Finger01
+    100014: PolarDragon_ L Finger1
+    100016: PolarDragon_ L Finger11
+    100018: PolarDragon_ L Finger2
+    100020: PolarDragon_ L Finger21
+    100022: PolarDragon_ L Finger3
+    100024: PolarDragon_ L Finger31
+    100026: PolarDragon_ L Foot
+    100028: PolarDragon_ L Forearm
+    100030: PolarDragon_ L Hand
+    100032: PolarDragon_ L HorseLink
+    100034: PolarDragon_ L Thigh
+    100036: PolarDragon_ L Toe0
+    100038: PolarDragon_ L Toe01
+    100040: PolarDragon_ L Toe1
+    100042: PolarDragon_ L Toe11
+    100044: PolarDragon_ L Toe2
+    100046: PolarDragon_ L Toe21
+    100048: PolarDragon_ L Toe3
+    100050: PolarDragon_ L Toe31
+    100052: PolarDragon_ L UpperArm
+    100054: PolarDragon_ Neck
+    100056: PolarDragon_ Neck1
+    100058: PolarDragon_ Pelvis
+    100060: PolarDragon_ Ponytail1
+    100062: PolarDragon_ R Calf
+    100064: PolarDragon_ R Clavicle
+    100066: PolarDragon_ R Finger0
+    100068: PolarDragon_ R Finger01
+    100070: PolarDragon_ R Finger1
+    100072: PolarDragon_ R Finger11
+    100074: PolarDragon_ R Finger2
+    100076: PolarDragon_ R Finger21
+    100078: PolarDragon_ R Finger3
+    100080: PolarDragon_ R Finger31
+    100082: PolarDragon_ R Foot
+    100084: PolarDragon_ R Forearm
+    100086: PolarDragon_ R Hand
+    100088: PolarDragon_ R HorseLink
+    100090: PolarDragon_ R Thigh
+    100092: PolarDragon_ R Toe0
+    100094: PolarDragon_ R Toe01
+    100096: PolarDragon_ R Toe1
+    100098: PolarDragon_ R Toe11
+    100100: PolarDragon_ R Toe2
+    100102: PolarDragon_ R Toe21
+    100104: PolarDragon_ R Toe3
+    100106: PolarDragon_ R Toe31
+    100108: PolarDragon_ R UpperArm
+    100110: PolarDragon_ Spine
+    100112: PolarDragon_ Spine1
+    100114: PolarDragon_ Tail
+    100116: PolarDragon_ Tail1
+    100118: PolarDragon_ Tail10
+    100120: PolarDragon_ Tail2
+    100122: PolarDragon_ Tail3
+    100124: PolarDragon_ Tail4
+    100126: PolarDragon_ Tail5
+    100128: PolarDragon_ Tail6
+    100130: PolarDragon_ Tail7
+    100132: PolarDragon_ Tail8
+    100134: PolarDragon_ Tail9
+    100136: PolarDragon_WingL_Arm
+    100138: PolarDragon_WingL_FingerA_1
+    100140: PolarDragon_WingL_FingerA_2
+    100142: PolarDragon_WingL_FingerA_3
+    100144: PolarDragon_WingL_FingerB_1
+    100146: PolarDragon_WingL_FingerB_2
+    100148: PolarDragon_WingL_FingerB_3
+    100150: PolarDragon_WingL_FingerC_1
+    100152: PolarDragon_WingL_FingerC_2
+    100154: PolarDragon_WingL_FingerC_3
+    100156: PolarDragon_WingL_ForeArm
+    100158: PolarDragon_WingL_Hand
+    100160: PolarDragon_WingR_Arm
+    100162: PolarDragon_WingR_FingerA_1
+    100164: PolarDragon_WingR_FingerA_2
+    100166: PolarDragon_WingR_FingerA_3
+    100168: PolarDragon_WingR_FingerB_1
+    100170: PolarDragon_WingR_FingerB_2
+    100172: PolarDragon_WingR_FingerB_3
+    100174: PolarDragon_WingR_FingerC_1
+    100176: PolarDragon_WingR_FingerC_2
+    100178: PolarDragon_WingR_FingerC_3
+    100180: PolarDragon_WingR_ForeArm
+    100182: PolarDragon_WingR_Hand
+    100184: root
+    400000: //RootNode
+    400002: PolarDragon_
+    400004: PolarDragon_ Head
+    400006: PolarDragon_ L Calf
+    400008: PolarDragon_ L Clavicle
+    400010: PolarDragon_ L Finger0
+    400012: PolarDragon_ L Finger01
+    400014: PolarDragon_ L Finger1
+    400016: PolarDragon_ L Finger11
+    400018: PolarDragon_ L Finger2
+    400020: PolarDragon_ L Finger21
+    400022: PolarDragon_ L Finger3
+    400024: PolarDragon_ L Finger31
+    400026: PolarDragon_ L Foot
+    400028: PolarDragon_ L Forearm
+    400030: PolarDragon_ L Hand
+    400032: PolarDragon_ L HorseLink
+    400034: PolarDragon_ L Thigh
+    400036: PolarDragon_ L Toe0
+    400038: PolarDragon_ L Toe01
+    400040: PolarDragon_ L Toe1
+    400042: PolarDragon_ L Toe11
+    400044: PolarDragon_ L Toe2
+    400046: PolarDragon_ L Toe21
+    400048: PolarDragon_ L Toe3
+    400050: PolarDragon_ L Toe31
+    400052: PolarDragon_ L UpperArm
+    400054: PolarDragon_ Neck
+    400056: PolarDragon_ Neck1
+    400058: PolarDragon_ Pelvis
+    400060: PolarDragon_ Ponytail1
+    400062: PolarDragon_ R Calf
+    400064: PolarDragon_ R Clavicle
+    400066: PolarDragon_ R Finger0
+    400068: PolarDragon_ R Finger01
+    400070: PolarDragon_ R Finger1
+    400072: PolarDragon_ R Finger11
+    400074: PolarDragon_ R Finger2
+    400076: PolarDragon_ R Finger21
+    400078: PolarDragon_ R Finger3
+    400080: PolarDragon_ R Finger31
+    400082: PolarDragon_ R Foot
+    400084: PolarDragon_ R Forearm
+    400086: PolarDragon_ R Hand
+    400088: PolarDragon_ R HorseLink
+    400090: PolarDragon_ R Thigh
+    400092: PolarDragon_ R Toe0
+    400094: PolarDragon_ R Toe01
+    400096: PolarDragon_ R Toe1
+    400098: PolarDragon_ R Toe11
+    400100: PolarDragon_ R Toe2
+    400102: PolarDragon_ R Toe21
+    400104: PolarDragon_ R Toe3
+    400106: PolarDragon_ R Toe31
+    400108: PolarDragon_ R UpperArm
+    400110: PolarDragon_ Spine
+    400112: PolarDragon_ Spine1
+    400114: PolarDragon_ Tail
+    400116: PolarDragon_ Tail1
+    400118: PolarDragon_ Tail10
+    400120: PolarDragon_ Tail2
+    400122: PolarDragon_ Tail3
+    400124: PolarDragon_ Tail4
+    400126: PolarDragon_ Tail5
+    400128: PolarDragon_ Tail6
+    400130: PolarDragon_ Tail7
+    400132: PolarDragon_ Tail8
+    400134: PolarDragon_ Tail9
+    400136: PolarDragon_WingL_Arm
+    400138: PolarDragon_WingL_FingerA_1
+    400140: PolarDragon_WingL_FingerA_2
+    400142: PolarDragon_WingL_FingerA_3
+    400144: PolarDragon_WingL_FingerB_1
+    400146: PolarDragon_WingL_FingerB_2
+    400148: PolarDragon_WingL_FingerB_3
+    400150: PolarDragon_WingL_FingerC_1
+    400152: PolarDragon_WingL_FingerC_2
+    400154: PolarDragon_WingL_FingerC_3
+    400156: PolarDragon_WingL_ForeArm
+    400158: PolarDragon_WingL_Hand
+    400160: PolarDragon_WingR_Arm
+    400162: PolarDragon_WingR_FingerA_1
+    400164: PolarDragon_WingR_FingerA_2
+    400166: PolarDragon_WingR_FingerA_3
+    400168: PolarDragon_WingR_FingerB_1
+    400170: PolarDragon_WingR_FingerB_2
+    400172: PolarDragon_WingR_FingerB_3
+    400174: PolarDragon_WingR_FingerC_1
+    400176: PolarDragon_WingR_FingerC_2
+    400178: PolarDragon_WingR_FingerC_3
+    400180: PolarDragon_WingR_ForeArm
+    400182: PolarDragon_WingR_Hand
+    400184: root
+    7400000: GlideToFalling
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: GlideToFalling
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/PolarDragon_
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ L Thigh
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ L Thigh/PolarDragon_
+          L Calf
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ L Thigh/PolarDragon_
+          L Calf/PolarDragon_ L HorseLink
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ L Thigh/PolarDragon_
+          L Calf/PolarDragon_ L HorseLink/PolarDragon_ L Foot
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ L Thigh/PolarDragon_
+          L Calf/PolarDragon_ L HorseLink/PolarDragon_ L Foot/PolarDragon_ L Toe0
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ L Thigh/PolarDragon_
+          L Calf/PolarDragon_ L HorseLink/PolarDragon_ L Foot/PolarDragon_ L Toe0/PolarDragon_
+          L Toe01
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ L Thigh/PolarDragon_
+          L Calf/PolarDragon_ L HorseLink/PolarDragon_ L Foot/PolarDragon_ L Toe1
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ L Thigh/PolarDragon_
+          L Calf/PolarDragon_ L HorseLink/PolarDragon_ L Foot/PolarDragon_ L Toe1/PolarDragon_
+          L Toe11
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ L Thigh/PolarDragon_
+          L Calf/PolarDragon_ L HorseLink/PolarDragon_ L Foot/PolarDragon_ L Toe2
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ L Thigh/PolarDragon_
+          L Calf/PolarDragon_ L HorseLink/PolarDragon_ L Foot/PolarDragon_ L Toe2/PolarDragon_
+          L Toe21
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ L Thigh/PolarDragon_
+          L Calf/PolarDragon_ L HorseLink/PolarDragon_ L Foot/PolarDragon_ L Toe3
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ L Thigh/PolarDragon_
+          L Calf/PolarDragon_ L HorseLink/PolarDragon_ L Foot/PolarDragon_ L Toe3/PolarDragon_
+          L Toe31
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ R Thigh
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ R Thigh/PolarDragon_
+          R Calf
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ R Thigh/PolarDragon_
+          R Calf/PolarDragon_ R HorseLink
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ R Thigh/PolarDragon_
+          R Calf/PolarDragon_ R HorseLink/PolarDragon_ R Foot
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ R Thigh/PolarDragon_
+          R Calf/PolarDragon_ R HorseLink/PolarDragon_ R Foot/PolarDragon_ R Toe0
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ R Thigh/PolarDragon_
+          R Calf/PolarDragon_ R HorseLink/PolarDragon_ R Foot/PolarDragon_ R Toe0/PolarDragon_
+          R Toe01
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ R Thigh/PolarDragon_
+          R Calf/PolarDragon_ R HorseLink/PolarDragon_ R Foot/PolarDragon_ R Toe1
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ R Thigh/PolarDragon_
+          R Calf/PolarDragon_ R HorseLink/PolarDragon_ R Foot/PolarDragon_ R Toe1/PolarDragon_
+          R Toe11
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ R Thigh/PolarDragon_
+          R Calf/PolarDragon_ R HorseLink/PolarDragon_ R Foot/PolarDragon_ R Toe2
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ R Thigh/PolarDragon_
+          R Calf/PolarDragon_ R HorseLink/PolarDragon_ R Foot/PolarDragon_ R Toe2/PolarDragon_
+          R Toe21
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ R Thigh/PolarDragon_
+          R Calf/PolarDragon_ R HorseLink/PolarDragon_ R Foot/PolarDragon_ R Toe3
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ R Thigh/PolarDragon_
+          R Calf/PolarDragon_ R HorseLink/PolarDragon_ R Foot/PolarDragon_ R Toe3/PolarDragon_
+          R Toe31
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ L Clavicle
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ L Clavicle/PolarDragon_ L UpperArm
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ L Clavicle/PolarDragon_ L UpperArm/PolarDragon_ L Forearm
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ L Clavicle/PolarDragon_ L UpperArm/PolarDragon_ L Forearm/PolarDragon_
+          L Hand
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ L Clavicle/PolarDragon_ L UpperArm/PolarDragon_ L Forearm/PolarDragon_
+          L Hand/PolarDragon_ L Finger0
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ L Clavicle/PolarDragon_ L UpperArm/PolarDragon_ L Forearm/PolarDragon_
+          L Hand/PolarDragon_ L Finger0/PolarDragon_ L Finger01
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ L Clavicle/PolarDragon_ L UpperArm/PolarDragon_ L Forearm/PolarDragon_
+          L Hand/PolarDragon_ L Finger1
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ L Clavicle/PolarDragon_ L UpperArm/PolarDragon_ L Forearm/PolarDragon_
+          L Hand/PolarDragon_ L Finger1/PolarDragon_ L Finger11
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ L Clavicle/PolarDragon_ L UpperArm/PolarDragon_ L Forearm/PolarDragon_
+          L Hand/PolarDragon_ L Finger2
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ L Clavicle/PolarDragon_ L UpperArm/PolarDragon_ L Forearm/PolarDragon_
+          L Hand/PolarDragon_ L Finger2/PolarDragon_ L Finger21
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ L Clavicle/PolarDragon_ L UpperArm/PolarDragon_ L Forearm/PolarDragon_
+          L Hand/PolarDragon_ L Finger3
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ L Clavicle/PolarDragon_ L UpperArm/PolarDragon_ L Forearm/PolarDragon_
+          L Hand/PolarDragon_ L Finger3/PolarDragon_ L Finger31
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ Neck
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ Neck/PolarDragon_ Neck1
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ Neck/PolarDragon_ Neck1/PolarDragon_ Head
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ Neck/PolarDragon_ Neck1/PolarDragon_ Head/PolarDragon_
+          Ponytail1
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ R Clavicle
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ R Clavicle/PolarDragon_ R UpperArm
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ R Clavicle/PolarDragon_ R UpperArm/PolarDragon_ R Forearm
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ R Clavicle/PolarDragon_ R UpperArm/PolarDragon_ R Forearm/PolarDragon_
+          R Hand
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ R Clavicle/PolarDragon_ R UpperArm/PolarDragon_ R Forearm/PolarDragon_
+          R Hand/PolarDragon_ R Finger0
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ R Clavicle/PolarDragon_ R UpperArm/PolarDragon_ R Forearm/PolarDragon_
+          R Hand/PolarDragon_ R Finger0/PolarDragon_ R Finger01
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ R Clavicle/PolarDragon_ R UpperArm/PolarDragon_ R Forearm/PolarDragon_
+          R Hand/PolarDragon_ R Finger1
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ R Clavicle/PolarDragon_ R UpperArm/PolarDragon_ R Forearm/PolarDragon_
+          R Hand/PolarDragon_ R Finger1/PolarDragon_ R Finger11
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ R Clavicle/PolarDragon_ R UpperArm/PolarDragon_ R Forearm/PolarDragon_
+          R Hand/PolarDragon_ R Finger2
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ R Clavicle/PolarDragon_ R UpperArm/PolarDragon_ R Forearm/PolarDragon_
+          R Hand/PolarDragon_ R Finger2/PolarDragon_ R Finger21
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ R Clavicle/PolarDragon_ R UpperArm/PolarDragon_ R Forearm/PolarDragon_
+          R Hand/PolarDragon_ R Finger3
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_ R Clavicle/PolarDragon_ R UpperArm/PolarDragon_ R Forearm/PolarDragon_
+          R Hand/PolarDragon_ R Finger3/PolarDragon_ R Finger31
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingL_Arm
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingL_Arm/PolarDragon_WingL_ForeArm
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingL_Arm/PolarDragon_WingL_ForeArm/PolarDragon_WingL_Hand
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingL_Arm/PolarDragon_WingL_ForeArm/PolarDragon_WingL_Hand/PolarDragon_WingL_FingerA_1
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingL_Arm/PolarDragon_WingL_ForeArm/PolarDragon_WingL_Hand/PolarDragon_WingL_FingerA_1/PolarDragon_WingL_FingerA_2
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingL_Arm/PolarDragon_WingL_ForeArm/PolarDragon_WingL_Hand/PolarDragon_WingL_FingerA_1/PolarDragon_WingL_FingerA_2/PolarDragon_WingL_FingerA_3
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingL_Arm/PolarDragon_WingL_ForeArm/PolarDragon_WingL_Hand/PolarDragon_WingL_FingerB_1
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingL_Arm/PolarDragon_WingL_ForeArm/PolarDragon_WingL_Hand/PolarDragon_WingL_FingerB_1/PolarDragon_WingL_FingerB_2
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingL_Arm/PolarDragon_WingL_ForeArm/PolarDragon_WingL_Hand/PolarDragon_WingL_FingerB_1/PolarDragon_WingL_FingerB_2/PolarDragon_WingL_FingerB_3
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingL_Arm/PolarDragon_WingL_ForeArm/PolarDragon_WingL_Hand/PolarDragon_WingL_FingerC_1
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingL_Arm/PolarDragon_WingL_ForeArm/PolarDragon_WingL_Hand/PolarDragon_WingL_FingerC_1/PolarDragon_WingL_FingerC_2
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingL_Arm/PolarDragon_WingL_ForeArm/PolarDragon_WingL_Hand/PolarDragon_WingL_FingerC_1/PolarDragon_WingL_FingerC_2/PolarDragon_WingL_FingerC_3
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingR_Arm
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingR_Arm/PolarDragon_WingR_ForeArm
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingR_Arm/PolarDragon_WingR_ForeArm/PolarDragon_WingR_Hand
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingR_Arm/PolarDragon_WingR_ForeArm/PolarDragon_WingR_Hand/PolarDragon_WingR_FingerA_1
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingR_Arm/PolarDragon_WingR_ForeArm/PolarDragon_WingR_Hand/PolarDragon_WingR_FingerA_1/PolarDragon_WingR_FingerA_2
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingR_Arm/PolarDragon_WingR_ForeArm/PolarDragon_WingR_Hand/PolarDragon_WingR_FingerA_1/PolarDragon_WingR_FingerA_2/PolarDragon_WingR_FingerA_3
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingR_Arm/PolarDragon_WingR_ForeArm/PolarDragon_WingR_Hand/PolarDragon_WingR_FingerB_1
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingR_Arm/PolarDragon_WingR_ForeArm/PolarDragon_WingR_Hand/PolarDragon_WingR_FingerB_1/PolarDragon_WingR_FingerB_2
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingR_Arm/PolarDragon_WingR_ForeArm/PolarDragon_WingR_Hand/PolarDragon_WingR_FingerB_1/PolarDragon_WingR_FingerB_2/PolarDragon_WingR_FingerB_3
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingR_Arm/PolarDragon_WingR_ForeArm/PolarDragon_WingR_Hand/PolarDragon_WingR_FingerC_1
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingR_Arm/PolarDragon_WingR_ForeArm/PolarDragon_WingR_Hand/PolarDragon_WingR_FingerC_1/PolarDragon_WingR_FingerC_2
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Spine/PolarDragon_
+          Spine1/PolarDragon_WingR_Arm/PolarDragon_WingR_ForeArm/PolarDragon_WingR_Hand/PolarDragon_WingR_FingerC_1/PolarDragon_WingR_FingerC_2/PolarDragon_WingR_FingerC_3
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Tail
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Tail/PolarDragon_
+          Tail1
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Tail/PolarDragon_
+          Tail1/PolarDragon_ Tail2
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Tail/PolarDragon_
+          Tail1/PolarDragon_ Tail2/PolarDragon_ Tail3
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Tail/PolarDragon_
+          Tail1/PolarDragon_ Tail2/PolarDragon_ Tail3/PolarDragon_ Tail4
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Tail/PolarDragon_
+          Tail1/PolarDragon_ Tail2/PolarDragon_ Tail3/PolarDragon_ Tail4/PolarDragon_
+          Tail5
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Tail/PolarDragon_
+          Tail1/PolarDragon_ Tail2/PolarDragon_ Tail3/PolarDragon_ Tail4/PolarDragon_
+          Tail5/PolarDragon_ Tail6
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Tail/PolarDragon_
+          Tail1/PolarDragon_ Tail2/PolarDragon_ Tail3/PolarDragon_ Tail4/PolarDragon_
+          Tail5/PolarDragon_ Tail6/PolarDragon_ Tail7
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Tail/PolarDragon_
+          Tail1/PolarDragon_ Tail2/PolarDragon_ Tail3/PolarDragon_ Tail4/PolarDragon_
+          Tail5/PolarDragon_ Tail6/PolarDragon_ Tail7/PolarDragon_ Tail8
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Tail/PolarDragon_
+          Tail1/PolarDragon_ Tail2/PolarDragon_ Tail3/PolarDragon_ Tail4/PolarDragon_
+          Tail5/PolarDragon_ Tail6/PolarDragon_ Tail7/PolarDragon_ Tail8/PolarDragon_
+          Tail9
+        weight: 1
+      - path: root/PolarDragon_/PolarDragon_ Pelvis/PolarDragon_ Tail/PolarDragon_
+          Tail1/PolarDragon_ Tail2/PolarDragon_ Tail3/PolarDragon_ Tail4/PolarDragon_
+          Tail5/PolarDragon_ Tail6/PolarDragon_ Tail7/PolarDragon_ Tail8/PolarDragon_
+          Tail9/PolarDragon_ Tail10
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: c18b0041706c9d248bb71c8ff5e60314,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117306
+  packageName: ELEMENTAL DRAGONS PACK
+  packageVersion: 1.22
+  assetPath: Assets/HEROIC FANTASY CREATURES FULL PACK VOL3/Elemental Dragons Pack/Polar
+    Dragon/FBX Files/PolarDragon@GlideToFalling.FBX
+  uploadId: 669989

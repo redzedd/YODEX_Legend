@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c961e5ac90b6d704faa18b3195c76139, type: 3}
+  m_Name: PortalRune
+  m_EditorClassIdentifier: 
+  itemID: 0
+  itemName: "\u50B3\u9001\u9580\u9B54\u6CD5\u77F3"
+  icon: {fileID: 21300000, guid: 1d3ddc00cc8a6d24dbc3c3d3f7612103, type: 3}
+  category: 3
+  ingredientType: 0
+  rareLevel: 2
+  description: "\u860A\u542B\u5927\u91CF\u9B54\u529B\u7684\u77F3\u982D"
+  effectDescription: "\u53EF\u6D88\u8017\u6B64\u7269\u54C1\u958B\u555F\u50B3\u9001\u9580"
+  fullSizeImage: {fileID: 0}
+  healAmount: 0
+  hasSpecialEffect: 0
+  specialEffect: 0
+  effectTier: 0
+  effectDuration: 0
+  effectInterval: 0
+  effectAmount: 0

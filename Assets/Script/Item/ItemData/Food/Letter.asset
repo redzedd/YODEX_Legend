@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c961e5ac90b6d704faa18b3195c76139, type: 3}
+  m_Name: Letter
+  m_EditorClassIdentifier: 
+  itemID: 0
+  itemName: "\u958B\u767C\u8005\u7684\u4E00\u5C01\u4FE1"
+  icon: {fileID: 21300000, guid: 7940feabbe601a943b7f1b13ab0fd792, type: 3}
+  category: 3
+  ingredientType: 0
+  rareLevel: 2
+  description: "\u975E\u5E38\u611F\u8B1D\u4F60/\u59B3\u4F86\u904A\u73A9\u6211\u7684\u904A\u6232\uFF0C\u5E0C\u671B\u9019\u500B\u5C0F\u54C1\u4F5C\u54C1\u6709\u8B93\u4F60\u611F\u5230\u958B\u5FC3\uFF0C\u795D\u672A\u4F86\u4E00\u5207\u9806\u5229"
+  effectDescription: "\u96C6\u6EFF8\u500B\u7684\u8A71..."
+  fullSizeImage: {fileID: 0}
+  healAmount: 25
+  buffDefinition: {fileID: 11400000, guid: 979fcbfa336e6d548b86be78f1e8da39, type: 2}
+  effectTier: 3

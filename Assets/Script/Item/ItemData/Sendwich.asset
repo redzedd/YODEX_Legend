@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c961e5ac90b6d704faa18b3195c76139, type: 3}
+  m_Name: Sendwich
+  m_EditorClassIdentifier: 
+  itemID: 13
+  itemName: "\u8C6A\u83EF\u4E09\u660E\u6CBB"
+  icon: {fileID: 21300000, guid: cb87c89f33a5b844db3b65b1a925c6b8, type: 3}
+  category: 1
+  ingredientType: 0
+  rareLevel: 1
+  description: "\u5C64\u5C64\u5806\u758A\u7684\u9BAE\u5AE9\u8089\u7247\u8207\u723D\u8106\u751F\u83DC\uFF0C\u642D\u914D\u6FC3\u90C1\u8D77\u53F8\uFF0C\u6253\u9020\u5927\u53E3\u6EFF\u8DB3\u7684\u5962\u83EF\u7F8E\u5473"
+  effectDescription: "\u56DE\u5FA9100\u9EDE\u8840\u91CF"
+  fullSizeImage: {fileID: 0}
+  healAmount: 100
+  buffDefinition: {fileID: 0}
+  effectTier: 1

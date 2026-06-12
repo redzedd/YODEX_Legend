@@ -1,0 +1,1059 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8908593697045409827
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: shoulder_L
+    elementChain:
+    - name: shoulder_L
+      index: 896
+      depth: -1
+    - name: Arm_L
+      index: 897
+      depth: -1
+  targetChain:
+    chainName: clavicle_l
+    elementChain:
+    - name: clavicle_l
+      index: 14
+      depth: -1
+    - name: upperarm_l
+      index: 15
+      depth: -1
+    - name: lowerarm_l
+      index: 16
+      depth: -1
+    - name: hand_l
+      index: 17
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &-7021205120766087653
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Hair_front_Right.001
+    elementChain:
+    - name: Hair_front_Right.001
+      index: 268
+      depth: -1
+    - name: Hair_front_Right.002
+      index: 269
+      depth: -1
+    - name: Hair_front_Right.003
+      index: 270
+      depth: -1
+    - name: Hair_front_Right.003_end
+      index: 271
+      depth: -1
+  targetChain:
+    chainName: ik_foot_r
+    elementChain:
+    - name: ik_foot_r
+      index: 5
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &-6979943213566924920
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: finger_index_proximal_R
+    elementChain:
+    - name: finger_index_proximal_R
+      index: 934
+      depth: -1
+    - name: finger_index_intermediate_R
+      index: 935
+      depth: -1
+    - name: finger_index_distal_R
+      index: 936
+      depth: -1
+    - name: finger_index_distal_R_end
+      index: 937
+      depth: -1
+  targetChain:
+    chainName: index_01_r
+    elementChain:
+    - name: index_01_r
+      index: 39
+      depth: -1
+    - name: index_02_r
+      index: 40
+      depth: -1
+    - name: index_03_r
+      index: 41
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &-6596123636306732317
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: finger_ring_proximal_R
+    elementChain:
+    - name: finger_ring_proximal_R
+      index: 946
+      depth: -1
+    - name: finger_ring_intermediate_R
+      index: 947
+      depth: -1
+    - name: finger_ring_distal_R
+      index: 948
+      depth: -1
+    - name: finger_ring_distal_R_end
+      index: 949
+      depth: -1
+  targetChain:
+    chainName: ring_01_r
+    elementChain:
+    - name: ring_01_r
+      index: 48
+      depth: -1
+    - name: ring_02_r
+      index: 49
+      depth: -1
+    - name: ring_03_r
+      index: 50
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &-6496259448055668364
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Spine
+    elementChain:
+    - name: Spine
+      index: 827
+      depth: -1
+    - name: Chest
+      index: 828
+      depth: -1
+  targetChain:
+    chainName: spine_01
+    elementChain:
+    - name: spine_01
+      index: 11
+      depth: 0
+    - name: spine_02
+      index: 12
+      depth: 0
+    - name: spine_03
+      index: 13
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &-4533270071316472911
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Hair_front_center.001
+    elementChain:
+    - name: Hair_front_center.001
+      index: 264
+      depth: -1
+    - name: Hair_front_center.002
+      index: 265
+      depth: -1
+    - name: Hair_front_center.003
+      index: 266
+      depth: -1
+    - name: Hair_front_center.003_end
+      index: 267
+      depth: -1
+  targetChain:
+    chainName: ik_foot_l
+    elementChain:
+    - name: ik_foot_l
+      index: 4
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &-4115502400124449705
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Weapon
+    elementChain:
+    - name: Weapon
+      index: 986
+      depth: -1
+  targetChain:
+    chainName: weapon_r
+    elementChain:
+    - name: weapon_r
+      index: 54
+      depth: 0
+    - name: sword
+      index: 55
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &-4039294771526892601
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Hip_Collider_02
+    elementChain:
+    - name: Hip_Collider_02
+      index: 985
+      depth: -1
+  targetChain:
+    chainName: pelvis
+    elementChain:
+    - name: pelvis
+      index: 10
+      depth: 0
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &-2166063527511406524
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Female_Body_Leg
+    elementChain:
+    - name: Female_Body_Leg
+      index: 10
+      depth: -1
+    - name: Physics_Hip
+      index: 11
+      depth: -1
+  targetChain:
+    chainName: thigh_l
+    elementChain:
+    - name: thigh_l
+      index: 61
+      depth: -1
+    - name: calf_l
+      index: 62
+      depth: -1
+    - name: foot_l
+      index: 64
+      depth: -1
+    - name: ball_l
+      index: 65
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &-1830891723482982707
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: finger_middle_proximal_R
+    elementChain:
+    - name: finger_middle_proximal_R
+      index: 942
+      depth: -1
+    - name: finger_middle_intermediate_R
+      index: 943
+      depth: -1
+    - name: finger_middle_distal_R
+      index: 944
+      depth: -1
+    - name: finger_middle_distal_R_end
+      index: 945
+      depth: -1
+  targetChain:
+    chainName: middle_01_r
+    elementChain:
+    - name: middle_01_r
+      index: 42
+      depth: -1
+    - name: middle_02_r
+      index: 43
+      depth: -1
+    - name: middle_03_r
+      index: 44
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &-603848789480471765
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Weapon_Target_Hand_R
+    elementChain:
+    - name: Weapon_Target_Hand_R
+      index: 954
+      depth: -1
+    - name: weapon_r
+      index: 955
+      depth: -1
+    - name: sword
+      index: 956
+      depth: -1
+  targetChain:
+    chainName: ik_hand_r
+    elementChain:
+    - name: ik_hand_r
+      index: 9
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &-377826383444439910
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: finger_thumbs_proximal_R
+    elementChain:
+    - name: finger_thumbs_proximal_R
+      index: 950
+      depth: -1
+    - name: finger_thumbs_intermediate_R
+      index: 951
+      depth: -1
+    - name: finger_thumbs_distal_R
+      index: 952
+      depth: -1
+    - name: finger_thumbs_distal_R_end
+      index: 953
+      depth: -1
+  targetChain:
+    chainName: thumb_01_r
+    elementChain:
+    - name: thumb_01_r
+      index: 51
+      depth: -1
+    - name: thumb_02_r
+      index: 52
+      depth: -1
+    - name: thumb_03_r
+      index: 53
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12349bae48c61824bb8e519537ce28eb, type: 3}
+  m_Name: Retarget_Rig_P_Humanoid (1)_Rig_9CG_Sword
+  m_EditorClassIdentifier: 
+  sourceCharacter: {fileID: 0}
+  targetCharacter: {fileID: 0}
+  sourcePose: {fileID: 0}
+  targetPose: {fileID: 0}
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  excludeChain:
+    chainName: Elements To Exclude
+    elementChain: []
+  retargetFeatures:
+  - {fileID: 6701973605234023146}
+  - {fileID: 231210453628995712}
+  - {fileID: -4533270071316472911}
+  - {fileID: -7021205120766087653}
+  - {fileID: 6136006704385068130}
+  - {fileID: 489723268548236888}
+  - {fileID: -603848789480471765}
+  - {fileID: -4039294771526892601}
+  - {fileID: -6496259448055668364}
+  - {fileID: -8908593697045409827}
+  - {fileID: 2102064280581319106}
+  - {fileID: 7707889060562666865}
+  - {fileID: 6373927384984676303}
+  - {fileID: 7873295475886567674}
+  - {fileID: 6636948387588780838}
+  - {fileID: -6979943213566924920}
+  - {fileID: -1830891723482982707}
+  - {fileID: -6596123636306732317}
+  - {fileID: -377826383444439910}
+  - {fileID: -4115502400124449705}
+  - {fileID: 8522800526549001771}
+  - {fileID: 3700598262094221787}
+  - {fileID: -2166063527511406524}
+  - {fileID: 4943617267567650831}
+--- !u!114 &231210453628995712
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Hair_front_Root
+    elementChain:
+    - name: Hair_front_Root
+      index: 263
+      depth: -1
+  targetChain:
+    chainName: ik_foot_root
+    elementChain:
+    - name: ik_foot_root
+      index: 3
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &489723268548236888
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Shield_Target_Hand_L
+    elementChain:
+    - name: Shield_Target_Hand_L
+      index: 922
+      depth: -1
+  targetChain:
+    chainName: ik_hand_l
+    elementChain:
+    - name: ik_hand_l
+      index: 8
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &2102064280581319106
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: finger_index_proximal_L
+    elementChain:
+    - name: finger_index_proximal_L
+      index: 902
+      depth: -1
+    - name: finger_index_intermediate_L
+      index: 903
+      depth: -1
+    - name: finger_index_distal_L
+      index: 904
+      depth: -1
+    - name: finger_index_distal_L_end
+      index: 905
+      depth: -1
+  targetChain:
+    chainName: index_01_l
+    elementChain:
+    - name: index_01_l
+      index: 18
+      depth: -1
+    - name: index_02_l
+      index: 19
+      depth: -1
+    - name: index_03_l
+      index: 20
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &3700598262094221787
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Sword_001
+    elementChain:
+    - name: Sword_001
+      index: 1011
+      depth: -1
+  targetChain:
+    chainName: sword_holder
+    elementChain:
+    - name: sword_holder
+      index: 60
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &4943617267567650831
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Leg_Crotch_R
+    elementChain:
+    - name: Leg_Crotch_R
+      index: 819
+      depth: -1
+    - name: Leg_Crotch_R_end
+      index: 820
+      depth: -1
+  targetChain:
+    chainName: thigh_r
+    elementChain:
+    - name: thigh_r
+      index: 67
+      depth: -1
+    - name: calf_r
+      index: 68
+      depth: -1
+    - name: foot_r
+      index: 70
+      depth: -1
+    - name: ball_r
+      index: 71
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &6136006704385068130
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Hair_Back_Root
+    elementChain:
+    - name: Hair_Back_Root
+      index: 244
+      depth: -1
+  targetChain:
+    chainName: ik_hand_root
+    elementChain:
+    - name: ik_hand_root
+      index: 6
+      depth: -1
+    - name: ik_hand_gun
+      index: 7
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &6373927384984676303
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: finger_ring_proximal_L
+    elementChain:
+    - name: finger_ring_proximal_L
+      index: 914
+      depth: -1
+    - name: finger_ring_intermediate_L
+      index: 915
+      depth: -1
+    - name: finger_ring_distal_L
+      index: 916
+      depth: -1
+    - name: finger_ring_distal_L_end
+      index: 917
+      depth: -1
+  targetChain:
+    chainName: ring_01_l
+    elementChain:
+    - name: ring_01_l
+      index: 27
+      depth: -1
+    - name: ring_02_l
+      index: 28
+      depth: -1
+    - name: ring_03_l
+      index: 29
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &6636948387588780838
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: shoulder_R
+    elementChain:
+    - name: shoulder_R
+      index: 928
+      depth: -1
+    - name: Arm_R
+      index: 929
+      depth: -1
+  targetChain:
+    chainName: clavicle_r
+    elementChain:
+    - name: clavicle_r
+      index: 35
+      depth: -1
+    - name: upperarm_r
+      index: 36
+      depth: -1
+    - name: lowerarm_r
+      index: 37
+      depth: -1
+    - name: hand_r
+      index: 38
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &6701973605234023146
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Sword
+    elementChain:
+    - name: Sword
+      index: 1010
+      depth: -1
+  targetChain:
+    chainName: 9CG_Sword
+    elementChain:
+    - name: 9CG_Sword
+      index: 0
+      depth: -1
+    - name: NCG_Mesh
+      index: 1
+      depth: -1
+    - name: root
+      index: 2
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &7707889060562666865
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: finger_middle_proximal_L
+    elementChain:
+    - name: finger_middle_proximal_L
+      index: 910
+      depth: -1
+    - name: finger_middle_intermediate_L
+      index: 911
+      depth: -1
+    - name: finger_middle_distal_L
+      index: 912
+      depth: -1
+    - name: finger_middle_distal_L_end
+      index: 913
+      depth: -1
+  targetChain:
+    chainName: middle_01_l
+    elementChain:
+    - name: middle_01_l
+      index: 21
+      depth: -1
+    - name: middle_02_l
+      index: 22
+      depth: -1
+    - name: middle_03_l
+      index: 23
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &7873295475886567674
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: finger_thumbs_proximal_L
+    elementChain:
+    - name: finger_thumbs_proximal_L
+      index: 918
+      depth: -1
+    - name: finger_thumbs_intermediate_L
+      index: 919
+      depth: -1
+    - name: finger_thumbs_distal_L
+      index: 920
+      depth: -1
+    - name: finger_thumbs_distal_L_end
+      index: 921
+      depth: -1
+  targetChain:
+    chainName: thumb_01_l
+    elementChain:
+    - name: thumb_01_l
+      index: 30
+      depth: -1
+    - name: thumb_02_l
+      index: 31
+      depth: -1
+    - name: thumb_03_l
+      index: 32
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &8522800526549001771
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 950d31007c5a80b499deee0c49678195, type: 2}
+  targetRig: {fileID: 11400000, guid: f7459efb5ce380d47b7283996bb72f55, type: 2}
+  featureWeight: 1
+  sourceChain:
+    chainName: Neck
+    elementChain:
+    - name: Neck
+      index: 836
+      depth: -1
+    - name: Head
+      index: 837
+      depth: -1
+  targetChain:
+    chainName: neck_01
+    elementChain:
+    - name: neck_01
+      index: 58
+      depth: -1
+    - name: head
+      index: 59
+      depth: -1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0}
+  poleOffset: {x: 0, y: 0, z: 0}

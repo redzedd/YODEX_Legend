@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 35a2aef09633f7b43845cafca38ff7d7
+timeCreated: 1523044844
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117306
+  packageName: ELEMENTAL DRAGONS PACK
+  packageVersion: 1.22
+  assetPath: Assets/HEROIC FANTASY CREATURES FULL PACK VOL3/Elemental Dragons Pack/Undead
+    Dragon/Prefabs/HellDragon_PBR.prefab
+  uploadId: 669989

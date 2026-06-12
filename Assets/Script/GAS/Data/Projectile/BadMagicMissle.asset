@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6a291421b72dd740b315bc7814d5484, type: 3}
+  m_Name: BadMagicMissle
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 6506258205088307110, guid: 1b86badfffc5d7e489d831ed977264eb, type: 3}
+  Speed: 20
+  Lifetime: 5
+  Gravity: 0
+  HomingEnabled: 1
+  HomingStrength: 5
+  PierceCount: 0
+  ImpactRadius: 5
+  HitLayers:
+    serializedVersion: 2
+    m_Bits: 512
+  ObstacleLayers:
+    serializedVersion: 2
+    m_Bits: 9
+  SweepRadius: 0.15
+  ImpactVFXPrefab: {fileID: 82855965759615315, guid: 50e7b5df66ec6d64fb84f369b08859a3, type: 3}
+  ImpactSFX: {fileID: 0}
+  ImpactVFXLifetime: 2
+  AttachImpactToSurface: 0
+  SurfaceDetectionDistance: 2

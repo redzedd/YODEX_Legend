@@ -1,0 +1,729 @@
+fileFormatVersion: 2
+guid: c93a57da7b6144c4b955f639074c62ff
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: DesertDragon_
+  - first:
+      1: 100004
+    second: DesertDragon_ Head
+  - first:
+      1: 100006
+    second: DesertDragon_ L Calf
+  - first:
+      1: 100008
+    second: DesertDragon_ L Clavicle
+  - first:
+      1: 100010
+    second: DesertDragon_ L Finger0
+  - first:
+      1: 100012
+    second: DesertDragon_ L Finger01
+  - first:
+      1: 100014
+    second: DesertDragon_ L Finger1
+  - first:
+      1: 100016
+    second: DesertDragon_ L Finger11
+  - first:
+      1: 100018
+    second: DesertDragon_ L Finger2
+  - first:
+      1: 100020
+    second: DesertDragon_ L Finger21
+  - first:
+      1: 100022
+    second: DesertDragon_ L Finger3
+  - first:
+      1: 100024
+    second: DesertDragon_ L Finger31
+  - first:
+      1: 100026
+    second: DesertDragon_ L Foot
+  - first:
+      1: 100028
+    second: DesertDragon_ L Forearm
+  - first:
+      1: 100030
+    second: DesertDragon_ L Hand
+  - first:
+      1: 100032
+    second: DesertDragon_ L HorseLink
+  - first:
+      1: 100034
+    second: DesertDragon_ L Thigh
+  - first:
+      1: 100036
+    second: DesertDragon_ L Toe0
+  - first:
+      1: 100038
+    second: DesertDragon_ L Toe01
+  - first:
+      1: 100040
+    second: DesertDragon_ L Toe1
+  - first:
+      1: 100042
+    second: DesertDragon_ L Toe11
+  - first:
+      1: 100044
+    second: DesertDragon_ L Toe2
+  - first:
+      1: 100046
+    second: DesertDragon_ L Toe21
+  - first:
+      1: 100048
+    second: DesertDragon_ L Toe3
+  - first:
+      1: 100050
+    second: DesertDragon_ L Toe31
+  - first:
+      1: 100052
+    second: DesertDragon_ L UpperArm
+  - first:
+      1: 100054
+    second: DesertDragon_ Neck
+  - first:
+      1: 100056
+    second: DesertDragon_ Neck1
+  - first:
+      1: 100058
+    second: DesertDragon_ Pelvis
+  - first:
+      1: 100060
+    second: DesertDragon_ Ponytail1
+  - first:
+      1: 100062
+    second: DesertDragon_ R Calf
+  - first:
+      1: 100064
+    second: DesertDragon_ R Clavicle
+  - first:
+      1: 100066
+    second: DesertDragon_ R Finger0
+  - first:
+      1: 100068
+    second: DesertDragon_ R Finger01
+  - first:
+      1: 100070
+    second: DesertDragon_ R Finger1
+  - first:
+      1: 100072
+    second: DesertDragon_ R Finger11
+  - first:
+      1: 100074
+    second: DesertDragon_ R Finger2
+  - first:
+      1: 100076
+    second: DesertDragon_ R Finger21
+  - first:
+      1: 100078
+    second: DesertDragon_ R Finger3
+  - first:
+      1: 100080
+    second: DesertDragon_ R Finger31
+  - first:
+      1: 100082
+    second: DesertDragon_ R Foot
+  - first:
+      1: 100084
+    second: DesertDragon_ R Forearm
+  - first:
+      1: 100086
+    second: DesertDragon_ R Hand
+  - first:
+      1: 100088
+    second: DesertDragon_ R HorseLink
+  - first:
+      1: 100090
+    second: DesertDragon_ R Thigh
+  - first:
+      1: 100092
+    second: DesertDragon_ R Toe0
+  - first:
+      1: 100094
+    second: DesertDragon_ R Toe01
+  - first:
+      1: 100096
+    second: DesertDragon_ R Toe1
+  - first:
+      1: 100098
+    second: DesertDragon_ R Toe11
+  - first:
+      1: 100100
+    second: DesertDragon_ R Toe2
+  - first:
+      1: 100102
+    second: DesertDragon_ R Toe21
+  - first:
+      1: 100104
+    second: DesertDragon_ R Toe3
+  - first:
+      1: 100106
+    second: DesertDragon_ R Toe31
+  - first:
+      1: 100108
+    second: DesertDragon_ R UpperArm
+  - first:
+      1: 100110
+    second: DesertDragon_ Spine
+  - first:
+      1: 100112
+    second: DesertDragon_ Spine1
+  - first:
+      1: 100114
+    second: DesertDragon_ Tail
+  - first:
+      1: 100116
+    second: DesertDragon_ Tail1
+  - first:
+      1: 100118
+    second: DesertDragon_ Tail10
+  - first:
+      1: 100120
+    second: DesertDragon_ Tail2
+  - first:
+      1: 100122
+    second: DesertDragon_ Tail3
+  - first:
+      1: 100124
+    second: DesertDragon_ Tail4
+  - first:
+      1: 100126
+    second: DesertDragon_ Tail5
+  - first:
+      1: 100128
+    second: DesertDragon_ Tail6
+  - first:
+      1: 100130
+    second: DesertDragon_ Tail7
+  - first:
+      1: 100132
+    second: DesertDragon_ Tail8
+  - first:
+      1: 100134
+    second: DesertDragon_ Tail9
+  - first:
+      1: 100136
+    second: DesertDragon_Tongue_1
+  - first:
+      1: 100138
+    second: DesertDragon_Tongue_2
+  - first:
+      1: 100140
+    second: DesertDragon_Tongue_3
+  - first:
+      1: 100142
+    second: DesertDragon_Tongue_4
+  - first:
+      1: 100144
+    second: DesertDragon_WingL_Arm
+  - first:
+      1: 100146
+    second: DesertDragon_WingL_FingerA_1
+  - first:
+      1: 100148
+    second: DesertDragon_WingL_FingerA_2
+  - first:
+      1: 100150
+    second: DesertDragon_WingL_FingerA_3
+  - first:
+      1: 100152
+    second: DesertDragon_WingL_FingerB_1
+  - first:
+      1: 100154
+    second: DesertDragon_WingL_FingerB_2
+  - first:
+      1: 100156
+    second: DesertDragon_WingL_FingerB_3
+  - first:
+      1: 100158
+    second: DesertDragon_WingL_FingerC_1
+  - first:
+      1: 100160
+    second: DesertDragon_WingL_FingerC_2
+  - first:
+      1: 100162
+    second: DesertDragon_WingL_FingerC_3
+  - first:
+      1: 100164
+    second: DesertDragon_WingL_ForeArm
+  - first:
+      1: 100166
+    second: DesertDragon_WingL_Hand
+  - first:
+      1: 100168
+    second: DesertDragon_WingR_Arm
+  - first:
+      1: 100170
+    second: DesertDragon_WingR_FingerA_1(
+  - first:
+      1: 100172
+    second: DesertDragon_WingR_FingerA_2
+  - first:
+      1: 100174
+    second: DesertDragon_WingR_FingerA_3
+  - first:
+      1: 100176
+    second: DesertDragon_WingR_FingerB_1
+  - first:
+      1: 100178
+    second: DesertDragon_WingR_FingerB_2
+  - first:
+      1: 100180
+    second: DesertDragon_WingR_FingerB_3
+  - first:
+      1: 100182
+    second: DesertDragon_WingR_FingerC_1
+  - first:
+      1: 100184
+    second: DesertDragon_WingR_FingerC_2
+  - first:
+      1: 100186
+    second: DesertDragon_WingR_FingerC_3
+  - first:
+      1: 100188
+    second: DesertDragon_WingR_ForeArm
+  - first:
+      1: 100190
+    second: DesertDragon_WingR_Hand
+  - first:
+      1: 100192
+    second: root
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: DesertDragon_
+  - first:
+      4: 400004
+    second: DesertDragon_ Head
+  - first:
+      4: 400006
+    second: DesertDragon_ L Calf
+  - first:
+      4: 400008
+    second: DesertDragon_ L Clavicle
+  - first:
+      4: 400010
+    second: DesertDragon_ L Finger0
+  - first:
+      4: 400012
+    second: DesertDragon_ L Finger01
+  - first:
+      4: 400014
+    second: DesertDragon_ L Finger1
+  - first:
+      4: 400016
+    second: DesertDragon_ L Finger11
+  - first:
+      4: 400018
+    second: DesertDragon_ L Finger2
+  - first:
+      4: 400020
+    second: DesertDragon_ L Finger21
+  - first:
+      4: 400022
+    second: DesertDragon_ L Finger3
+  - first:
+      4: 400024
+    second: DesertDragon_ L Finger31
+  - first:
+      4: 400026
+    second: DesertDragon_ L Foot
+  - first:
+      4: 400028
+    second: DesertDragon_ L Forearm
+  - first:
+      4: 400030
+    second: DesertDragon_ L Hand
+  - first:
+      4: 400032
+    second: DesertDragon_ L HorseLink
+  - first:
+      4: 400034
+    second: DesertDragon_ L Thigh
+  - first:
+      4: 400036
+    second: DesertDragon_ L Toe0
+  - first:
+      4: 400038
+    second: DesertDragon_ L Toe01
+  - first:
+      4: 400040
+    second: DesertDragon_ L Toe1
+  - first:
+      4: 400042
+    second: DesertDragon_ L Toe11
+  - first:
+      4: 400044
+    second: DesertDragon_ L Toe2
+  - first:
+      4: 400046
+    second: DesertDragon_ L Toe21
+  - first:
+      4: 400048
+    second: DesertDragon_ L Toe3
+  - first:
+      4: 400050
+    second: DesertDragon_ L Toe31
+  - first:
+      4: 400052
+    second: DesertDragon_ L UpperArm
+  - first:
+      4: 400054
+    second: DesertDragon_ Neck
+  - first:
+      4: 400056
+    second: DesertDragon_ Neck1
+  - first:
+      4: 400058
+    second: DesertDragon_ Pelvis
+  - first:
+      4: 400060
+    second: DesertDragon_ Ponytail1
+  - first:
+      4: 400062
+    second: DesertDragon_ R Calf
+  - first:
+      4: 400064
+    second: DesertDragon_ R Clavicle
+  - first:
+      4: 400066
+    second: DesertDragon_ R Finger0
+  - first:
+      4: 400068
+    second: DesertDragon_ R Finger01
+  - first:
+      4: 400070
+    second: DesertDragon_ R Finger1
+  - first:
+      4: 400072
+    second: DesertDragon_ R Finger11
+  - first:
+      4: 400074
+    second: DesertDragon_ R Finger2
+  - first:
+      4: 400076
+    second: DesertDragon_ R Finger21
+  - first:
+      4: 400078
+    second: DesertDragon_ R Finger3
+  - first:
+      4: 400080
+    second: DesertDragon_ R Finger31
+  - first:
+      4: 400082
+    second: DesertDragon_ R Foot
+  - first:
+      4: 400084
+    second: DesertDragon_ R Forearm
+  - first:
+      4: 400086
+    second: DesertDragon_ R Hand
+  - first:
+      4: 400088
+    second: DesertDragon_ R HorseLink
+  - first:
+      4: 400090
+    second: DesertDragon_ R Thigh
+  - first:
+      4: 400092
+    second: DesertDragon_ R Toe0
+  - first:
+      4: 400094
+    second: DesertDragon_ R Toe01
+  - first:
+      4: 400096
+    second: DesertDragon_ R Toe1
+  - first:
+      4: 400098
+    second: DesertDragon_ R Toe11
+  - first:
+      4: 400100
+    second: DesertDragon_ R Toe2
+  - first:
+      4: 400102
+    second: DesertDragon_ R Toe21
+  - first:
+      4: 400104
+    second: DesertDragon_ R Toe3
+  - first:
+      4: 400106
+    second: DesertDragon_ R Toe31
+  - first:
+      4: 400108
+    second: DesertDragon_ R UpperArm
+  - first:
+      4: 400110
+    second: DesertDragon_ Spine
+  - first:
+      4: 400112
+    second: DesertDragon_ Spine1
+  - first:
+      4: 400114
+    second: DesertDragon_ Tail
+  - first:
+      4: 400116
+    second: DesertDragon_ Tail1
+  - first:
+      4: 400118
+    second: DesertDragon_ Tail10
+  - first:
+      4: 400120
+    second: DesertDragon_ Tail2
+  - first:
+      4: 400122
+    second: DesertDragon_ Tail3
+  - first:
+      4: 400124
+    second: DesertDragon_ Tail4
+  - first:
+      4: 400126
+    second: DesertDragon_ Tail5
+  - first:
+      4: 400128
+    second: DesertDragon_ Tail6
+  - first:
+      4: 400130
+    second: DesertDragon_ Tail7
+  - first:
+      4: 400132
+    second: DesertDragon_ Tail8
+  - first:
+      4: 400134
+    second: DesertDragon_ Tail9
+  - first:
+      4: 400136
+    second: DesertDragon_Tongue_1
+  - first:
+      4: 400138
+    second: DesertDragon_Tongue_2
+  - first:
+      4: 400140
+    second: DesertDragon_Tongue_3
+  - first:
+      4: 400142
+    second: DesertDragon_Tongue_4
+  - first:
+      4: 400144
+    second: DesertDragon_WingL_Arm
+  - first:
+      4: 400146
+    second: DesertDragon_WingL_FingerA_1
+  - first:
+      4: 400148
+    second: DesertDragon_WingL_FingerA_2
+  - first:
+      4: 400150
+    second: DesertDragon_WingL_FingerA_3
+  - first:
+      4: 400152
+    second: DesertDragon_WingL_FingerB_1
+  - first:
+      4: 400154
+    second: DesertDragon_WingL_FingerB_2
+  - first:
+      4: 400156
+    second: DesertDragon_WingL_FingerB_3
+  - first:
+      4: 400158
+    second: DesertDragon_WingL_FingerC_1
+  - first:
+      4: 400160
+    second: DesertDragon_WingL_FingerC_2
+  - first:
+      4: 400162
+    second: DesertDragon_WingL_FingerC_3
+  - first:
+      4: 400164
+    second: DesertDragon_WingL_ForeArm
+  - first:
+      4: 400166
+    second: DesertDragon_WingL_Hand
+  - first:
+      4: 400168
+    second: DesertDragon_WingR_Arm
+  - first:
+      4: 400170
+    second: DesertDragon_WingR_FingerA_1(
+  - first:
+      4: 400172
+    second: DesertDragon_WingR_FingerA_2
+  - first:
+      4: 400174
+    second: DesertDragon_WingR_FingerA_3
+  - first:
+      4: 400176
+    second: DesertDragon_WingR_FingerB_1
+  - first:
+      4: 400178
+    second: DesertDragon_WingR_FingerB_2
+  - first:
+      4: 400180
+    second: DesertDragon_WingR_FingerB_3
+  - first:
+      4: 400182
+    second: DesertDragon_WingR_FingerC_1
+  - first:
+      4: 400184
+    second: DesertDragon_WingR_FingerC_2
+  - first:
+      4: 400186
+    second: DesertDragon_WingR_FingerC_3
+  - first:
+      4: 400188
+    second: DesertDragon_WingR_ForeArm
+  - first:
+      4: 400190
+    second: DesertDragon_WingR_Hand
+  - first:
+      4: 400192
+    second: root
+  - first:
+      74: 7400000
+    second: ClawsAttackLeftForward_RM
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ClawsAttackLeftForward_RM
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: cf2bc50c619f33d49a38353973b31d31,
+    type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117306
+  packageName: ELEMENTAL DRAGONS PACK
+  packageVersion: 1.22
+  assetPath: Assets/HEROIC FANTASY CREATURES FULL PACK VOL3/Elemental Dragons Pack/Desert
+    Dragon/FBX Files/DesertDragon@ClawsAttackLeftForward_RM.FBX
+  uploadId: 669989

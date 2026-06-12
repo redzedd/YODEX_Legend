@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b8ee56c2ad646c4abf2fc63c92b8069, type: 3}
+  m_Name: GameplayTagLibrary_Backup_20260514_050054
+  m_EditorClassIdentifier: 
+  _tagDefinitions:
+  - TagName: Ability
+    Description: 
+  - TagName: Ability.Attack
+    Description: 
+  - TagName: Ability.Attack.Melee
+    Description: 
+  - TagName: Ability.Attack.Ranged
+    Description: 
+  - TagName: Ability.Attack.Light
+    Description: 
+  - TagName: Ability.Attack.Heavy
+    Description: 
+  - TagName: Ability.Attack.Ranged.Light
+    Description: 
+  - TagName: Ability.Attack.Ranged.Heavy
+    Description: 
+  - TagName: Ability.Movement
+    Description: 
+  - TagName: Ability.Movement.Dodge
+    Description: 
+  - TagName: Ability.Movement.Dash
+    Description: 
+  - TagName: Ability.Movement.Jump
+    Description: 
+  - TagName: Ability.Movement.Glide
+    Description: 
+  - TagName: Ability.Skill
+    Description: 
+  - TagName: State
+    Description: 
+  - TagName: State.Attacking
+    Description: 
+  - TagName: State.Dodging
+    Description: 
+  - TagName: State.Stunned
+    Description: 
+  - TagName: State.Dead
+    Description: 
+  - TagName: State.Invincible
+    Description: 
+  - TagName: State.SuperArmor
+    Description: "\u6A19\u7C64\u5EAB - ScriptableObject\uFF0C\u7528\u65BC\u5B9A\u7FA9\u548C\u7BA1\u7406\u6240\u6709\u904A\u6232\u6A19\u7C64
+      \u5728\u7DE8\u8F2F\u5668\u4E2D\u914D\u7F6E\uFF0C\u904B\u884C\u6642\u4F5C\u70BA\u6A19\u7C64\u7684\u4F86\u6E90
+      </summary> [CreateAssetMenu(fileName = \"GameplayTagLibrary\", menuName = \"GAS/Tag
+      Library\")] public class GameplayTagLibrary : ScriptableObject { [Serializable]
+      public class TagDefinition { [Tooltip(\"\u6A19\u7C64\u540D\u7A31 (\u4F8B\u5982:
+      Ability.Attack.Melee)\")] public string TagName; [Tooltip(\"\u6A19\u7C64\u63CF\u8FF0\")]
+      [TextArea(1, 3)] public string Description; } [Header(\"Tag Definitions\")]
+      [SerializeField] private List<TagDefinition> _tagDefinitions = new(); // \u904B\u884C\u6642\u5FEB\u53D6
+      private Dictionary<string, GameplayTag> _tagCache; private bool _isInitialized;
+      <summary> \u6240\u6709\u5DF2\u5B9A\u7FA9\u7684\u6A19\u7C64 </summary> public
+      IReadOnlyList<TagDefinition> TagDefinitions => _tagDefinitions; private void
+      OnEnable() { Initialize(); } <summary> \u521D\u59CB\u5316\u6A19\u7C64\u5FEB\u53D6
+      </summary> public void Initialize() { if (_isInitialized) return; _tagCache
+      = new Dictionary<string, GameplayTag>(); foreach (var def in _tagDefinitions)
+      { if (!string.IsNullOrEmpty(def.TagName)) { _tagCache[def.TagName] = new GameplayTag(def.TagName);
+      } } _isInitialized = true; } <summary> \u6839\u64DA\u540D\u7A31\u7372\u53D6\u6A19\u7C64
+      </summary> public GameplayTag GetTag(string tagName) { if (!_isInitialized)
+      Initialize(); if (_tagCache.TryGetValue(tagName, out var tag)) { return tag;
+      } // \u5982\u679C\u6A19\u7C64\u4E0D\u5728\u5B9A\u7FA9\u4E2D\uFF0C\u5275\u5EFA\u4E00\u500B\u65B0\u7684
+      (\u4F46\u6703\u6253\u5370\u8B66\u544A) Debug.LogWarning($\"[GameplayTagLibrary]
+      Tag '{tagName}' not found in library. Creating dynamic tag.\"); return new
+      GameplayTag(tagName); } <summary> \u6AA2\u67E5\u6A19\u7C64\u662F\u5426\u5DF2\u5B9A\u7FA9
+      </summary> public bool IsTagDefined(string tagName) { if (!_isInitialized)
+      Initialize(); return _tagCache.ContainsKey(tagName); } <summary> \u7372\u53D6\u6240\u6709\u5DF2\u5B9A\u7FA9\u7684\u6A19\u7C64\u540D\u7A31
+      </summary> public IEnumerable<string> GetAllTagNames() { if (!_isInitialized)
+      Initialize(); return _tagCache.Keys; } <summary> \u7372\u53D6\u6307\u5B9A\u524D\u7DB4\u7684\u6240\u6709\u6A19\u7C64
+      </summary> public List<GameplayTag> GetTagsWithPrefix(string prefix) { if (!_isInitialized)
+      Initialize(); var result = new List<GameplayTag>(); foreach (var kvp in _tagCache)
+      { if (kvp.Key.StartsWith(prefix, StringComparison.Ordinal)) { result.Add(kvp.Value);
+      } } return result; } #region Editor Utilities #if UNITY_EDITOR <summary> \u6DFB\u52A0\u65B0\u6A19\u7C64\u5B9A\u7FA9
+      (\u50C5\u7DE8\u8F2F\u5668) </summary> public void AddTagDefinition(string tagName,
+      string description = \"\") { if (string.IsNullOrEmpty(tagName)) return; //
+      \u6AA2\u67E5\u662F\u5426\u5DF2\u5B58\u5728 foreach (var def in _tagDefinitions)
+      { if (def.TagName == tagName) return; } _tagDefinitions.Add(new TagDefinition
+      { TagName = tagName, Description = description }); // \u91CD\u65B0\u521D\u59CB\u5316\u5FEB\u53D6
+      _isInitialized = false; Initialize(); UnityEditor.EditorUtility.SetDirty(this);
+      } <summary> \u79FB\u9664\u6A19\u7C64\u5B9A\u7FA9 (\u50C5\u7DE8\u8F2F\u5668)
+      </summary> public bool RemoveTagDefinition(string tagName) { for (int i = _tagDefinitions.Count
+      - 1; i >= 0; i--) { if (_tagDefinitions[i].TagName == tagName) { _tagDefinitions.RemoveAt(i);
+      _isInitialized = false; Initialize(); UnityEditor.EditorUtility.SetDirty(this);
+      return true; } } return false; } <summary> \u6392\u5E8F\u6A19\u7C64\u5B9A\u7FA9
+      (\u50C5\u7DE8\u8F2F\u5668) </summary> public void SortTagDefinitions() { _tagDefinitions.Sort((a,
+      b) => string.Compare(a.TagName, b.TagName, StringComparison.Ordinal)); UnityEditor.EditorUtility.SetDirty(this);
+      } #endif #endregion #region Singleton Access private static GameplayTagLibrary
+      _instance; <summary> \u5168\u5C40\u6A19\u7C64\u5EAB\u5BE6\u4F8B (\u9700\u8981\u5728
+      Resources \u8CC7\u6599\u593E\u4E2D\u653E\u7F6E) </summary> public static GameplayTagLibrary
+      Instance { get { if (_instance == null) { _instance = Resources.Load<GameplayTagLibrary>(\"GameplayTagLibrary\");
+      if (_instance == null) { Debug.LogWarning(\"[GameplayTagLibrary] No GameplayTagLibrary
+      found in Resources folder. \" + \"Create one via Assets > Create > GAS > Tag
+      Library and place it in a Resources folder.\"); } } return _instance; } } <summary>
+      \u975C\u614B\u65B9\u6CD5\uFF1A\u6839\u64DA\u540D\u7A31\u7372\u53D6\u6A19\u7C64
+      </summary> public static GameplayTag RequestTag(string tagName) { if (Instance
+      != null) { return Instance.GetTag(tagName); } // \u5982\u679C\u6C92\u6709\u6A19\u7C64\u5EAB\uFF0C\u76F4\u63A5\u5275\u5EFA\u6A19\u7C64
+      return new GameplayTag(tagName); } #endregion } <summary> \u9810\u5B9A\u7FA9\u7684\u5E38\u7528\u6A19\u7C64
+      \u5EFA\u8B70\u5728\u5C08\u6848\u4E2D\u64F4\u5C55\u6B64\u985E\uFF0C\u6DFB\u52A0\u5C08\u6848\u7279\u5B9A\u7684\u6A19\u7C64\u5E38\u91CF
+      </summary> public static class GameplayTags { // === \u80FD\u529B\u76F8\u95DC\u6A19\u7C64
+      === public static class Ability { public static readonly GameplayTag Root =
+      new(\"Ability\"); public static class Attack { public static readonly GameplayTag
+      Root = new(\"Ability.Attack\"); public static readonly GameplayTag Melee =
+      new(\"Ability.Attack.Melee\"); public static readonly GameplayTag Ranged =
+      new(\"Ability.Attack.Ranged\"); public static readonly GameplayTag Light =
+      new(\"Ability.Attack.Light\"); public static readonly GameplayTag Heavy = new(\"Ability.Attack.Heavy\");
+      public static readonly GameplayTag RangedLight = new(\"Ability.Attack.Ranged.Light\");
+      public static readonly GameplayTag RangedHeavy = new(\"Ability.Attack.Ranged.Heavy\");
+      } public static class Movement { public static readonly GameplayTag Root =
+      new(\"Ability.Movement\"); public static readonly GameplayTag Dodge = new(\"Ability.Movement.Dodge\");
+      public static readonly GameplayTag Dash = new(\"Ability.Movement.Dash\"); public
+      static readonly GameplayTag Jump = new(\"Ability.Movement.Jump\"); public static
+      readonly GameplayTag Glide = new(\"Ability.Movement.Glide\"); } public static
+      class Skill { public static readonly GameplayTag Root = new(\"Ability.Skill\");
+      } } // === \u72C0\u614B\u76F8\u95DC\u6A19\u7C64 === public static class State
+      { public static readonly GameplayTag Root = new(\"State\"); public static readonly
+      GameplayTag Attacking = new(\"State.Attacking\"); public static readonly GameplayTag
+      Dodging = new(\"State.Dodging\"); public static readonly GameplayTag Stunned
+      = new(\"State.Stunned\"); public static readonly GameplayTag Dead = new(\"State.Dead\");
+      public static readonly GameplayTag Invincible = new(\"State.Invincible\");
+      <summary>\u9738\u9AD4 \u2014 \u64C1\u6709\u6B64 Tag \u7684\u89D2\u8272\u6703\u6263\u8840\u3001\u6703\u7D2F\u8A08
+      Poise\u3001Poise \u64CA\u7834\u6642\u4ECD\u6703\u9032 Stagger / Knockback;
+      \u552F\u4E00\u5DEE\u5225\u662F Poise \u672A\u64CA\u7834\u7684\u5C0F\u653B\u64CA\u4E0D\u64AD
+      Flinch,\u8B93\u7576\u524D\u52D5\u4F5C\u4E0D\u88AB\u6253\u65B7\u3002\u7531\u80FD\u529B/\u52D5\u756B\u5E40\u52D5\u614B\u6DFB\u52A0\u8207\u79FB\u9664\u3002
+      \u8207 Invincible \u7684\u5DEE\u7570:Invincible = \u5B8C\u5168\u514D\u75AB(\u542B\u50B7\u5BB3);SuperArmor
+      = \u5403\u50B7\u5BB3 + \u5403 Poise,\u50C5\u514D Flinch\u3002"
+  - TagName: State.CannotMove
+    Description: 
+  - TagName: State.CannotAttack
+    Description: 
+  - TagName: State.Jumping
+    Description: 
+  - TagName: State.Gliding
+    Description: 
+  - TagName: State.AttackNonCancellable
+    Description: 
+  - TagName: State.DodgeNonCancellable
+    Description: 
+  - TagName: State.Switching
+    Description: 
+  - TagName: State.AfterImage
+    Description: 
+  - TagName: State.Aiming
+    Description: 
+  - TagName: State.Charging
+    Description: 
+  - TagName: State.AoECursorControl
+    Description: "\u73A9\u5BB6\u5149\u6A19 AoE \u63A7\u5236\u4E2D \u2014 \u79FB\u52D5\u9375\u6539\u70BA\u64CD\u4F5C
+      cursor \u4F4D\u7F6E,Locomotion \u770B\u5230\u6B64 tag \u8DF3\u904E Update"
+  - TagName: State.Parrying
+    Description: 
+  - TagName: State.BulletTime
+    Description: 
+  - TagName: State.AssistWindow
+    Description: 
+  - TagName: State.PerfectDodgeWindow
+    Description: 
+  - TagName: State.PerfectDodgeBulletTime
+    Description: 
+  - TagName: State.PerfectDodgeCounterWindow
+    Description: 
+  - TagName: State.HitStunned
+    Description: 
+  - TagName: Effect
+    Description: 
+  - TagName: Effect.Damage
+    Description: 
+  - TagName: Effect.Damage.Physical
+    Description: 
+  - TagName: Effect.Damage.Magical
+    Description: 
+  - TagName: Effect.Damage.Fire
+    Description: 
+  - TagName: Effect.Damage.Ice
+    Description: 
+  - TagName: Effect.Buff
+    Description: 
+  - TagName: Effect.Buff.AttackUp
+    Description: 
+  - TagName: Effect.Buff.DefenseUp
+    Description: 
+  - TagName: Effect.Buff.SpeedUp
+    Description: 
+  - TagName: Effect.Debuff
+    Description: 
+  - TagName: Effect.Debuff.AttackDown
+    Description: 
+  - TagName: Effect.Debuff.DefenseDown
+    Description: 
+  - TagName: Effect.Debuff.Slow
+    Description: 
+  - TagName: Cue
+    Description: 
+  - TagName: Cue.HitImpact
+    Description: 
+  - TagName: Cue.Attack
+    Description: 
+  - TagName: Cue.Dodge
+    Description: 
+  - TagName: Cue.PerfectDodge
+    Description: 
+  - TagName: Cue.PerfectDodge.BulletTimeEnd
+    Description: 
+  - TagName: Ability.Weapon
+    Description: 
+  - TagName: Ability.Weapon.Switch
+    Description: 
+  - TagName: Ability.Assist
+    Description: 
+  - TagName: Ability.Assist.Parry
+    Description: 
+  - TagName: Ability.Assist.Dodge
+    Description: 
+  - TagName: Event
+    Description: 
+  - TagName: Event.Montage
+    Description: 
+  - TagName: Event.HitWindow
+    Description: 

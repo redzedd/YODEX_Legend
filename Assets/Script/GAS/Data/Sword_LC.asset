@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b530a520e5ebb5247bd138721dce08a1, type: 3}
+  m_Name: Sword_LC
+  m_EditorClassIdentifier: 
+  _walkMagnitudeThreshold: 0.5
+  _runToWalkMagnitudeThreshold: 0.4
+  _idleDeadzone: 0.1
+  _inputReleaseDebounce: 0.08
+  _runDownshiftHoldTime: 0.12
+  _idleInputSettleTime: 0.05
+  _idleRotationSpeed: 480
+  _walkRotationSpeed: 1080
+  _runRotationSpeed: 720
+  _fastRunRotationSpeed: 240
+  _fastRunTurnAngleThreshold: 135
+  _turnTriggerMinMagnitude: 0.7
+  _turnTriggerHoldTime: 0.05
+  _postTurnFadeDuration: 0.05
+  _leanBlendSmoothTime: 0.15
+  _leanMaxAngle: 30
+  _startAnimFadeDuration: 0.05
+  _startToLoopFadeDuration: 0.05
+  _walkToRunFadeDuration: 0.15
+  _fastRunFadeDuration: 0.12
+  _endAnimFadeDuration: 0.1
+  _fastRunTurnFadeDuration: 0.05
+  _abilityExitFadeDuration: 0.15
+  _horizontalVelocityContinuationTau: 0.1
+  _gravity: 20
+  _groundMask:
+    serializedVersion: 2
+    m_Bits: 9
+  _groundProbeDistance: 0.2
+  _groundSphereRadiusScale: 0.95
+  _jumpInitialUpVelocity: 10
+  _jumpRotationSpeed: 240
+  _airControlWeight: 0.5
+  _airControlResponsiveness: 8
+  _airMoveBaseSpeed: 3
+  _jumpStartFadeDuration: 0.1
+  _jumpLoopFadeDuration: 0.1
+  _jumpEndFadeDuration: 0.08
+  _jumpLandingLockDuration: 0.25
+  _jumpLandingToMoveFadeDuration: 0.15
+  _minAirborneTimeBeforeLand: 0.08
+  _coyoteTime: 0.1
+  _jumpBufferTime: 0.12
+  _gliderMinAirborneTime: 0.3
+  _gliderMinHeightAboveGround: 1.5
+  _gliderDescentSpeed: 2
+  _gliderHorizontalSpeed: 4
+  _gliderHorizontalResponsiveness: 8
+  _gliderRotationSpeed: 360
+  _gliderEnterFadeDuration: 0.15
+  _gliderExitFadeDuration: 0.1
+  _gliderStaminaCostPerSec: 7.5
+  _fallDamageThreshold: 5
+  _fallDamageMaxDistance: 80
+  _fallDamageAtMaxDistance: 100
+  _fallTriggerDelay: 0.25
+  _fallTriggerVerticalVelocity: -3
+  _dodgeBufferTime: 0.25
+  _dodgeEnterFadeDuration: 0.15
+  _dodgeLockDuration: 0.6
+  _dodgeToMoveFadeDuration: 0.25
+  _dodgeReentryStartTime: 0.12
+  _dodgeReentryFadeDuration: 0.15
+  _dodgeStaminaCost: 15
+  _dodgeInvincibilityStartTime: 0
+  _dodgeInvincibilityDuration: 0.4
+  _dodgeIFrameHitSlowScale: 0.3
+  _dodgeIFrameHitSlowHoldDuration: 0.15
+  _dodgeIFrameHitSlowRecoverDuration: 0.25
+  _sprintStaminaCostPerSec: 7.5
+  _sprintStaminaThreshold: 20

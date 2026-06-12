@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b8ee56c2ad646c4abf2fc63c92b8069, type: 3}
+  m_Name: GameplayTagLibrary_Backup_20260514_050427
+  m_EditorClassIdentifier: 
+  _tagDefinitions:
+  - TagName: Ability
+    Description: 
+  - TagName: Ability.Attack
+    Description: 
+  - TagName: Ability.Attack.Melee
+    Description: 
+  - TagName: Ability.Attack.Ranged
+    Description: 
+  - TagName: Ability.Attack.Light
+    Description: 
+  - TagName: Ability.Attack.Heavy
+    Description: 
+  - TagName: Ability.Attack.Ranged.Light
+    Description: 
+  - TagName: Ability.Attack.Ranged.Heavy
+    Description: 
+  - TagName: Ability.Movement
+    Description: 
+  - TagName: Ability.Movement.Dodge
+    Description: 
+  - TagName: Ability.Movement.Dash
+    Description: 
+  - TagName: Ability.Movement.Jump
+    Description: 
+  - TagName: Ability.Movement.Glide
+    Description: 
+  - TagName: Ability.Skill
+    Description: 
+  - TagName: State
+    Description: 
+  - TagName: State.Attacking
+    Description: 
+  - TagName: State.Dodging
+    Description: 
+  - TagName: State.Stunned
+    Description: 
+  - TagName: State.Dead
+    Description: 
+  - TagName: State.Invincible
+    Description: 
+  - TagName: State.SuperArmor
+    Description: "\u9738\u9AD4 \u2014 \u64C1\u6709\u6B64 Tag \u7684\u89D2\u8272\u6703\u6263\u8840\u3001\u6703\u7D2F\u8A08
+      Poise\u3001Poise \u64CA\u7834\u6642\u4ECD\u6703\u9032 Stagger / Knockback;
+      \u552F\u4E00\u5DEE\u5225\u662F Poise \u672A\u64CA\u7834\u7684\u5C0F\u653B\u64CA\u4E0D\u64AD
+      Flinch,\u8B93\u7576\u524D\u52D5\u4F5C\u4E0D\u88AB\u6253\u65B7\u3002\u7531\u80FD\u529B/\u52D5\u756B\u5E40\u52D5\u614B\u6DFB\u52A0\u8207\u79FB\u9664\u3002
+      \u8207 Invincible \u7684\u5DEE\u7570:Invincible = \u5B8C\u5168\u514D\u75AB(\u542B\u50B7\u5BB3);SuperArmor
+      = \u5403\u50B7\u5BB3 + \u5403 Poise,\u50C5\u514D Flinch\u3002"
+  - TagName: State.CannotMove
+    Description: 
+  - TagName: State.CannotAttack
+    Description: 
+  - TagName: State.Jumping
+    Description: 
+  - TagName: State.Gliding
+    Description: 
+  - TagName: State.AttackNonCancellable
+    Description: 
+  - TagName: State.DodgeNonCancellable
+    Description: 
+  - TagName: State.Switching
+    Description: 
+  - TagName: State.AfterImage
+    Description: 
+  - TagName: State.Aiming
+    Description: 
+  - TagName: State.Charging
+    Description: 
+  - TagName: State.AoECursorControl
+    Description: "\u73A9\u5BB6\u5149\u6A19 AoE \u63A7\u5236\u4E2D \u2014 \u79FB\u52D5\u9375\u6539\u70BA\u64CD\u4F5C
+      cursor \u4F4D\u7F6E,Locomotion \u770B\u5230\u6B64 tag \u8DF3\u904E Update"
+  - TagName: State.Parrying
+    Description: 
+  - TagName: State.BulletTime
+    Description: 
+  - TagName: State.AssistWindow
+    Description: 
+  - TagName: State.PerfectDodgeWindow
+    Description: 
+  - TagName: State.PerfectDodgeBulletTime
+    Description: 
+  - TagName: State.PerfectDodgeCounterWindow
+    Description: 
+  - TagName: State.HitStunned
+    Description: 
+  - TagName: Effect
+    Description: 
+  - TagName: Effect.Damage
+    Description: 
+  - TagName: Effect.Damage.Physical
+    Description: 
+  - TagName: Effect.Damage.Magical
+    Description: 
+  - TagName: Effect.Damage.Fire
+    Description: 
+  - TagName: Effect.Damage.Ice
+    Description: 
+  - TagName: Effect.Buff
+    Description: 
+  - TagName: Effect.Buff.AttackUp
+    Description: 
+  - TagName: Effect.Buff.DefenseUp
+    Description: 
+  - TagName: Effect.Buff.SpeedUp
+    Description: 
+  - TagName: Effect.Debuff
+    Description: 
+  - TagName: Effect.Debuff.AttackDown
+    Description: 
+  - TagName: Effect.Debuff.DefenseDown
+    Description: 
+  - TagName: Effect.Debuff.Slow
+    Description: 
+  - TagName: Cue
+    Description: 
+  - TagName: Cue.HitImpact
+    Description: 
+  - TagName: Cue.Attack
+    Description: 
+  - TagName: Cue.Dodge
+    Description: 
+  - TagName: Cue.PerfectDodge
+    Description: 
+  - TagName: Cue.PerfectDodge.BulletTimeEnd
+    Description: 
+  - TagName: Ability.Weapon
+    Description: 
+  - TagName: Ability.Weapon.Switch
+    Description: 
+  - TagName: Ability.Assist
+    Description: 
+  - TagName: Ability.Assist.Parry
+    Description: 
+  - TagName: Ability.Assist.Dodge
+    Description: 
+  - TagName: Event
+    Description: 
+  - TagName: Event.Montage
+    Description: 
+  - TagName: Event.HitWindow
+    Description: 

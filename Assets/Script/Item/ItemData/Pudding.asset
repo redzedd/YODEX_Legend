@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c961e5ac90b6d704faa18b3195c76139, type: 3}
+  m_Name: Pudding
+  m_EditorClassIdentifier: 
+  itemID: 12
+  itemName: "\u5E03\u4E01"
+  icon: {fileID: 21300000, guid: 12370dc6ee3375345a4f83af94a5dbbc, type: 3}
+  category: 1
+  ingredientType: 0
+  rareLevel: 0
+  description: "\u9999\u751C\u6ED1\u9806\u7684\u7126\u7CD6\u8207\u6FC3\u90C1\u86CB\u9999\u4EA4\u7E54\uFF0C\u5165\u53E3\u5373\u5316\uFF0C\u662F\u5E36\u4F86\u5E78\u798F\u611F\u7684\u7642\u7652\u751C\u9EDE\u3002"
+  effectDescription: "\u56DE\u5FA930\u9EDE\u8840\u91CF"
+  fullSizeImage: {fileID: 0}
+  healAmount: 30
+  buffDefinition: {fileID: 0}
+  effectTier: 1

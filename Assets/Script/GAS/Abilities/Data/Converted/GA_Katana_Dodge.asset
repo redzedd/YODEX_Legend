@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1794a5e85618614e9781eec8dc11422, type: 3}
+  m_Name: GA_Katana_Dodge
+  m_EditorClassIdentifier: 
+  AbilityName: Katana_Dodge
+  AbilityTag:
+    _tagName: Ability.Movement.Dodge
+  Description: "\u9583\u907F\u7FFB\u6EFE"
+  AbilityLevel: 1
+  CanReactivateWhileActive: 0
+  CooldownEffect: {fileID: 0}
+  CostEffect: {fileID: 0}
+  ActivationRequiredTags:
+    _tags: []
+  ActivationBlockedTags:
+    _tags: []
+  ActivationOwnedTags:
+    _tags:
+    - _tagName: State.Dodging
+  BlockAbilitiesWithTags:
+    _tags: []
+  CancelAbilitiesWithTags:
+    _tags:
+    - _tagName: State.Charging
+    - _tagName: State.Aiming
+    - _tagName: State.Attacking
+  CancelledByTags:
+    _tags: []
+  _dodgeData: {fileID: 11400000, guid: a8436be8dd89eec4993534582043f14b, type: 2}
+  DodgeAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: ee7b7e6af4ee68247ae7f12a0847ad59, type: 2}
+    _NormalizedStartTime: NaN
+  BackstepAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: fa46aec4fbcbc294d83bf14da45ea3d3, type: 2}
+    _NormalizedStartTime: NaN
+  DodgeDistance: 7.5
+  DodgeDuration: 0.4
+  DodgeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  BackstepDistance: 3
+  BackstepDuration: 0.35
+  BackstepCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  InvincibilityEffect: {fileID: 0}
+  InvincibilityStartTime: 0
+  InvincibilityDuration: 0.3
+  DodgeStartCue:
+    _tagName: State.Attacking
+  DodgeEndCue:
+    _tagName: State.Dodging
+  references:
+    version: 2
+    RefIds: []

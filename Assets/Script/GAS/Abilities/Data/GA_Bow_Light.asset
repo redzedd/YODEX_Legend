@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c64561d7db59f434ab436b5327398d7c, type: 3}
+  m_Name: GA_Bow_Light
+  m_EditorClassIdentifier: 
+  AbilityName: GA_Bow_Light
+  AbilityTag:
+    _tagName: Ability.Attack.Light
+  Description: 
+  AbilityLevel: 1
+  CanReactivateWhileActive: 0
+  CooldownEffect: {fileID: 0}
+  CostEffect: {fileID: 0}
+  ActivationRequiredTags:
+    _tags: []
+  ActivationBlockedTags:
+    _tags:
+    - _tagName: State.Attacking
+    - _tagName: State.Dodging
+  ActivationOwnedTags:
+    _tags:
+    - _tagName: State.Attacking
+  BlockAbilitiesWithTags:
+    _tags: []
+  CancelAbilitiesWithTags:
+    _tags: []
+  CancelledByTags:
+    _tags: []
+  FirstAttackData: {fileID: 11400000, guid: 52aeea38d6864cb40ad210075b5813e3, type: 2}
+  EnemyLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  ObstacleLayer:
+    serializedVersion: 2
+    m_Bits: 9
+  FallbackFirstAttack: {fileID: 11400000, guid: 52aeea38d6864cb40ad210075b5813e3, type: 2}
+  CrossTypeAbilityTag:
+    _tagName: 

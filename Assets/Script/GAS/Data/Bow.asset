@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd5f00e5fc7c5d4fa60d06ca72fdd41, type: 3}
+  m_Name: Bow
+  m_EditorClassIdentifier: 
+  WeaponName: Bow
+  Type: 1
+  Icon: {fileID: 21300000, guid: 22b4353ef8383f6458dd88d58c28bd41, type: 3}
+  Description: "\u5F13\u7BAD"
+  CharacterModelPrefab: {fileID: 956701780172840833, guid: b22a3f69efe738d4da0d10edb1df17a9, type: 3}
+  WeaponModelPrefab: {fileID: 0}
+  LocomotionConfig: {fileID: 11400000, guid: 76f890bfdffcb814fa5f6afa24461a66, type: 2}
+  LocomotionAnimations: {fileID: 11400000, guid: 6347e30da6eae534188996b3f203e588, type: 2}
+  HitReactionData: {fileID: 11400000, guid: 45b0cdef67a3a2e4296244fcd1242c27, type: 2}
+  DeathData: {fileID: 11400000, guid: b46fe9e22d20618408c057ca537be4e6, type: 2}
+  SwitchInAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _NormalizedStartTime: NaN
+  SwitchOutAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: ef2e340d26cd55643a6e48448413e529, type: 2}
+    _NormalizedStartTime: NaN
+  AttackAbility: {fileID: 11400000, guid: d7cd156a257a8e94fba84bda2ac406fb, type: 2}
+  HeavyAttackAbility: {fileID: 11400000, guid: eb79304038ee16b4786d88f19521d911, type: 2}
+  DodgeAbility: {fileID: 0}
+  ParryAssistAbility: {fileID: 0}
+  DodgeAssistAbility: {fileID: 0}
+  ParryStartAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 7d6ef45b2f783f94985f8205455364bb, type: 2}
+    _NormalizedStartTime: NaN
+  ParryEndAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 3c18c621f5d31ba4f995523487b467b5, type: 2}
+    _NormalizedStartTime: NaN
+  SwitchInVFXPrefab: {fileID: 533955530948200006, guid: 546557e104d0f1d4d933fb0c4eb80a05, type: 3}
+  SwitchOutVFXPrefab: {fileID: 0}
+  SwitchSFX: {fileID: 0}
+  AfterImageMaterial: {fileID: 2100000, guid: f4dc44a52d050f546ac15a7859950005, type: 2}
+  AfterImageFadeDuration: 0
+  references:
+    version: 2
+    RefIds: []

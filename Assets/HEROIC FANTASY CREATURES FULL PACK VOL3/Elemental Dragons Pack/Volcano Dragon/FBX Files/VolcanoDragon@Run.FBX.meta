@@ -1,0 +1,634 @@
+fileFormatVersion: 2
+guid: 0dc7a887010cd8141b8f0af0cac71e87
+timeCreated: 1521907969
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: root
+    100002: //RootNode
+    100004: VolcanoDragon_
+    100006: VolcanoDragon_ Footsteps
+    100008: VolcanoDragon_ Head
+    100010: VolcanoDragon_ L Calf
+    100012: VolcanoDragon_ L Clavicle
+    100014: VolcanoDragon_ L Finger0
+    100016: VolcanoDragon_ L Finger01
+    100018: VolcanoDragon_ L Finger1
+    100020: VolcanoDragon_ L Finger11
+    100022: VolcanoDragon_ L Finger2
+    100024: VolcanoDragon_ L Finger21
+    100026: VolcanoDragon_ L Finger3
+    100028: VolcanoDragon_ L Finger31
+    100030: VolcanoDragon_ L Foot
+    100032: VolcanoDragon_ L Forearm
+    100034: VolcanoDragon_ L Hand
+    100036: VolcanoDragon_ L HorseLink
+    100038: VolcanoDragon_ L Thigh
+    100040: VolcanoDragon_ L Toe0
+    100042: VolcanoDragon_ L Toe01
+    100044: VolcanoDragon_ L Toe1
+    100046: VolcanoDragon_ L Toe11
+    100048: VolcanoDragon_ L Toe2
+    100050: VolcanoDragon_ L Toe21
+    100052: VolcanoDragon_ L Toe3
+    100054: VolcanoDragon_ L Toe31
+    100056: VolcanoDragon_ L UpperArm
+    100058: VolcanoDragon_ Neck
+    100060: VolcanoDragon_ Neck1
+    100062: VolcanoDragon_ Pelvis
+    100064: VolcanoDragon_ Ponytail1
+    100066: VolcanoDragon_ R Calf
+    100068: VolcanoDragon_ R Clavicle
+    100070: VolcanoDragon_ R Finger0
+    100072: VolcanoDragon_ R Finger01
+    100074: VolcanoDragon_ R Finger1
+    100076: VolcanoDragon_ R Finger11
+    100078: VolcanoDragon_ R Finger2
+    100080: VolcanoDragon_ R Finger21
+    100082: VolcanoDragon_ R Finger3
+    100084: VolcanoDragon_ R Finger31
+    100086: VolcanoDragon_ R Foot
+    100088: VolcanoDragon_ R Forearm
+    100090: VolcanoDragon_ R Hand
+    100092: VolcanoDragon_ R HorseLink
+    100094: VolcanoDragon_ R Thigh
+    100096: VolcanoDragon_ R Toe0
+    100098: VolcanoDragon_ R Toe01
+    100100: VolcanoDragon_ R Toe1
+    100102: VolcanoDragon_ R Toe11
+    100104: VolcanoDragon_ R Toe2
+    100106: VolcanoDragon_ R Toe21
+    100108: VolcanoDragon_ R Toe3
+    100110: VolcanoDragon_ R Toe31
+    100112: VolcanoDragon_ R UpperArm
+    100114: VolcanoDragon_ Spine
+    100116: VolcanoDragon_ Spine1
+    100118: VolcanoDragon_ Tail
+    100120: VolcanoDragon_ Tail1
+    100122: VolcanoDragon_ Tail2
+    100124: VolcanoDragon_ Tail3
+    100126: VolcanoDragon_ Tail4
+    100128: VolcanoDragon_ Tail5
+    100130: VolcanoDragon_ Tail6
+    100132: VolcanoDragon_Tongue_1
+    100134: VolcanoDragon_Tongue_2
+    100136: VolcanoDragon_Tongue_3
+    100138: VolcanoDragon_Tongue_4
+    100140: VolcanoDragon_Tongue_5
+    100142: VolcanoDragon_WingL_Arm
+    100144: VolcanoDragon_WingL_FingerA_1
+    100146: VolcanoDragon_WingL_FingerA_2
+    100148: VolcanoDragon_WingL_FingerA_3
+    100150: VolcanoDragon_WingL_FingerB_1
+    100152: VolcanoDragon_WingL_FingerB_2
+    100154: VolcanoDragon_WingL_FingerB_3
+    100156: VolcanoDragon_WingL_FingerC_1
+    100158: VolcanoDragon_WingL_FingerC_2
+    100160: VolcanoDragon_WingL_FingerC_3
+    100162: VolcanoDragon_WingL_ForeArm
+    100164: VolcanoDragon_WingL_Hand
+    100166: VolcanoDragon_WingR_Arm
+    100168: VolcanoDragon_WingR_FingerA_1
+    100170: VolcanoDragon_WingR_FingerA_2
+    100172: VolcanoDragon_WingR_FingerA_3
+    100174: VolcanoDragon_WingR_FingerB_1
+    100176: VolcanoDragon_WingR_FingerB_2
+    100178: VolcanoDragon_WingR_FingerB_3
+    100180: VolcanoDragon_WingR_FingerC_1
+    100182: VolcanoDragon_WingR_FingerC_2
+    100184: VolcanoDragon_WingR_FingerC_3
+    100186: VolcanoDragon_WingR_ForeArm
+    100188: VolcanoDragon_WingR_Hand
+    400000: root
+    400002: //RootNode
+    400004: VolcanoDragon_
+    400006: VolcanoDragon_ Footsteps
+    400008: VolcanoDragon_ Head
+    400010: VolcanoDragon_ L Calf
+    400012: VolcanoDragon_ L Clavicle
+    400014: VolcanoDragon_ L Finger0
+    400016: VolcanoDragon_ L Finger01
+    400018: VolcanoDragon_ L Finger1
+    400020: VolcanoDragon_ L Finger11
+    400022: VolcanoDragon_ L Finger2
+    400024: VolcanoDragon_ L Finger21
+    400026: VolcanoDragon_ L Finger3
+    400028: VolcanoDragon_ L Finger31
+    400030: VolcanoDragon_ L Foot
+    400032: VolcanoDragon_ L Forearm
+    400034: VolcanoDragon_ L Hand
+    400036: VolcanoDragon_ L HorseLink
+    400038: VolcanoDragon_ L Thigh
+    400040: VolcanoDragon_ L Toe0
+    400042: VolcanoDragon_ L Toe01
+    400044: VolcanoDragon_ L Toe1
+    400046: VolcanoDragon_ L Toe11
+    400048: VolcanoDragon_ L Toe2
+    400050: VolcanoDragon_ L Toe21
+    400052: VolcanoDragon_ L Toe3
+    400054: VolcanoDragon_ L Toe31
+    400056: VolcanoDragon_ L UpperArm
+    400058: VolcanoDragon_ Neck
+    400060: VolcanoDragon_ Neck1
+    400062: VolcanoDragon_ Pelvis
+    400064: VolcanoDragon_ Ponytail1
+    400066: VolcanoDragon_ R Calf
+    400068: VolcanoDragon_ R Clavicle
+    400070: VolcanoDragon_ R Finger0
+    400072: VolcanoDragon_ R Finger01
+    400074: VolcanoDragon_ R Finger1
+    400076: VolcanoDragon_ R Finger11
+    400078: VolcanoDragon_ R Finger2
+    400080: VolcanoDragon_ R Finger21
+    400082: VolcanoDragon_ R Finger3
+    400084: VolcanoDragon_ R Finger31
+    400086: VolcanoDragon_ R Foot
+    400088: VolcanoDragon_ R Forearm
+    400090: VolcanoDragon_ R Hand
+    400092: VolcanoDragon_ R HorseLink
+    400094: VolcanoDragon_ R Thigh
+    400096: VolcanoDragon_ R Toe0
+    400098: VolcanoDragon_ R Toe01
+    400100: VolcanoDragon_ R Toe1
+    400102: VolcanoDragon_ R Toe11
+    400104: VolcanoDragon_ R Toe2
+    400106: VolcanoDragon_ R Toe21
+    400108: VolcanoDragon_ R Toe3
+    400110: VolcanoDragon_ R Toe31
+    400112: VolcanoDragon_ R UpperArm
+    400114: VolcanoDragon_ Spine
+    400116: VolcanoDragon_ Spine1
+    400118: VolcanoDragon_ Tail
+    400120: VolcanoDragon_ Tail1
+    400122: VolcanoDragon_ Tail2
+    400124: VolcanoDragon_ Tail3
+    400126: VolcanoDragon_ Tail4
+    400128: VolcanoDragon_ Tail5
+    400130: VolcanoDragon_ Tail6
+    400132: VolcanoDragon_Tongue_1
+    400134: VolcanoDragon_Tongue_2
+    400136: VolcanoDragon_Tongue_3
+    400138: VolcanoDragon_Tongue_4
+    400140: VolcanoDragon_Tongue_5
+    400142: VolcanoDragon_WingL_Arm
+    400144: VolcanoDragon_WingL_FingerA_1
+    400146: VolcanoDragon_WingL_FingerA_2
+    400148: VolcanoDragon_WingL_FingerA_3
+    400150: VolcanoDragon_WingL_FingerB_1
+    400152: VolcanoDragon_WingL_FingerB_2
+    400154: VolcanoDragon_WingL_FingerB_3
+    400156: VolcanoDragon_WingL_FingerC_1
+    400158: VolcanoDragon_WingL_FingerC_2
+    400160: VolcanoDragon_WingL_FingerC_3
+    400162: VolcanoDragon_WingL_ForeArm
+    400164: VolcanoDragon_WingL_Hand
+    400166: VolcanoDragon_WingR_Arm
+    400168: VolcanoDragon_WingR_FingerA_1
+    400170: VolcanoDragon_WingR_FingerA_2
+    400172: VolcanoDragon_WingR_FingerA_3
+    400174: VolcanoDragon_WingR_FingerB_1
+    400176: VolcanoDragon_WingR_FingerB_2
+    400178: VolcanoDragon_WingR_FingerB_3
+    400180: VolcanoDragon_WingR_FingerC_1
+    400182: VolcanoDragon_WingR_FingerC_2
+    400184: VolcanoDragon_WingR_FingerC_3
+    400186: VolcanoDragon_WingR_ForeArm
+    400188: VolcanoDragon_WingR_Hand
+    7400000: Run
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/VolcanoDragon_
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Footsteps
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ L Thigh
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ L Thigh/VolcanoDragon_
+          L Calf
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ L Thigh/VolcanoDragon_
+          L Calf/VolcanoDragon_ L HorseLink
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ L Thigh/VolcanoDragon_
+          L Calf/VolcanoDragon_ L HorseLink/VolcanoDragon_ L Foot
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ L Thigh/VolcanoDragon_
+          L Calf/VolcanoDragon_ L HorseLink/VolcanoDragon_ L Foot/VolcanoDragon_
+          L Toe0
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ L Thigh/VolcanoDragon_
+          L Calf/VolcanoDragon_ L HorseLink/VolcanoDragon_ L Foot/VolcanoDragon_
+          L Toe0/VolcanoDragon_ L Toe01
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ L Thigh/VolcanoDragon_
+          L Calf/VolcanoDragon_ L HorseLink/VolcanoDragon_ L Foot/VolcanoDragon_
+          L Toe1
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ L Thigh/VolcanoDragon_
+          L Calf/VolcanoDragon_ L HorseLink/VolcanoDragon_ L Foot/VolcanoDragon_
+          L Toe1/VolcanoDragon_ L Toe11
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ L Thigh/VolcanoDragon_
+          L Calf/VolcanoDragon_ L HorseLink/VolcanoDragon_ L Foot/VolcanoDragon_
+          L Toe2
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ L Thigh/VolcanoDragon_
+          L Calf/VolcanoDragon_ L HorseLink/VolcanoDragon_ L Foot/VolcanoDragon_
+          L Toe2/VolcanoDragon_ L Toe21
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ L Thigh/VolcanoDragon_
+          L Calf/VolcanoDragon_ L HorseLink/VolcanoDragon_ L Foot/VolcanoDragon_
+          L Toe3
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ L Thigh/VolcanoDragon_
+          L Calf/VolcanoDragon_ L HorseLink/VolcanoDragon_ L Foot/VolcanoDragon_
+          L Toe3/VolcanoDragon_ L Toe31
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ R Thigh
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ R Thigh/VolcanoDragon_
+          R Calf
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ R Thigh/VolcanoDragon_
+          R Calf/VolcanoDragon_ R HorseLink
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ R Thigh/VolcanoDragon_
+          R Calf/VolcanoDragon_ R HorseLink/VolcanoDragon_ R Foot
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ R Thigh/VolcanoDragon_
+          R Calf/VolcanoDragon_ R HorseLink/VolcanoDragon_ R Foot/VolcanoDragon_
+          R Toe0
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ R Thigh/VolcanoDragon_
+          R Calf/VolcanoDragon_ R HorseLink/VolcanoDragon_ R Foot/VolcanoDragon_
+          R Toe0/VolcanoDragon_ R Toe01
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ R Thigh/VolcanoDragon_
+          R Calf/VolcanoDragon_ R HorseLink/VolcanoDragon_ R Foot/VolcanoDragon_
+          R Toe1
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ R Thigh/VolcanoDragon_
+          R Calf/VolcanoDragon_ R HorseLink/VolcanoDragon_ R Foot/VolcanoDragon_
+          R Toe1/VolcanoDragon_ R Toe11
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ R Thigh/VolcanoDragon_
+          R Calf/VolcanoDragon_ R HorseLink/VolcanoDragon_ R Foot/VolcanoDragon_
+          R Toe2
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ R Thigh/VolcanoDragon_
+          R Calf/VolcanoDragon_ R HorseLink/VolcanoDragon_ R Foot/VolcanoDragon_
+          R Toe2/VolcanoDragon_ R Toe21
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ R Thigh/VolcanoDragon_
+          R Calf/VolcanoDragon_ R HorseLink/VolcanoDragon_ R Foot/VolcanoDragon_
+          R Toe3
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ R Thigh/VolcanoDragon_
+          R Calf/VolcanoDragon_ R HorseLink/VolcanoDragon_ R Foot/VolcanoDragon_
+          R Toe3/VolcanoDragon_ R Toe31
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ L Clavicle
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ L Clavicle/VolcanoDragon_ L UpperArm
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ L Clavicle/VolcanoDragon_ L UpperArm/VolcanoDragon_
+          L Forearm
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ L Clavicle/VolcanoDragon_ L UpperArm/VolcanoDragon_
+          L Forearm/VolcanoDragon_ L Hand
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ L Clavicle/VolcanoDragon_ L UpperArm/VolcanoDragon_
+          L Forearm/VolcanoDragon_ L Hand/VolcanoDragon_ L Finger0
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ L Clavicle/VolcanoDragon_ L UpperArm/VolcanoDragon_
+          L Forearm/VolcanoDragon_ L Hand/VolcanoDragon_ L Finger0/VolcanoDragon_
+          L Finger01
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ L Clavicle/VolcanoDragon_ L UpperArm/VolcanoDragon_
+          L Forearm/VolcanoDragon_ L Hand/VolcanoDragon_ L Finger1
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ L Clavicle/VolcanoDragon_ L UpperArm/VolcanoDragon_
+          L Forearm/VolcanoDragon_ L Hand/VolcanoDragon_ L Finger1/VolcanoDragon_
+          L Finger11
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ L Clavicle/VolcanoDragon_ L UpperArm/VolcanoDragon_
+          L Forearm/VolcanoDragon_ L Hand/VolcanoDragon_ L Finger2
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ L Clavicle/VolcanoDragon_ L UpperArm/VolcanoDragon_
+          L Forearm/VolcanoDragon_ L Hand/VolcanoDragon_ L Finger2/VolcanoDragon_
+          L Finger21
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ L Clavicle/VolcanoDragon_ L UpperArm/VolcanoDragon_
+          L Forearm/VolcanoDragon_ L Hand/VolcanoDragon_ L Finger3
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ L Clavicle/VolcanoDragon_ L UpperArm/VolcanoDragon_
+          L Forearm/VolcanoDragon_ L Hand/VolcanoDragon_ L Finger3/VolcanoDragon_
+          L Finger31
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ Neck
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ Neck/VolcanoDragon_ Neck1
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ Neck/VolcanoDragon_ Neck1/VolcanoDragon_ Head
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ Neck/VolcanoDragon_ Neck1/VolcanoDragon_ Head/VolcanoDragon_
+          Ponytail1
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ Neck/VolcanoDragon_ Neck1/VolcanoDragon_ Head/VolcanoDragon_
+          Ponytail1/VolcanoDragon_Tongue_1
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ Neck/VolcanoDragon_ Neck1/VolcanoDragon_ Head/VolcanoDragon_
+          Ponytail1/VolcanoDragon_Tongue_1/VolcanoDragon_Tongue_2
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ Neck/VolcanoDragon_ Neck1/VolcanoDragon_ Head/VolcanoDragon_
+          Ponytail1/VolcanoDragon_Tongue_1/VolcanoDragon_Tongue_2/VolcanoDragon_Tongue_3
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ Neck/VolcanoDragon_ Neck1/VolcanoDragon_ Head/VolcanoDragon_
+          Ponytail1/VolcanoDragon_Tongue_1/VolcanoDragon_Tongue_2/VolcanoDragon_Tongue_3/VolcanoDragon_Tongue_4
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ Neck/VolcanoDragon_ Neck1/VolcanoDragon_ Head/VolcanoDragon_
+          Ponytail1/VolcanoDragon_Tongue_1/VolcanoDragon_Tongue_2/VolcanoDragon_Tongue_3/VolcanoDragon_Tongue_4/VolcanoDragon_Tongue_5
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ R Clavicle
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ R Clavicle/VolcanoDragon_ R UpperArm
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ R Clavicle/VolcanoDragon_ R UpperArm/VolcanoDragon_
+          R Forearm
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ R Clavicle/VolcanoDragon_ R UpperArm/VolcanoDragon_
+          R Forearm/VolcanoDragon_ R Hand
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ R Clavicle/VolcanoDragon_ R UpperArm/VolcanoDragon_
+          R Forearm/VolcanoDragon_ R Hand/VolcanoDragon_ R Finger0
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ R Clavicle/VolcanoDragon_ R UpperArm/VolcanoDragon_
+          R Forearm/VolcanoDragon_ R Hand/VolcanoDragon_ R Finger0/VolcanoDragon_
+          R Finger01
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ R Clavicle/VolcanoDragon_ R UpperArm/VolcanoDragon_
+          R Forearm/VolcanoDragon_ R Hand/VolcanoDragon_ R Finger1
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ R Clavicle/VolcanoDragon_ R UpperArm/VolcanoDragon_
+          R Forearm/VolcanoDragon_ R Hand/VolcanoDragon_ R Finger1/VolcanoDragon_
+          R Finger11
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ R Clavicle/VolcanoDragon_ R UpperArm/VolcanoDragon_
+          R Forearm/VolcanoDragon_ R Hand/VolcanoDragon_ R Finger2
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ R Clavicle/VolcanoDragon_ R UpperArm/VolcanoDragon_
+          R Forearm/VolcanoDragon_ R Hand/VolcanoDragon_ R Finger2/VolcanoDragon_
+          R Finger21
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ R Clavicle/VolcanoDragon_ R UpperArm/VolcanoDragon_
+          R Forearm/VolcanoDragon_ R Hand/VolcanoDragon_ R Finger3
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_ R Clavicle/VolcanoDragon_ R UpperArm/VolcanoDragon_
+          R Forearm/VolcanoDragon_ R Hand/VolcanoDragon_ R Finger3/VolcanoDragon_
+          R Finger31
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingL_Arm
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingL_Arm/VolcanoDragon_WingL_ForeArm
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingL_Arm/VolcanoDragon_WingL_ForeArm/VolcanoDragon_WingL_Hand
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingL_Arm/VolcanoDragon_WingL_ForeArm/VolcanoDragon_WingL_Hand/VolcanoDragon_WingL_FingerA_1
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingL_Arm/VolcanoDragon_WingL_ForeArm/VolcanoDragon_WingL_Hand/VolcanoDragon_WingL_FingerA_1/VolcanoDragon_WingL_FingerA_2
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingL_Arm/VolcanoDragon_WingL_ForeArm/VolcanoDragon_WingL_Hand/VolcanoDragon_WingL_FingerA_1/VolcanoDragon_WingL_FingerA_2/VolcanoDragon_WingL_FingerA_3
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingL_Arm/VolcanoDragon_WingL_ForeArm/VolcanoDragon_WingL_Hand/VolcanoDragon_WingL_FingerB_1
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingL_Arm/VolcanoDragon_WingL_ForeArm/VolcanoDragon_WingL_Hand/VolcanoDragon_WingL_FingerB_1/VolcanoDragon_WingL_FingerB_2
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingL_Arm/VolcanoDragon_WingL_ForeArm/VolcanoDragon_WingL_Hand/VolcanoDragon_WingL_FingerB_1/VolcanoDragon_WingL_FingerB_2/VolcanoDragon_WingL_FingerB_3
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingL_Arm/VolcanoDragon_WingL_ForeArm/VolcanoDragon_WingL_Hand/VolcanoDragon_WingL_FingerC_1
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingL_Arm/VolcanoDragon_WingL_ForeArm/VolcanoDragon_WingL_Hand/VolcanoDragon_WingL_FingerC_1/VolcanoDragon_WingL_FingerC_2
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingL_Arm/VolcanoDragon_WingL_ForeArm/VolcanoDragon_WingL_Hand/VolcanoDragon_WingL_FingerC_1/VolcanoDragon_WingL_FingerC_2/VolcanoDragon_WingL_FingerC_3
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingR_Arm
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingR_Arm/VolcanoDragon_WingR_ForeArm
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingR_Arm/VolcanoDragon_WingR_ForeArm/VolcanoDragon_WingR_Hand
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingR_Arm/VolcanoDragon_WingR_ForeArm/VolcanoDragon_WingR_Hand/VolcanoDragon_WingR_FingerA_1
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingR_Arm/VolcanoDragon_WingR_ForeArm/VolcanoDragon_WingR_Hand/VolcanoDragon_WingR_FingerA_1/VolcanoDragon_WingR_FingerA_2
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingR_Arm/VolcanoDragon_WingR_ForeArm/VolcanoDragon_WingR_Hand/VolcanoDragon_WingR_FingerA_1/VolcanoDragon_WingR_FingerA_2/VolcanoDragon_WingR_FingerA_3
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingR_Arm/VolcanoDragon_WingR_ForeArm/VolcanoDragon_WingR_Hand/VolcanoDragon_WingR_FingerB_1
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingR_Arm/VolcanoDragon_WingR_ForeArm/VolcanoDragon_WingR_Hand/VolcanoDragon_WingR_FingerB_1/VolcanoDragon_WingR_FingerB_2
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingR_Arm/VolcanoDragon_WingR_ForeArm/VolcanoDragon_WingR_Hand/VolcanoDragon_WingR_FingerB_1/VolcanoDragon_WingR_FingerB_2/VolcanoDragon_WingR_FingerB_3
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingR_Arm/VolcanoDragon_WingR_ForeArm/VolcanoDragon_WingR_Hand/VolcanoDragon_WingR_FingerC_1
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingR_Arm/VolcanoDragon_WingR_ForeArm/VolcanoDragon_WingR_Hand/VolcanoDragon_WingR_FingerC_1/VolcanoDragon_WingR_FingerC_2
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Spine/VolcanoDragon_
+          Spine1/VolcanoDragon_WingR_Arm/VolcanoDragon_WingR_ForeArm/VolcanoDragon_WingR_Hand/VolcanoDragon_WingR_FingerC_1/VolcanoDragon_WingR_FingerC_2/VolcanoDragon_WingR_FingerC_3
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Tail
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Tail/VolcanoDragon_
+          Tail1
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Tail/VolcanoDragon_
+          Tail1/VolcanoDragon_ Tail2
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Tail/VolcanoDragon_
+          Tail1/VolcanoDragon_ Tail2/VolcanoDragon_ Tail3
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Tail/VolcanoDragon_
+          Tail1/VolcanoDragon_ Tail2/VolcanoDragon_ Tail3/VolcanoDragon_ Tail4
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Tail/VolcanoDragon_
+          Tail1/VolcanoDragon_ Tail2/VolcanoDragon_ Tail3/VolcanoDragon_ Tail4/VolcanoDragon_
+          Tail5
+        weight: 1
+      - path: root/VolcanoDragon_/VolcanoDragon_ Pelvis/VolcanoDragon_ Tail/VolcanoDragon_
+          Tail1/VolcanoDragon_ Tail2/VolcanoDragon_ Tail3/VolcanoDragon_ Tail4/VolcanoDragon_
+          Tail5/VolcanoDragon_ Tail6
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: afc18e114a87aac4e8274f83f7ac4a19,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117306
+  packageName: ELEMENTAL DRAGONS PACK
+  packageVersion: 1.22
+  assetPath: Assets/HEROIC FANTASY CREATURES FULL PACK VOL3/Elemental Dragons Pack/Volcano
+    Dragon/FBX Files/VolcanoDragon@Run.FBX
+  uploadId: 669989

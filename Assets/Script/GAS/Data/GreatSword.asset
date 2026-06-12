@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd5f00e5fc7c5d4fa60d06ca72fdd41, type: 3}
+  m_Name: GreatSword
+  m_EditorClassIdentifier: 
+  WeaponName: GreatSword
+  Type: 0
+  Icon: {fileID: 21300000, guid: 135e1756343aaaa49bfe98d285533cae, type: 3}
+  Description: "\u5DE8\u528D"
+  CharacterModelPrefab: {fileID: 2448228364699661385, guid: d8984826eb195134098841280bd47fd4, type: 3}
+  WeaponModelPrefab: {fileID: 0}
+  LocomotionConfig: {fileID: 11400000, guid: 31fe3af1af845ec4da1c1e3eed029812, type: 2}
+  LocomotionAnimations: {fileID: 11400000, guid: 980f633339eebed42a529b0f539b6397, type: 2}
+  HitReactionData: {fileID: 11400000, guid: 4a1f47c6199bff44bb73bec89ea203c9, type: 2}
+  DeathData: {fileID: 11400000, guid: ee670cbef395efb4d8570e39d372bce5, type: 2}
+  SwitchInAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 0751b23f6a1b67a4a9ffea1e1ee9a22d, type: 2}
+    _NormalizedStartTime: NaN
+  SwitchOutAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: b0a8451e75a2fc44aab85885d6f13a9a, type: 2}
+    _NormalizedStartTime: NaN
+  AttackAbility: {fileID: 11400000, guid: be08df03fa852f44285ff8bf114c5c1b, type: 2}
+  HeavyAttackAbility: {fileID: 0}
+  DodgeAbility: {fileID: 0}
+  ParryAssistAbility: {fileID: 0}
+  DodgeAssistAbility: {fileID: 0}
+  ParryStartAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 711c52d46fb4a6f4cb76ac6ddb614063, type: 2}
+    _NormalizedStartTime: NaN
+  ParryEndAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 628815912892bea49b1adbc37cee27e2, type: 2}
+    _NormalizedStartTime: NaN
+  SwitchInVFXPrefab: {fileID: 4014780428814847390, guid: e67aad2877dbf0a449deba1f2eab2380, type: 3}
+  SwitchOutVFXPrefab: {fileID: 0}
+  SwitchSFX: {fileID: 0}
+  AfterImageMaterial: {fileID: 2100000, guid: b1dda71e7bb7166499e8471509788619, type: 2}
+  AfterImageFadeDuration: 0
+  references:
+    version: 2
+    RefIds: []

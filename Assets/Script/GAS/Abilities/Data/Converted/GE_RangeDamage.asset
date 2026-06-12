@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6343614c17c70c54a8a0166c92a38e09, type: 3}
+  m_Name: GE_RangeDamage
+  m_EditorClassIdentifier: 
+  EffectName: Range Damage
+  EffectTag:
+    _tagName: Effect.Damage
+  Description: 
+  DurationPolicy: 0
+  Duration: 0
+  PeriodicPolicy: 0
+  Period: 1
+  StackingPolicy: 0
+  MaxStacks: 1
+  StackMagnitudeMultiplier: 1
+  Modifiers:
+  - AttributeName: IncomingDamage
+    OperationType: 0
+    Magnitude: 1
+    MagnitudeType: 3
+    ScalingCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    SetByCallerDataTag: Data.Damage
+    AttributeSource: 0
+    SourceAttributeName: 
+    AttributeCoefficient: 0
+  GrantedTags:
+    _tags: []
+  RemoveTagsOnEnd:
+    _tags: []
+  ApplicationRequiredTags:
+    _tags: []
+  ApplicationBlockedTags:
+    _tags: []
+  OngoingRequiredTags:
+    _tags: []
+  CueTags:
+  - _tagName: Cue.HitImpact
+  RemoveEffectsWithTags:
+    _tags: []

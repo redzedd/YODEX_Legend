@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3d0f81d3754924289d49871b3d3c01, type: 3}
+  m_Name: Bow_Light_2
+  m_EditorClassIdentifier: 
+  AllowInputTime: 0.52
+  ComboResetTime: 1.21
+  AllowCancelTime: 0.52
+  SheatheCancelTime: 1.21
+  PoiseDamage: 50
+  NextCombos:
+  - InputType: 1
+    NextAttack: {fileID: 11400000, guid: f55ca6dffc846c347a289eddc86bb152, type: 2}
+  TimelineEvents:
+  - Name: New Event
+    Phase: 0
+    TriggerTime: 0.205
+    VFXPrefab: {fileID: 719657563245746768, guid: 87e31e5cfa5972242a75f570834d4b82, type: 3}
+    SFX: {fileID: 0}
+    CueTag:
+      _tagName: 
+    SocketName: SpawnPoint
+    Axes: 0
+    _legacyAttachToBody: 1
+    _axesMigrated: 1
+    PositionOffset: {x: -0.5, y: 0, z: 0}
+    RotationOffset: {x: 0, y: 270, z: 0}
+    Scale: {x: 0.35, y: 0.35, z: 0.35}
+    StopOnInterrupt: 1
+    InterruptBehavior: 1
+  - Name: New Event
+    Phase: 0
+    TriggerTime: 0.424
+    VFXPrefab: {fileID: 719657563245746768, guid: 87e31e5cfa5972242a75f570834d4b82, type: 3}
+    SFX: {fileID: 0}
+    CueTag:
+      _tagName: 
+    SocketName: SpawnPoint
+    Axes: 0
+    _legacyAttachToBody: 1
+    _axesMigrated: 1
+    PositionOffset: {x: -0.5, y: 0, z: 0}
+    RotationOffset: {x: 0, y: 270, z: 0}
+    Scale: {x: 0.35, y: 0.35, z: 0.35}
+    StopOnInterrupt: 1
+    InterruptBehavior: 1
+  AttackType: 0
+  Charge: 0
+  ChargeInput: 0
+  FireAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 1b307ad5161803a4a9486eb72e71e0ec, type: 2}
+    _NormalizedStartTime: NaN
+  ChargeStartAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _NormalizedStartTime: NaN
+  ChargeLoopAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _NormalizedStartTime: NaN
+  ChargeFireAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _NormalizedStartTime: NaN
+  FireTime: 0.424
+  MinChargeTime: 0.3
+  MaxChargeTime: 2
+  ProjectileConfig: {fileID: 11400000, guid: e7b8ba31285b29941a40b335c0b3fecb, type: 2}
+  AoEPrefab: {fileID: 0}
+  AoEOriginMode: 2
+  AoEForwardDistance: 3
+  AoECursorInitialDistance: 5
+  AoECursorMoveSpeed: 8
+  AoECursorMaxRange: 12
+  AoECursorClampToGround: 1
+  AoECursorGroundMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  BaseDamage: 7.5
+  ChargeMultiplier: 2
+  HitEffect: {fileID: 0}
+  FireCueTag:
+    _tagName: 
+  ChargeCueTag:
+    _tagName: 
+  ChargeReadyCueTag:
+    _tagName: 
+  HitCueTag:
+    _tagName: 
+  HitVFXPrefab: {fileID: 0}
+  HitSFX: {fileID: 0}
+  HitVFXLifetime: 2
+  AttachHitVFXToSurface: 0
+  HitVFXScale: {x: 0.25, y: 0.25, z: 0.25}
+  HitVFXScaleAllChildren: 1
+  EnableAimCamera: 0
+  AimCameraOffset: {x: 0.5, y: 0.3, z: -2}
+  AimIKAngularOffset: {x: 7.5, y: 27.5, z: 0}
+  KeepAimAfterFire: 1
+  ApplyPitchClamp: 1
+  MaxPitchDown: 0.8
+  LockMovementDuringFire: 0
+  AutoFaceTarget: 1
+  AutoFaceRange: 40
+  AutoFaceAngle: 120
+  AutoFaceProximityRange: 10
+  AutoFaceDuration: 0.05
+  ContinuousFaceTarget: 0
+  ContinuousFaceTurnSpeed: 180
+  AttackMovements: []
+  SpawnSocketName: SpawnPoint
+  SpawnOffset: {x: 0, y: 0, z: 0}
+  FireEvents:
+  - FireTime: 0.205
+    SpawnOffset: {x: 0, y: 0, z: 0}
+    DirectionOffset: {x: 0, y: 0, z: 0}
+    SpawnSocketNameOverride: 
+    BaseDamageOverride: -1
+    DamageMultiplier: 1
+    HitEffectOverride: {fileID: 11400000, guid: 9f5f0f864e91ea4458ddcc82bad7e43a, type: 2}
+    HitCueTagOverride:
+      _tagName: 
+    HitVFXPrefabOverride: {fileID: 7044691720042714530, guid: 8f040258dddfa6043899d2c938dd98af, type: 3}
+    HitSFXOverride: {fileID: 0}
+  - FireTime: 0.424
+    SpawnOffset: {x: 0, y: 0, z: 0}
+    DirectionOffset: {x: 0, y: 0, z: 0}
+    SpawnSocketNameOverride: 
+    BaseDamageOverride: -1
+    DamageMultiplier: 1
+    HitEffectOverride: {fileID: 11400000, guid: 9f5f0f864e91ea4458ddcc82bad7e43a, type: 2}
+    HitCueTagOverride:
+      _tagName: 
+    HitVFXPrefabOverride: {fileID: 7044691720042714530, guid: 8f040258dddfa6043899d2c938dd98af, type: 3}
+    HitSFXOverride: {fileID: 0}
+  references:
+    version: 2
+    RefIds: []

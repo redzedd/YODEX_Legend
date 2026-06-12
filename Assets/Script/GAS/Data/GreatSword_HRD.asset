@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17208fb87247194b939e5e61264d744, type: 3}
+  m_Name: GreatSword_HRD
+  m_EditorClassIdentifier: 
+  _staggerFront:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 444fe39b637b7544b883316700a7186f, type: 2}
+    _NormalizedStartTime: NaN
+  _staggerBack:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 7eb24e89b00b14145aa219c13505c767, type: 2}
+    _NormalizedStartTime: NaN
+  _staggerLeft:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 51d8a743aa91f744fb3c202f1caaf3f0, type: 2}
+    _NormalizedStartTime: NaN
+  _staggerRight:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: cde401ceb38228a4c87b9956f6d0bb1f, type: 2}
+    _NormalizedStartTime: NaN
+  _stunDuration: 0.75
+  _hitEnterFadeDuration: 0.1
+  _stunExitFadeDuration: 0.15
+  _knockback:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: b926f30a9f194d04085e6163cadf2388, type: 2}
+    _NormalizedStartTime: NaN
+  _standUp:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: aa781ff7fb44a5843b31d91632da68d8, type: 2}
+    _NormalizedStartTime: NaN
+  _staggerIntroDuration: 0.12
+  _knockbackEnterFadeDuration: 0.25
+  _knockbackRotateDuration: 0.125
+  _knockbackStartTime: 0.02
+  _standUpEnterFadeDuration: 0.15
+  _flinchFront:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 8f83bb9fc2bc83944b83eb9cc419457a, type: 2}
+    _NormalizedStartTime: NaN
+  _flinchBack:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 816f3111f963739438a7acf65854a7c3, type: 2}
+    _NormalizedStartTime: NaN
+  _flinchLeft:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 6a8259ba3d383164cad5983d42caceaf, type: 2}
+    _NormalizedStartTime: NaN
+  _flinchRight:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 5dd3bb989b942a1439c8631e8fe07fb2, type: 2}
+    _NormalizedStartTime: NaN
+  _flinchEnterFadeDuration: 0.15
+  _flinchLayerFadeOutDuration: 0.15
+  references:
+    version: 2
+    RefIds: []
